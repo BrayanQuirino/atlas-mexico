@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
   workflow_run:
-    workflows: ['Resolve destination coordinates']
+    workflows: ['Resolve destination coordinates', 'Google Places ID validation']
     types: [completed]
     branches: [main]
 permissions:
