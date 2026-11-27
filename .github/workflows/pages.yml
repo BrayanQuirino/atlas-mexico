@@ -29,17 +29,6 @@ jobs:
       - run: npm install --no-audit --no-fund
       - run: npm test
       - run: npm run build
-      - name: Build isolated Google Maps preview
-        continue-on-error: true
-        run: |
-          git fetch origin geo-validation
-          git worktree add --detach /tmp/atlas-preview origin/geo-validation
-          cd /tmp/atlas-preview
-          npm install --no-audit --no-fund
-          npm test
-          npm run build -- --base=/atlas-mexico/preview/
-          mkdir -p "$GITHUB_WORKSPACE/dist/preview"
-          cp -a dist/. "$GITHUB_WORKSPACE/dist/preview/"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

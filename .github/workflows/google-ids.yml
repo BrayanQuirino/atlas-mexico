@@ -1,0 +1,40 @@
+name: Google Places ID validation
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Maximum number of requests (default 5)'
+        type: number
+        default: 5
+permissions:
+  contents: write
+concurrency:
+  group: google-place-validation
+  cancel-in-progress: false
+jobs:
+  lookup:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Find place identifiers
+        env:
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          LOOKUP_LIMIT: ${{ inputs.limit || 5 }}
+        run: node scripts/google-place-ids.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: google-id-report
+          path: google-id-report.json
+      - name: Save permitted place identifiers
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/places.json google-id-report.json
+          git diff --cached --quiet || git commit -m "Save matched Google Place IDs"
+          git push origin HEAD:main
