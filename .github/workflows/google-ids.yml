@@ -18,7 +18,7 @@ jobs:
   lookup:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,19 +30,23 @@ jobs:
           LOOKUP_LIMIT: ${{ inputs.limit || 292 }}
         run: node scripts/google-place-ids.mjs
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: google-coordinates
           path: public/google-coordinates.json
           retention-days: 29
           if-no-files-found: error
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: google-id-report
           path: google-id-report.json
       - name: Save only permanent identifiers
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          test -f google-id-report.json || exit 0
           git add src/data/places.json google-id-report.json
           git diff --cached --quiet || git commit -m "Save Google Place IDs"
           git push origin HEAD:main
