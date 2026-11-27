@@ -23,12 +23,21 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - run: npm install --no-audit --no-fund
       - run: npm test
       - run: npm run build
+        env:
+          VITE_GOOGLE_MAPS_BROWSER_KEY: ${{ vars.GOOGLE_MAPS_BROWSER_KEY }}
+      - name: Verify production bundle
+        run: |
+          test -f dist/index.html
+          grep -R -l 'maps.googleapis.com/maps/api/js' dist/assets >/dev/null
+          printf '%s\n' "$GITHUB_SHA" > dist/version.txt
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
