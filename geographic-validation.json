@@ -1,0 +1,1270 @@
+{
+  "total": 292,
+  "coordinates": 55,
+  "addresses": 40,
+  "complete": 40,
+  "unresolved": [
+    {
+      "id": "0-Museo Tamayo",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "0-Museo del Chocolate (MUCHO)",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "0-Museo Ripley",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "0-Museo del Automóvil",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Bosque de Chapultepec",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Jardín Botánico de Chapultepec",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque La Mexicana",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque Quetzalcóatl",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Presa Madín",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Desierto de los Leones",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque México",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque España",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque Lincoln",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Alameda Central",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Alameda de Santa María la Ribera",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque Bicentenario",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque Tezozómoc",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque Hundido",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque de los Venados",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Viveros de Coyoacán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque Masayoshi Ohira",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Fuentes Brotantes",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Bosque de Tlalpan",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Jardín Botánico de la UNAM",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque Ecológico de Xochimilco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Parque Ecológico de Cuemanco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Los Dinamos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "1-Cumbres del Ajusco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Centro de Coyoacán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Plaza de la Conchita",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Barrio de Santa Catarina",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-San Ángel",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Plaza San Jacinto",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Plaza del Carmen",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Chimalistac",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Avenida Ámsterdam",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Paseo de la Reforma",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Avenida Presidente Masaryk",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Calle Francisco I. Madero",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Calle Regina",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Calle Donceles",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Calle Tacuba",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Plaza de Santo Domingo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Calle Colima",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Calle Orizaba",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Plaza Río de Janeiro",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Plaza Luis Cabrera",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-La Romita",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Plaza Washington",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Kiosco Morisco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Centro de Tlalpan",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Centro de Xochimilco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "2-Centro de Azcapotzalco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de Jamaica",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de la Merced",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de Sonora",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-La Ciudadela",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de San Juan",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de La Lagunilla",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado Abelardo L. Rodríguez",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Bazar del Sábado",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de San Ángel",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de Coyoacán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de Artesanías de Coyoacán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de Medellín",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado Roma",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de San Pedro de los Pinos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de Portales",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de Mixcoac",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Central de Abasto",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "3-Mercado de Plantas y Flores de Cuemanco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Cafebrería El Péndulo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Maison Belén",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Café La Habana",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Panadería Rosetta",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Quentin Café",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Buna",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Almanegra Café",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Café Avellaneda",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Café El Jarocho",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Café Negro",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Blend Station",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Saint",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Ficelle",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Nevería Roxy",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Café Passmar",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Café Emir",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Churrería El Moro",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Pastelería Ideal",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "4-Helados La Especial de París",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-El Cardenal",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Azul Histórico",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Café de Tacuba",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Hostería de Santo Domingo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Danubio",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-La Casa de Toño",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Los Cocuyos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-El Huequito",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Tacos de Canasta Los Especiales",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-San Ángel Inn",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-La Gruta",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Nicos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Contramar",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Rosetta",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Máximo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Expendio de Maíz",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-El Hidalguense",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Mi Compa Chava",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Pujol",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Quintonil",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Hacienda de los Morales",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Los Panchos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-El Bajío",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Sud 777",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Los Danzantes",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Antigua Hacienda de Tlalpan",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-Fonda Margarita",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-El Vilsito",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-El Califa de León",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "5-El Tizoncito",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Mirador Torre Latinoamericana",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Finca Don Porfirio",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Balcón del Zócalo",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Mirador Monumento a la Revolución",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Terraza Cha Cha Chá",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Cityzen Rooftop",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Bellini World Trade Center",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Mirador del Castillo de Chapultepec",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Cablebús Línea 3",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Cablebús Línea 2",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "6-Mirador del Cerro de la Estrella",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Palacio de Bellas Artes",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Palacio Postal",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Gran Hotel Ciudad de México",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Casa de los Azulejos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Catedral Metropolitana",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Palacio Nacional",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Zócalo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Antiguo Colegio de San Ildefonso",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Palacio de Minería",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Palacio de Iturbide",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Casa de la Primera Imprenta",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Biblioteca de México",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Biblioteca Miguel Lerdo de Tejada",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Palacio de la Escuela de Medicina",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Hemiciclo a Juárez",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Biblioteca Vasconcelos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Ángel de la Independencia",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Monumento a la Revolución",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Basílica de Guadalupe",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "7-Rectoría y Biblioteca Central UNAM",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Zona Arqueológica de Teotihuacán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Templo Mayor",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Tlatelolco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Cuicuilco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Zona Arqueológica de Malinalco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Cerro de la Estrella",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Zona Arqueológica de Mixcoac",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Zona Arqueológica de Cuahilama",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Los Reyes La Paz",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Texcotzingo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Tenayuca",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "8-Zona Arqueológica de Tula",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Trajineras de Xochimilco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Visita a una chinampa",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Vuelo en globo sobre Teotihuacán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Safari Reino Animal",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Arena México",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Acuario Michin",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Zoológico de San Juan de Aragón",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Planetario Luis Enrique Erro",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Zoológico de Chapultepec",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Aztlán Parque Urbano",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Renta de lanchas",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Zoológico Los Coyotes",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Cineteca Nacional",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Six Flags México",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Cineteca Nacional de las Artes",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Centro Nacional de las Artes",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Teatro de la Ciudad Esperanza Iris",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Ballet Folklórico de México",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Mariachi en Plaza Garibaldi",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Paseo dominical en bicicleta",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Espacio Escultórico UNAM",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Casa Gilardi",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Casa Estudio Luis Barragán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "9-Frontón México",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Nido de Quetzalcóatl",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "10-LagoAlgo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Casa del Lago UNAM",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Casa de la Bola",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Ex Convento del Desierto de los Leones",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Jardín del Arte Sullivan",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Claustro de Sor Juana",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Casa Rivas Mercado",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Capilla de la Conchita",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Puente de Panzacola",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Centro Cultural Elena Garro",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Fonoteca Nacional",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Parque Frida Kahlo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Casa del Risco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "10-Lavaderos de Huipulco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Antara Fashion Hall",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Plaza Carso",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Artz Pedregal",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Centro Santa Fe",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Parque Duraznos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Mítikah",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Perisur",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Oasis Coyoacán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Reforma 222",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Plaza Satélite",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Toreo Parque Central",
+      "missingCoordinates": false,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Mundo E",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Punto Vallejo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Plaza de la Tecnología",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "11-Barrio Alameda",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-San Juan Teotihuacán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Tepoztlán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Valle de Bravo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Malinalco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Tepotzotlán",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Villa del Carbón",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Aculco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-El Oro",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Metepec",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Texcoco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Amecameca",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Huasca de Ocampo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Real del Monte",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Mineral del Chico",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Cuernavaca",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Tlayacapan",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Cholula",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Puebla",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Peña de Bernal",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "12-Taxco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Nevado de Toluca",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Los Dinamos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Prismas Basálticos",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Grutas de Tolantongo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Parque Nacional El Chico",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Parque Nacional Izta-Popo",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Parque Nacional La Marquesa",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Cascadas de Aculco",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Cascada Velo de Novia",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Santuario Piedra Herrada",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Presa del Llano",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Presa Taxhimay",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Grutas de la Estrella",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Grutas de Cacahuamilpa",
+      "missingCoordinates": true,
+      "missingAddress": true
+    },
+    {
+      "id": "13-Arcos del Sitio",
+      "missingCoordinates": true,
+      "missingAddress": true
+    }
+  ],
+  "source": "https://github.com/TheJorseman/CDMX-MUSEOS/blob/main/museos_cdmx_con_categorias.csv",
+  "notes": "Museum snapshot matched by exact normalized name or explicit alias. Duplicate coordinates rejected for new records. Existing coordinates retained; independent location accuracy not certified."
+}
