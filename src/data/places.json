@@ -716,14 +716,30 @@
       "name": "Presa Madín",
       "z": "Naucalpan",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.52647,
+          -99.26087
+        ],
+        "source": "https://mapcarta.com/W594746375",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "1-Parque Naucalli",
       "name": "Parque Naucalli",
       "z": "Naucalpan",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.493,
+          -99.2409
+        ],
+        "source": "https://mapcarta.com/es/W24942886",
+        "address": "Boulevard de la Santa Cruz, Naucalpan",
+        "status": "sourced"
+      }
     },
     {
       "id": "1-Desierto de los Leones",
@@ -2021,7 +2037,15 @@
       "name": "Nido de Quetzalcóatl",
       "z": "Naucalpan",
       "c": 10,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.47922,
+          -99.28243
+        ],
+        "source": "https://mapcarta.com/W913589379",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "10-LagoAlgo",
@@ -2189,14 +2213,30 @@
       "name": "Plaza Satélite",
       "z": "Naucalpan",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.51024,
+          -99.23416
+        ],
+        "source": "https://mapcarta.com/W220679375",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "11-Toreo Parque Central",
       "name": "Toreo Parque Central",
       "z": "Naucalpan",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.45416,
+          -99.21892
+        ],
+        "source": "https://mapcarta.com/W1140049541",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "11-Mundo E",

@@ -48,10 +48,10 @@ useEffect(()=>{
    });
    pendingGroups.forEach(c=>{
      const p=c.items[0];
-     if(c.items.length===1){individual(p,[0,44]);return}
-     if(zoom>=15){spread(c.items,[0,48]);return}
+     if(c.items.length===1){add(p,'approx:'+p.id,categories[p.c][1],p.name+' · approximate area',[0,0],()=>callbacks.current.onSelect(p),' approximate-pin');return}
+     if(zoom>=15){spread(c.items,[0,0]);return}
      const key='approx:'+c.items.map(x=>x.id).sort().join('|');
-     add(p,key,'~'+c.items.length,c.items.length+' approximate destinations · zoom to expand',[0,44],()=>fly(p,Math.min(19,zoom<14?14:15)),' count approximate-pin');
+     add(p,key,String(c.items.length),c.items.length+' destinations in this approximate area · zoom to expand',[0,0],()=>fly(p,Math.min(19,zoom<14?14:15)),' count approximate-pin');
    });
    group(points.filter(p=>order.has(p.id)&&p.locationStatus!=='sourced')).forEach(items=>spread(items.map(x=>x.p),[0,-48]));
    // Numbered route stops with known coordinates stay separate from discovery clusters.
@@ -72,4 +72,4 @@ useEffect(()=>{
  e.map.on('zoom',schedule);e.map.on('move',schedule);e.map.on('zoomend',schedule);
  renderMarkers();
  return()=>{cancelAnimationFrame(frame);e.map.off('zoom',schedule);e.map.off('move',schedule);e.map.off('zoomend',schedule);active.forEach(x=>x.marker.remove());lineLayer?.remove()};
-},[visible,route,ready]);return <><div id="map" ref={host}/><div className="mapnote"><span className="mapstatus">{status}</span><br/>Zoom to expand all places. Dashed gray pins indicate approximate neighborhood locations, not exact addresses.</div></>});export default ExplorerMap;
+},[visible,route,ready]);return <><div id="map" ref={host}/><div className="mapnote"><span className="mapstatus">{status}</span><br/>Numbers count places. Gray dashed markers are approximate areas; green markers use sourced coordinates.</div></>});export default ExplorerMap;
