@@ -1,0 +1,4247 @@
+{
+  "total": 292,
+  "added": 106,
+  "mapped": 135,
+  "unresolved": [
+    {
+      "id": "0-Papalote Museo del Niño",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Papalote Museo del Niño",
+          "coordinates": [
+            18.9343179,
+            -99.2310932
+          ],
+          "source": "https://www.openstreetmap.org/node/6307243063",
+          "sourceId": "node/6307243063",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Avenida Vicente Guerrero, 205, Lomas de la Selva, Cuernavaca",
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "0-Museo Nacional de Arte (MUNAL)",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo de Arte Popular",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo de la Ciudad de México",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Museo de La Ciudad de México",
+          "coordinates": [
+            19.4338031,
+            -99.1405381
+          ],
+          "source": "https://www.openstreetmap.org/node/14338110151",
+          "sourceId": "node/14338110151",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Museo de la Ciudad de México",
+          "coordinates": [
+            19.4294777,
+            -99.1323427
+          ],
+          "source": "https://www.openstreetmap.org/way/217324707",
+          "sourceId": "way/217324707",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Avenida José María Pino Suárez, 30",
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "0-Museo Nacional de las Culturas del Mundo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo del Estanquillo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo Banco de México",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-MIDE",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo Ripley",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo Universitario Arte Contemporáneo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo del Automóvil",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo Nacional de las Intervenciones",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo Casa Estudio Diego Rivera y Frida Kahlo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo de El Carmen",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Museo Dolores Olmedo",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Museo Dolores Olmedo",
+          "coordinates": [
+            19.4144626,
+            -99.1962236
+          ],
+          "source": "https://www.openstreetmap.org/way/1221886095",
+          "sourceId": "way/1221886095",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "0-Museo del Objeto del Objeto (MODO)",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "0-Axolotitlán",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "1-Bosque de Chapultepec",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Bosque de Chapultepec",
+          "coordinates": [
+            19.6143215,
+            -99.0399818
+          ],
+          "source": "https://www.openstreetmap.org/way/225621610",
+          "sourceId": "way/225621610",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Bosque de Chapultepec",
+          "coordinates": [
+            19.1552723,
+            -98.2588741
+          ],
+          "source": "https://www.openstreetmap.org/way/1105694787",
+          "sourceId": "way/1105694787",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "1-Jardín Botánico de Chapultepec",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "1-Parque Quetzalcóatl",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Parque Quetzalcóatl",
+          "coordinates": [
+            20.0558243,
+            -98.7738012
+          ],
+          "source": "https://www.openstreetmap.org/way/470168947",
+          "sourceId": "way/470168947",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "1-Parque Hundido",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Parque Hundido",
+          "coordinates": [
+            19.3795629,
+            -99.1770871
+          ],
+          "source": "https://www.openstreetmap.org/node/2896636198",
+          "sourceId": "node/2896636198",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Parque Hundido",
+          "coordinates": [
+            19.3776181,
+            -99.1802281
+          ],
+          "source": "https://www.openstreetmap.org/way/30179062",
+          "sourceId": "way/30179062",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Parque Hundido",
+          "coordinates": [
+            19.9292663,
+            -97.9609452
+          ],
+          "source": "https://www.openstreetmap.org/way/393512406",
+          "sourceId": "way/393512406",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "parque hundido",
+          "coordinates": [
+            19.4905733,
+            -99.2319798
+          ],
+          "source": "https://www.openstreetmap.org/way/463012550",
+          "sourceId": "way/463012550",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Parque Hundido",
+          "coordinates": [
+            19.3798842,
+            -99.1770011
+          ],
+          "source": "https://www.openstreetmap.org/way/1146838964",
+          "sourceId": "way/1146838964",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "1-Parque de los Venados",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Parque de los Venados",
+          "coordinates": [
+            19.3706388,
+            -99.158781
+          ],
+          "source": "https://www.openstreetmap.org/node/4262943382",
+          "sourceId": "node/4262943382",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Parque de los Venados",
+          "coordinates": [
+            19.370688,
+            -99.1584867
+          ],
+          "source": "https://www.openstreetmap.org/node/10302887916",
+          "sourceId": "node/10302887916",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Parque de los Venados",
+          "coordinates": [
+            19.3706329,
+            -99.158782
+          ],
+          "source": "https://www.openstreetmap.org/node/12602265863",
+          "sourceId": "node/12602265863",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Parque de los Venados",
+          "coordinates": [
+            19.3706595,
+            -99.1587773
+          ],
+          "source": "https://www.openstreetmap.org/node/12606344890",
+          "sourceId": "node/12606344890",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Parque de los Venados",
+          "coordinates": [
+            19.3722007,
+            -99.1548214
+          ],
+          "source": "https://www.openstreetmap.org/way/26967313",
+          "sourceId": "way/26967313",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Parque de los Venados",
+          "coordinates": [
+            19.1325896,
+            -99.7923321
+          ],
+          "source": "https://www.openstreetmap.org/way/357539785",
+          "sourceId": "way/357539785",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "1-Viveros de Coyoacán",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Viveros de Coyoacán",
+          "coordinates": [
+            19.3564746,
+            -99.1731807
+          ],
+          "source": "https://www.openstreetmap.org/node/3035158576",
+          "sourceId": "node/3035158576",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Viveros de Coyoacán",
+          "coordinates": [
+            19.3551946,
+            -99.1679979
+          ],
+          "source": "https://www.openstreetmap.org/way/249747729",
+          "sourceId": "way/249747729",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "1-Jardín Botánico de la UNAM",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "1-Parque Ecológico de Xochimilco",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "1-Los Dinamos",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "1-Cumbres del Ajusco",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "2-Centro de Coyoacán",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "2-Plaza de la Conchita",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "2-San Ángel",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "San Ángel",
+          "coordinates": [
+            19.3498069,
+            -99.0388727
+          ],
+          "source": "https://www.openstreetmap.org/node/2095150356",
+          "sourceId": "node/2095150356",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Avenida Morelos",
+          "precision": "point"
+        },
+        {
+          "name": "San Ángel",
+          "coordinates": [
+            20.5817943,
+            -100.4019846
+          ],
+          "source": "https://www.openstreetmap.org/node/3123240968",
+          "sourceId": "node/3123240968",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "San Ángel",
+          "coordinates": [
+            19.3443673,
+            -99.1924473
+          ],
+          "source": "https://www.openstreetmap.org/node/11899999809",
+          "sourceId": "node/11899999809",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "San Ángel",
+          "coordinates": [
+            19.3446449,
+            -99.1924105
+          ],
+          "source": "https://www.openstreetmap.org/node/13448982231",
+          "sourceId": "node/13448982231",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "San Ángel",
+          "coordinates": [
+            18.8556044,
+            -99.2442281
+          ],
+          "source": "https://www.openstreetmap.org/way/148351347",
+          "sourceId": "way/148351347",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "San Ángel",
+          "coordinates": [
+            19.3654588,
+            -99.2054227
+          ],
+          "source": "https://www.openstreetmap.org/way/380026007",
+          "sourceId": "way/380026007",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "San Ángel",
+          "coordinates": [
+            19.2831388,
+            -98.8793087
+          ],
+          "source": "https://www.openstreetmap.org/way/663302695",
+          "sourceId": "way/663302695",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "San Ángel",
+          "coordinates": [
+            19.296853,
+            -98.8674596
+          ],
+          "source": "https://www.openstreetmap.org/way/696266415",
+          "sourceId": "way/696266415",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Avenida Ámsterdam",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Avenida Amsterdam",
+          "coordinates": [
+            19.4095086,
+            -99.1701455
+          ],
+          "source": "https://www.openstreetmap.org/way/4758890",
+          "sourceId": "way/4758890",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Amsterdam",
+          "coordinates": [
+            19.4157314,
+            -99.1680222
+          ],
+          "source": "https://www.openstreetmap.org/way/25208012",
+          "sourceId": "way/25208012",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Amsterdam",
+          "coordinates": [
+            19.4093587,
+            -99.1701077
+          ],
+          "source": "https://www.openstreetmap.org/way/25208086",
+          "sourceId": "way/25208086",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Amsterdam",
+          "coordinates": [
+            19.415823,
+            -99.1679775
+          ],
+          "source": "https://www.openstreetmap.org/way/25208090",
+          "sourceId": "way/25208090",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Amsterdam",
+          "coordinates": [
+            19.4151884,
+            -99.1694364
+          ],
+          "source": "https://www.openstreetmap.org/way/1168352178",
+          "sourceId": "way/1168352178",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Amsterdam",
+          "coordinates": [
+            19.4115527,
+            -99.1714875
+          ],
+          "source": "https://www.openstreetmap.org/way/1168352179",
+          "sourceId": "way/1168352179",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Amsterdam",
+          "coordinates": [
+            19.4107751,
+            -99.1678767
+          ],
+          "source": "https://www.openstreetmap.org/way/1168352679",
+          "sourceId": "way/1168352679",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Amsterdam",
+          "coordinates": [
+            19.4129942,
+            -99.1670875
+          ],
+          "source": "https://www.openstreetmap.org/way/1168352680",
+          "sourceId": "way/1168352680",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Paseo de la Reforma",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Paseo de la Reforma",
+          "coordinates": [
+            18.3452922,
+            -99.5390309
+          ],
+          "source": "https://www.openstreetmap.org/node/5581796798",
+          "sourceId": "node/5581796798",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Paseo de la Reforma",
+          "coordinates": [
+            19.404915,
+            -99.2296161
+          ],
+          "source": "https://www.openstreetmap.org/node/8484292365",
+          "sourceId": "node/8484292365",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Paseo de la Reforma",
+          "coordinates": [
+            19.4049043,
+            -99.2296403
+          ],
+          "source": "https://www.openstreetmap.org/node/14275606412",
+          "sourceId": "node/14275606412",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Paseo de la Reforma",
+          "coordinates": [
+            18.3452735,
+            -99.5392019
+          ],
+          "source": "https://www.openstreetmap.org/way/583863477",
+          "sourceId": "way/583863477",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Avenida Presidente Masaryk",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Avenida Presidente Masaryk",
+          "coordinates": [
+            19.4314522,
+            -99.1913184
+          ],
+          "source": "https://www.openstreetmap.org/way/4856193",
+          "sourceId": "way/4856193",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Presidente Masaryk",
+          "coordinates": [
+            19.4313777,
+            -99.1864402
+          ],
+          "source": "https://www.openstreetmap.org/way/24984944",
+          "sourceId": "way/24984944",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Presidente Masaryk",
+          "coordinates": [
+            19.4315333,
+            -99.1936125
+          ],
+          "source": "https://www.openstreetmap.org/way/24984976",
+          "sourceId": "way/24984976",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Presidente Masaryk",
+          "coordinates": [
+            19.4314383,
+            -99.1856722
+          ],
+          "source": "https://www.openstreetmap.org/way/619000193",
+          "sourceId": "way/619000193",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Presidente Masaryk",
+          "coordinates": [
+            19.432404,
+            -99.2043771
+          ],
+          "source": "https://www.openstreetmap.org/way/619003485",
+          "sourceId": "way/619003485",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Presidente Masaryk",
+          "coordinates": [
+            19.4319077,
+            -99.1997283
+          ],
+          "source": "https://www.openstreetmap.org/way/619003486",
+          "sourceId": "way/619003486",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Presidente Masaryk",
+          "coordinates": [
+            19.4323188,
+            -99.2045383
+          ],
+          "source": "https://www.openstreetmap.org/way/619003488",
+          "sourceId": "way/619003488",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Avenida Presidente Masaryk",
+          "coordinates": [
+            19.4317426,
+            -99.1968085
+          ],
+          "source": "https://www.openstreetmap.org/way/619003491",
+          "sourceId": "way/619003491",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Calle Francisco I. Madero",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Calle Francisco I. Madero",
+          "coordinates": [
+            19.4336101,
+            -99.1372771
+          ],
+          "source": "https://www.openstreetmap.org/way/4780781",
+          "sourceId": "way/4780781",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Francisco I. Madero",
+          "coordinates": [
+            19.2926195,
+            -99.1653254
+          ],
+          "source": "https://www.openstreetmap.org/way/25226626",
+          "sourceId": "way/25226626",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Francisco I. Madero",
+          "coordinates": [
+            19.3905138,
+            -99.1120447
+          ],
+          "source": "https://www.openstreetmap.org/way/25391568",
+          "sourceId": "way/25391568",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Francisco I. Madero",
+          "coordinates": [
+            19.3558046,
+            -99.1966523
+          ],
+          "source": "https://www.openstreetmap.org/way/26484105",
+          "sourceId": "way/26484105",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Francisco I. Madero",
+          "coordinates": [
+            19.3926521,
+            -99.1223378
+          ],
+          "source": "https://www.openstreetmap.org/way/26538483",
+          "sourceId": "way/26538483",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Francisco I. Madero",
+          "coordinates": [
+            18.9339298,
+            -99.2381243
+          ],
+          "source": "https://www.openstreetmap.org/way/26762433",
+          "sourceId": "way/26762433",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Francisco I. Madero",
+          "coordinates": [
+            18.9312366,
+            -99.2366028
+          ],
+          "source": "https://www.openstreetmap.org/way/26765107",
+          "sourceId": "way/26765107",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Francisco I. Madero",
+          "coordinates": [
+            18.9284326,
+            -99.2354706
+          ],
+          "source": "https://www.openstreetmap.org/way/26765108",
+          "sourceId": "way/26765108",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Calle Regina",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Calle Regina",
+          "coordinates": [
+            19.428352,
+            -99.1386081
+          ],
+          "source": "https://www.openstreetmap.org/way/24847779",
+          "sourceId": "way/24847779",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Regina",
+          "coordinates": [
+            19.4905224,
+            -98.4736263
+          ],
+          "source": "https://www.openstreetmap.org/way/32906929",
+          "sourceId": "way/32906929",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Regina",
+          "coordinates": [
+            19.4271065,
+            -99.1307783
+          ],
+          "source": "https://www.openstreetmap.org/way/123885361",
+          "sourceId": "way/123885361",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Regina",
+          "coordinates": [
+            19.2779035,
+            -98.8847996
+          ],
+          "source": "https://www.openstreetmap.org/way/168025535",
+          "sourceId": "way/168025535",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Regina",
+          "coordinates": [
+            19.6739528,
+            -99.0088308
+          ],
+          "source": "https://www.openstreetmap.org/way/225684291",
+          "sourceId": "way/225684291",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Regina",
+          "coordinates": [
+            19.0376906,
+            -98.2768373
+          ],
+          "source": "https://www.openstreetmap.org/way/303995735",
+          "sourceId": "way/303995735",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Regina",
+          "coordinates": [
+            19.4277661,
+            -99.1359611
+          ],
+          "source": "https://www.openstreetmap.org/way/617718996",
+          "sourceId": "way/617718996",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Regina",
+          "coordinates": [
+            19.370198,
+            -98.9221752
+          ],
+          "source": "https://www.openstreetmap.org/way/676421752",
+          "sourceId": "way/676421752",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Calle Tacuba",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Calle Tacuba",
+          "coordinates": [
+            19.4355544,
+            -99.1369788
+          ],
+          "source": "https://www.openstreetmap.org/way/24849974",
+          "sourceId": "way/24849974",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Tacuba",
+          "coordinates": [
+            19.3858156,
+            -99.0191828
+          ],
+          "source": "https://www.openstreetmap.org/way/31781513",
+          "sourceId": "way/31781513",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Tacuba",
+          "coordinates": [
+            19.3915282,
+            -99.016098
+          ],
+          "source": "https://www.openstreetmap.org/way/31781527",
+          "sourceId": "way/31781527",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Tacuba",
+          "coordinates": [
+            19.5990849,
+            -98.6303614
+          ],
+          "source": "https://www.openstreetmap.org/way/32913154",
+          "sourceId": "way/32913154",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Tacuba",
+          "coordinates": [
+            19.3956082,
+            -99.0139397
+          ],
+          "source": "https://www.openstreetmap.org/way/33836005",
+          "sourceId": "way/33836005",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Tacuba",
+          "coordinates": [
+            19.3463005,
+            -98.9415399
+          ],
+          "source": "https://www.openstreetmap.org/way/168175226",
+          "sourceId": "way/168175226",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Tacuba",
+          "coordinates": [
+            19.3475991,
+            -98.9420105
+          ],
+          "source": "https://www.openstreetmap.org/way/168175242",
+          "sourceId": "way/168175242",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Tacuba",
+          "coordinates": [
+            19.3661566,
+            -99.1987525
+          ],
+          "source": "https://www.openstreetmap.org/way/183084926",
+          "sourceId": "way/183084926",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Plaza de Santo Domingo",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Plaza de Santo Domingo",
+          "coordinates": [
+            19.4019904,
+            -99.1940342
+          ],
+          "source": "https://www.openstreetmap.org/way/718220253",
+          "sourceId": "way/718220253",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Calle Colima",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Calle Colima",
+          "coordinates": [
+            19.4205972,
+            -99.1568806
+          ],
+          "source": "https://www.openstreetmap.org/way/24680468",
+          "sourceId": "way/24680468",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Colima",
+          "coordinates": [
+            19.3428913,
+            -99.2013507
+          ],
+          "source": "https://www.openstreetmap.org/way/28933158",
+          "sourceId": "way/28933158",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Colima",
+          "coordinates": [
+            19.3106515,
+            -99.2291086
+          ],
+          "source": "https://www.openstreetmap.org/way/31828631",
+          "sourceId": "way/31828631",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Colima",
+          "coordinates": [
+            19.1812522,
+            -98.239749
+          ],
+          "source": "https://www.openstreetmap.org/way/32506076",
+          "sourceId": "way/32506076",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Colima",
+          "coordinates": [
+            19.4790934,
+            -99.0596482
+          ],
+          "source": "https://www.openstreetmap.org/way/32871302",
+          "sourceId": "way/32871302",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Colima",
+          "coordinates": [
+            19.5003125,
+            -99.0601503
+          ],
+          "source": "https://www.openstreetmap.org/way/32884226",
+          "sourceId": "way/32884226",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Colima",
+          "coordinates": [
+            19.3642292,
+            -99.017761
+          ],
+          "source": "https://www.openstreetmap.org/way/41499628",
+          "sourceId": "way/41499628",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Colima",
+          "coordinates": [
+            19.4998332,
+            -99.0769808
+          ],
+          "source": "https://www.openstreetmap.org/way/55989827",
+          "sourceId": "way/55989827",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-Calle Orizaba",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Calle Orizaba",
+          "coordinates": [
+            19.4158341,
+            -99.1591703
+          ],
+          "source": "https://www.openstreetmap.org/way/30160207",
+          "sourceId": "way/30160207",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Orizaba",
+          "coordinates": [
+            19.3178019,
+            -99.22819
+          ],
+          "source": "https://www.openstreetmap.org/way/32472836",
+          "sourceId": "way/32472836",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Orizaba",
+          "coordinates": [
+            19.3958835,
+            -97.8556283
+          ],
+          "source": "https://www.openstreetmap.org/way/32501952",
+          "sourceId": "way/32501952",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Orizaba",
+          "coordinates": [
+            19.4925116,
+            -99.0669296
+          ],
+          "source": "https://www.openstreetmap.org/way/33902032",
+          "sourceId": "way/33902032",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Orizaba",
+          "coordinates": [
+            19.4932193,
+            -99.0664355
+          ],
+          "source": "https://www.openstreetmap.org/way/33902033",
+          "sourceId": "way/33902033",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Orizaba",
+          "coordinates": [
+            19.4131753,
+            -99.1584249
+          ],
+          "source": "https://www.openstreetmap.org/way/74568217",
+          "sourceId": "way/74568217",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Orizaba",
+          "coordinates": [
+            19.4491254,
+            -99.2412242
+          ],
+          "source": "https://www.openstreetmap.org/way/83672201",
+          "sourceId": "way/83672201",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Calle Orizaba",
+          "coordinates": [
+            19.134342,
+            -98.2318575
+          ],
+          "source": "https://www.openstreetmap.org/way/104692322",
+          "sourceId": "way/104692322",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "2-La Romita",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "La Romita",
+          "coordinates": [
+            20.5541741,
+            -100.3695451
+          ],
+          "source": "https://www.openstreetmap.org/node/3642854751",
+          "sourceId": "node/3642854751",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "2-Plaza Washington",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "2-Centro de Tlalpan",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "2-Centro de Xochimilco",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "2-Centro de Azcapotzalco",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Mercado de la Merced",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-La Ciudadela",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Mercado de San Juan",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Mercado de San Juan",
+          "coordinates": [
+            19.3990372,
+            -99.0540017
+          ],
+          "source": "https://www.openstreetmap.org/way/1081203613",
+          "sourceId": "way/1081203613",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Callejón Avenida Tcxcoco, 109, Iztapalapa",
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "3-Mercado de La Lagunilla",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Mercado Abelardo L. Rodríguez",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Bazar del Sábado",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Mercado de San Ángel",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Mercado de Artesanías de Coyoacán",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Mercado de San Pedro de los Pinos",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Mercado de Mixcoac",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "3-Central de Abasto",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Central De Abasto",
+          "coordinates": [
+            19.4170396,
+            -98.9199462
+          ],
+          "source": "https://www.openstreetmap.org/node/10763127541",
+          "sourceId": "node/10763127541",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Central de Abasto",
+          "coordinates": [
+            19.4170655,
+            -98.9195877
+          ],
+          "source": "https://www.openstreetmap.org/node/13718957642",
+          "sourceId": "node/13718957642",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "3-Mercado de Plantas y Flores de Cuemanco",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "4-Cafebrería El Péndulo",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Cafebrería El Péndulo",
+          "coordinates": [
+            19.410544,
+            -99.1729781
+          ],
+          "source": "https://www.openstreetmap.org/node/2111449531",
+          "sourceId": "node/2111449531",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Nuevo León, 115, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Cafebrería El Péndulo",
+          "coordinates": [
+            19.4182064,
+            -99.1588821
+          ],
+          "source": "https://www.openstreetmap.org/node/2133330368",
+          "sourceId": "node/2133330368",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Avenida Álvaro Obregón, 86, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Cafebrería El Péndulo",
+          "coordinates": [
+            19.4304543,
+            -99.1958082
+          ],
+          "source": "https://www.openstreetmap.org/node/4577349463",
+          "sourceId": "node/4577349463",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Calle Alejandro Dumas, 81, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Cafebrería El Péndulo",
+          "coordinates": [
+            19.3606308,
+            -99.2742691
+          ],
+          "source": "https://www.openstreetmap.org/node/4993700498",
+          "sourceId": "node/4993700498",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Prolongación Vasco de Quiroga, 3800, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Cafebrería El Péndulo",
+          "coordinates": [
+            19.3044787,
+            -99.1906371
+          ],
+          "source": "https://www.openstreetmap.org/node/4993702628",
+          "sourceId": "node/4993702628",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Periférico Sur, 4690, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Cafebrería El Péndulo",
+          "coordinates": [
+            19.4260143,
+            -99.1649119
+          ],
+          "source": "https://www.openstreetmap.org/node/4993704576",
+          "sourceId": "node/4993704576",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Hamburgo, 126, Ciudad de México",
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "4-Maison Belén",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "4-Panadería Rosetta",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Panadería Rosetta",
+          "coordinates": [
+            19.4252812,
+            -99.1607198
+          ],
+          "source": "https://www.openstreetmap.org/node/4595815090",
+          "sourceId": "node/4595815090",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Calle Havre, 73, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Panadería Rosetta",
+          "coordinates": [
+            19.4215303,
+            -99.1672094
+          ],
+          "source": "https://www.openstreetmap.org/node/8406305030",
+          "sourceId": "node/8406305030",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "4-Buna",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "4-Almanegra Café",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Almanegra Café",
+          "coordinates": [
+            19.3851966,
+            -99.1552308
+          ],
+          "source": "https://www.openstreetmap.org/node/3262187769",
+          "sourceId": "node/3262187769",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Almanegra Café",
+          "coordinates": [
+            19.370684,
+            -99.1440167
+          ],
+          "source": "https://www.openstreetmap.org/node/8843502572",
+          "sourceId": "node/8843502572",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "BALBOA, 203, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Almanegra Café",
+          "coordinates": [
+            19.4026598,
+            -99.1749987
+          ],
+          "source": "https://www.openstreetmap.org/node/13018986601",
+          "sourceId": "node/13018986601",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Calle Prosperidad, 37",
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "4-Café El Jarocho",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Café El Jarocho",
+          "coordinates": [
+            19.3522834,
+            -99.1650984
+          ],
+          "source": "https://www.openstreetmap.org/node/2562317485",
+          "sourceId": "node/2562317485",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Café El Jarocho",
+          "coordinates": [
+            19.3453118,
+            -99.1676201
+          ],
+          "source": "https://www.openstreetmap.org/node/5071672821",
+          "sourceId": "node/5071672821",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Café El Jarocho",
+          "coordinates": [
+            19.3361588,
+            -99.1796729
+          ],
+          "source": "https://www.openstreetmap.org/way/1496826529",
+          "sourceId": "way/1496826529",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "4-Blend Station",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Blend Station",
+          "coordinates": [
+            19.4218679,
+            -99.1668655
+          ],
+          "source": "https://www.openstreetmap.org/node/8413157917",
+          "sourceId": "node/8413157917",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Calle Puebla, 237",
+          "precision": "point"
+        },
+        {
+          "name": "Blend Station",
+          "coordinates": [
+            19.4128299,
+            -99.1674536
+          ],
+          "source": "https://www.openstreetmap.org/node/9716572117",
+          "sourceId": "node/9716572117",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "4-Saint",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "4-Ficelle",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "4-Nevería Roxy",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Nevería Roxy",
+          "coordinates": [
+            19.4142197,
+            -99.176869
+          ],
+          "source": "https://www.openstreetmap.org/node/2133330361",
+          "sourceId": "node/2133330361",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Nevería Roxy",
+          "coordinates": [
+            19.4088185,
+            -99.1765909
+          ],
+          "source": "https://www.openstreetmap.org/node/2133330364",
+          "sourceId": "node/2133330364",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Neveria Roxy",
+          "coordinates": [
+            19.4302545,
+            -99.1968362
+          ],
+          "source": "https://www.openstreetmap.org/node/8715454217",
+          "sourceId": "node/8715454217",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Nevería Roxy",
+          "coordinates": [
+            19.4243607,
+            -99.1850822
+          ],
+          "source": "https://www.openstreetmap.org/node/13050362069",
+          "sourceId": "node/13050362069",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "4-Café Emir",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Cafe Emir",
+          "coordinates": [
+            19.4242694,
+            -99.1647455
+          ],
+          "source": "https://www.openstreetmap.org/node/1244578455",
+          "sourceId": "node/1244578455",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Café Emir",
+          "coordinates": [
+            19.4305623,
+            -99.1380405
+          ],
+          "source": "https://www.openstreetmap.org/node/3649569754",
+          "sourceId": "node/3649569754",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "República de Uruguay, 45, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Café Emir",
+          "coordinates": [
+            19.4327485,
+            -99.1373393
+          ],
+          "source": "https://www.openstreetmap.org/node/11788931084",
+          "sourceId": "node/11788931084",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cafe Emir",
+          "coordinates": [
+            19.4371994,
+            -99.1662862
+          ],
+          "source": "https://www.openstreetmap.org/node/13532322452",
+          "sourceId": "node/13532322452",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "4-Churrería El Moro",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Churreria El Moro",
+          "coordinates": [
+            19.4188906,
+            -99.1556341
+          ],
+          "source": "https://www.openstreetmap.org/node/4596020096",
+          "sourceId": "node/4596020096",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Avenida Álvaro Obregón, 24",
+          "precision": "point"
+        },
+        {
+          "name": "Churrería El Moro",
+          "coordinates": [
+            19.4313896,
+            -99.1411354
+          ],
+          "source": "https://www.openstreetmap.org/node/5842139800",
+          "sourceId": "node/5842139800",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Lázaro Cárdenas, 67, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Churrería \"El Moro\"",
+          "coordinates": [
+            19.4282861,
+            -99.1694917
+          ],
+          "source": "https://www.openstreetmap.org/node/6580995385",
+          "sourceId": "node/6580995385",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Churreria El Moro",
+          "coordinates": [
+            19.4316502,
+            -99.1813365
+          ],
+          "source": "https://www.openstreetmap.org/node/6835305790",
+          "sourceId": "node/6835305790",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Calzada General Mariano Escobedo, 479",
+          "precision": "point"
+        },
+        {
+          "name": "Churrería el Moro",
+          "coordinates": [
+            19.4142478,
+            -99.1645905
+          ],
+          "source": "https://www.openstreetmap.org/node/8238150017",
+          "sourceId": "node/8238150017",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Churrería El Moro",
+          "coordinates": [
+            19.4304457,
+            -99.1967025
+          ],
+          "source": "https://www.openstreetmap.org/node/8238153817",
+          "sourceId": "node/8238153817",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Churrería El Moro",
+          "coordinates": [
+            19.4195549,
+            -99.1573849
+          ],
+          "source": "https://www.openstreetmap.org/node/11300884270",
+          "sourceId": "node/11300884270",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "4-Pastelería Ideal",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Pastelería Ideal",
+          "coordinates": [
+            19.430486,
+            -99.1357163
+          ],
+          "source": "https://www.openstreetmap.org/node/4472139790",
+          "sourceId": "node/4472139790",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Pastelería Ideal",
+          "coordinates": [
+            19.439258,
+            -99.1450922
+          ],
+          "source": "https://www.openstreetmap.org/node/5110353522",
+          "sourceId": "node/5110353522",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Pastelería Ideal",
+          "coordinates": [
+            19.4327582,
+            -99.139848
+          ],
+          "source": "https://www.openstreetmap.org/node/6051481787",
+          "sourceId": "node/6051481787",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "16 de Septiembre, 18",
+          "precision": "point"
+        },
+        {
+          "name": "Pastelería Ideal",
+          "coordinates": [
+            19.4876782,
+            -99.0475381
+          ],
+          "source": "https://www.openstreetmap.org/node/8570224303",
+          "sourceId": "node/8570224303",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "4-Helados La Especial de París",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "5-El Cardenal",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "El Cardenal",
+          "coordinates": [
+            19.4336983,
+            -99.1352678
+          ],
+          "source": "https://www.openstreetmap.org/node/4594598745",
+          "sourceId": "node/4594598745",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Palma, 23",
+          "precision": "point"
+        },
+        {
+          "name": "El Cardenal",
+          "coordinates": [
+            19.4347237,
+            -99.1460782
+          ],
+          "source": "https://www.openstreetmap.org/node/5739024721",
+          "sourceId": "node/5739024721",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Avenida Juárez, 70, Ciudad de México",
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "5-Hostería de Santo Domingo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "5-La Casa de Toño",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "La Casa de Toño",
+          "coordinates": [
+            19.4032105,
+            -99.1556427
+          ],
+          "source": "https://www.openstreetmap.org/node/4162397093",
+          "sourceId": "node/4162397093",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Cuauhtémoc, 439",
+          "precision": "point"
+        },
+        {
+          "name": "La Casa de Toño",
+          "coordinates": [
+            19.2965845,
+            -99.1529794
+          ],
+          "source": "https://www.openstreetmap.org/node/4251901243",
+          "sourceId": "node/4251901243",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Calzada de Tlalpan",
+          "precision": "point"
+        },
+        {
+          "name": "La Casa de Toño",
+          "coordinates": [
+            19.4855003,
+            -99.2337831
+          ],
+          "source": "https://www.openstreetmap.org/node/4341828607",
+          "sourceId": "node/4341828607",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "La Casa de Toño",
+          "coordinates": [
+            19.632324,
+            -99.0917301
+          ],
+          "source": "https://www.openstreetmap.org/node/4430064796",
+          "sourceId": "node/4430064796",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "La Casa de Toño",
+          "coordinates": [
+            19.2999279,
+            -99.1362002
+          ],
+          "source": "https://www.openstreetmap.org/node/4600489321",
+          "sourceId": "node/4600489321",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "La Casa de Toño",
+          "coordinates": [
+            19.539398,
+            -99.204245
+          ],
+          "source": "https://www.openstreetmap.org/node/4643607190",
+          "sourceId": "node/4643607190",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "La Casa de Toño",
+          "coordinates": [
+            19.3064148,
+            -99.1667551
+          ],
+          "source": "https://www.openstreetmap.org/node/4653702244",
+          "sourceId": "node/4653702244",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "La Casa de Toño",
+          "coordinates": [
+            19.3062034,
+            -99.1250062
+          ],
+          "source": "https://www.openstreetmap.org/node/5116403692",
+          "sourceId": "node/5116403692",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "5-El Huequito",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "El Huequito",
+          "coordinates": [
+            19.4300772,
+            -99.1387451
+          ],
+          "source": "https://www.openstreetmap.org/node/4533079389",
+          "sourceId": "node/4533079389",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Bolivar, 58, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "El Huequito",
+          "coordinates": [
+            19.4309211,
+            -99.1560155
+          ],
+          "source": "https://www.openstreetmap.org/node/12749170253",
+          "sourceId": "node/12749170253",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "5-Tacos de Canasta Los Especiales",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "5-San Ángel Inn",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "San Angel Inn",
+          "coordinates": [
+            20.1650977,
+            -98.6268103
+          ],
+          "source": "https://www.openstreetmap.org/way/619866694",
+          "sourceId": "way/619866694",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "La Cruz, Omitlán de Juárez",
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "5-Nicos",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Nicos",
+          "coordinates": [
+            20.6113836,
+            -100.3817837
+          ],
+          "source": "https://www.openstreetmap.org/node/4823527675",
+          "sourceId": "node/4823527675",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "5-Expendio de Maíz",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "5-Pujol",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Pujol",
+          "coordinates": [
+            19.4336326,
+            -99.18545
+          ],
+          "source": "https://www.openstreetmap.org/node/4523472689",
+          "sourceId": "node/4523472689",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Fco. Petrarca, 254, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "Pujol",
+          "coordinates": [
+            19.4322947,
+            -99.1946572
+          ],
+          "source": "https://www.openstreetmap.org/node/5262249521",
+          "sourceId": "node/5262249521",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "5-Los Panchos",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Los Panchos",
+          "coordinates": [
+            19.4254441,
+            -99.1772856
+          ],
+          "source": "https://www.openstreetmap.org/node/3872277115",
+          "sourceId": "node/3872277115",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Los Panchos",
+          "coordinates": [
+            19.4346396,
+            -99.1660205
+          ],
+          "source": "https://www.openstreetmap.org/node/13530491496",
+          "sourceId": "node/13530491496",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "5-El Bajío",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "El Bajío",
+          "coordinates": [
+            19.2997892,
+            -99.1363392
+          ],
+          "source": "https://www.openstreetmap.org/node/4613200708",
+          "sourceId": "node/4613200708",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "El Bajío",
+          "coordinates": [
+            19.390172,
+            -99.173414
+          ],
+          "source": "https://www.openstreetmap.org/node/4675558750",
+          "sourceId": "node/4675558750",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Avenida Insurgentes Sur, 800, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "El Bajío",
+          "coordinates": [
+            19.4273881,
+            -99.1963121
+          ],
+          "source": "https://www.openstreetmap.org/node/5010472977",
+          "sourceId": "node/5010472977",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Alejandro Dumas, 7, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "El Bajío",
+          "coordinates": [
+            19.5257422,
+            -99.2284073
+          ],
+          "source": "https://www.openstreetmap.org/node/7295812691",
+          "sourceId": "node/7295812691",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "El Bajío",
+          "coordinates": [
+            19.4348525,
+            -99.1380503
+          ],
+          "source": "https://www.openstreetmap.org/node/10555670797",
+          "sourceId": "node/10555670797",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Calle Simón Bolívar, 14, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "El Bajio",
+          "coordinates": [
+            19.4284085,
+            -99.1613488
+          ],
+          "source": "https://www.openstreetmap.org/node/11399387869",
+          "sourceId": "node/11399387869",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "5-Antigua Hacienda de Tlalpan",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "5-Fonda Margarita",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Fonda Margarita",
+          "coordinates": [
+            19.4323165,
+            -99.1508523
+          ],
+          "source": "https://www.openstreetmap.org/node/13735826136",
+          "sourceId": "node/13735826136",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "5-El Califa de León",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "5-El Tizoncito",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "El Tizoncito",
+          "coordinates": [
+            19.359697,
+            -99.1978402
+          ],
+          "source": "https://www.openstreetmap.org/node/1112512412",
+          "sourceId": "node/1112512412",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "El Tizoncito",
+          "coordinates": [
+            19.3507565,
+            -99.1625109
+          ],
+          "source": "https://www.openstreetmap.org/node/1156051137",
+          "sourceId": "node/1156051137",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Calle Aguayo, Ciudad de México",
+          "precision": "point"
+        },
+        {
+          "name": "El Tizoncito",
+          "coordinates": [
+            19.3165294,
+            -99.1258647
+          ],
+          "source": "https://www.openstreetmap.org/node/1719561164",
+          "sourceId": "node/1719561164",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "El Tizoncito",
+          "coordinates": [
+            19.3838172,
+            -99.1703061
+          ],
+          "source": "https://www.openstreetmap.org/node/4036938789",
+          "sourceId": "node/4036938789",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "El Tizoncito",
+          "coordinates": [
+            19.4271982,
+            -99.1623897
+          ],
+          "source": "https://www.openstreetmap.org/node/5959889385",
+          "sourceId": "node/5959889385",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "El Tizoncito",
+          "coordinates": [
+            19.4146079,
+            -99.2439494
+          ],
+          "source": "https://www.openstreetmap.org/node/8685693279",
+          "sourceId": "node/8685693279",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "6-Mirador Torre Latinoamericana",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "6-Mirador Monumento a la Revolución",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "6-Cityzen Rooftop",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "6-Bellini World Trade Center",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "6-Mirador del Castillo de Chapultepec",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "6-Cablebús Línea 2",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Cablebús Linea 2",
+          "coordinates": [
+            19.3291286,
+            -99.0393406
+          ],
+          "source": "https://www.openstreetmap.org/way/733415474",
+          "sourceId": "way/733415474",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Cablebús Linea 2",
+          "coordinates": [
+            19.3420284,
+            -99.0001025
+          ],
+          "source": "https://www.openstreetmap.org/way/971830671",
+          "sourceId": "way/971830671",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "6-Mirador del Cerro de la Estrella",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "7-Zócalo",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Zócalo",
+          "coordinates": [
+            18.3455255,
+            -99.5408575
+          ],
+          "source": "https://www.openstreetmap.org/way/449111376",
+          "sourceId": "way/449111376",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Zócalo",
+          "coordinates": [
+            18.9862089,
+            -99.1009802
+          ],
+          "source": "https://www.openstreetmap.org/way/482304069",
+          "sourceId": "way/482304069",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Zócalo",
+          "coordinates": [
+            18.4659784,
+            -100.5786153
+          ],
+          "source": "https://www.openstreetmap.org/way/550907336",
+          "sourceId": "way/550907336",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Zócalo",
+          "coordinates": [
+            19.9322631,
+            -97.9606362
+          ],
+          "source": "https://www.openstreetmap.org/way/664313212",
+          "sourceId": "way/664313212",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Zócalo",
+          "coordinates": [
+            18.7702224,
+            -97.8809473
+          ],
+          "source": "https://www.openstreetmap.org/way/1391530844",
+          "sourceId": "way/1391530844",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "7-Palacio de Minería",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "7-Casa de la Primera Imprenta",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "7-Biblioteca de México",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "7-Palacio de la Escuela de Medicina",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "7-Monumento a la Revolución",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Monumento a la Revolución",
+          "coordinates": [
+            19.4369652,
+            -99.1571039
+          ],
+          "source": "https://www.openstreetmap.org/node/10656493612",
+          "sourceId": "node/10656493612",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Monumento a la Revolución",
+          "coordinates": [
+            19.4363423,
+            -99.1546852
+          ],
+          "source": "https://www.openstreetmap.org/way/158032450",
+          "sourceId": "way/158032450",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Monumento a la Revolución",
+          "coordinates": [
+            20.1209299,
+            -98.7362183
+          ],
+          "source": "https://www.openstreetmap.org/way/567129783",
+          "sourceId": "way/567129783",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "7-Basílica de Guadalupe",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Basilica de Guadalupe",
+          "coordinates": [
+            20.0567878,
+            -98.7371952
+          ],
+          "source": "https://www.openstreetmap.org/way/661237504",
+          "sourceId": "way/661237504",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "7-Rectoría y Biblioteca Central UNAM",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "8-Zona Arqueológica de Teotihuacán",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "8-Tlatelolco",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Tlatelolco",
+          "coordinates": [
+            19.4550142,
+            -99.1431807
+          ],
+          "source": "https://www.openstreetmap.org/node/4156725722",
+          "sourceId": "node/4156725722",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tlatelolco",
+          "coordinates": [
+            19.4549259,
+            -99.1432172
+          ],
+          "source": "https://www.openstreetmap.org/node/4156725737",
+          "sourceId": "node/4156725737",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tlatelolco",
+          "coordinates": [
+            19.4551887,
+            -99.1431694
+          ],
+          "source": "https://www.openstreetmap.org/node/4156725738",
+          "sourceId": "node/4156725738",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tlatelolco",
+          "coordinates": [
+            19.455014,
+            -99.1431694
+          ],
+          "source": "https://www.openstreetmap.org/node/5335704171",
+          "sourceId": "node/5335704171",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tlatelolco",
+          "coordinates": [
+            19.4513258,
+            -99.1325166
+          ],
+          "source": "https://www.openstreetmap.org/node/6426919635",
+          "sourceId": "node/6426919635",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tlatelolco",
+          "coordinates": [
+            20.6521322,
+            -100.3982865
+          ],
+          "source": "https://www.openstreetmap.org/node/9923594792",
+          "sourceId": "node/9923594792",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tlatelolco",
+          "coordinates": [
+            20.6521944,
+            -100.3987565
+          ],
+          "source": "https://www.openstreetmap.org/node/9925640246",
+          "sourceId": "node/9925640246",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tlatelolco",
+          "coordinates": [
+            19.4555435,
+            -99.1450479
+          ],
+          "source": "https://www.openstreetmap.org/node/11142725097",
+          "sourceId": "node/11142725097",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "8-Cuicuilco",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Cuicuilco",
+          "coordinates": [
+            18.8968435,
+            -99.1307446
+          ],
+          "source": "https://www.openstreetmap.org/way/545406412",
+          "sourceId": "way/545406412",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "8-Cerro de la Estrella",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Cerro de la Estrella",
+          "coordinates": [
+            19.3559895,
+            -99.0856882
+          ],
+          "source": "https://www.openstreetmap.org/node/554750099",
+          "sourceId": "node/554750099",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cerro de la Estrella",
+          "coordinates": [
+            19.3438439,
+            -99.0904569
+          ],
+          "source": "https://www.openstreetmap.org/node/2258147225",
+          "sourceId": "node/2258147225",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cerro de la Estrella",
+          "coordinates": [
+            19.3562424,
+            -99.0856724
+          ],
+          "source": "https://www.openstreetmap.org/node/4519278026",
+          "sourceId": "node/4519278026",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cerro de la Estrella",
+          "coordinates": [
+            19.3560441,
+            -99.0853548
+          ],
+          "source": "https://www.openstreetmap.org/node/4519278027",
+          "sourceId": "node/4519278027",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cerro de la Estrella",
+          "coordinates": [
+            19.3555675,
+            -99.0854092
+          ],
+          "source": "https://www.openstreetmap.org/node/4519278028",
+          "sourceId": "node/4519278028",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cerro de la Estrella",
+          "coordinates": [
+            19.3559184,
+            -99.0859601
+          ],
+          "source": "https://www.openstreetmap.org/node/4519278029",
+          "sourceId": "node/4519278029",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cerro de la Estrella",
+          "coordinates": [
+            19.3556647,
+            -99.0858187
+          ],
+          "source": "https://www.openstreetmap.org/node/5350160666",
+          "sourceId": "node/5350160666",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cerro de la Estrella",
+          "coordinates": [
+            19.3440819,
+            -99.0898275
+          ],
+          "source": "https://www.openstreetmap.org/way/43707642",
+          "sourceId": "way/43707642",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "8-Zona Arqueológica de Cuahilama",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "8-Los Reyes La Paz",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "8-Texcotzingo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "8-Tenayuca",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Tenayuca",
+          "coordinates": [
+            19.5286069,
+            -99.1700986
+          ],
+          "source": "https://www.openstreetmap.org/node/11142725079",
+          "sourceId": "node/11142725079",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tenayuca",
+          "coordinates": [
+            19.3725124,
+            -99.1595765
+          ],
+          "source": "https://www.openstreetmap.org/way/526404697",
+          "sourceId": "way/526404697",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Cerrada Tenayuca, 228, Ciudad de México",
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Tenayuca",
+          "coordinates": [
+            19.5646808,
+            -99.1675319
+          ],
+          "source": "https://www.openstreetmap.org/way/770432401",
+          "sourceId": "way/770432401",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Tenayuca",
+          "coordinates": [
+            19.564107,
+            -99.1666286
+          ],
+          "source": "https://www.openstreetmap.org/way/770432403",
+          "sourceId": "way/770432403",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Tenayuca",
+          "coordinates": [
+            19.564347,
+            -99.1683617
+          ],
+          "source": "https://www.openstreetmap.org/way/781955738",
+          "sourceId": "way/781955738",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Tenayuca",
+          "coordinates": [
+            19.5647039,
+            -99.1674169
+          ],
+          "source": "https://www.openstreetmap.org/way/894809151",
+          "sourceId": "way/894809151",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Tenayuca",
+          "coordinates": [
+            19.5286809,
+            -99.1700941
+          ],
+          "source": "https://www.openstreetmap.org/way/1202059154",
+          "sourceId": "way/1202059154",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "8-Zona Arqueológica de Tula",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Zona Arqueológica de Tula",
+          "coordinates": [
+            20.067449,
+            -99.33478
+          ],
+          "source": "https://www.openstreetmap.org/node/2229135433",
+          "sourceId": "node/2229135433",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Zona Arqueológica de Tula",
+          "coordinates": [
+            20.0659765,
+            -99.3417043
+          ],
+          "source": "https://www.openstreetmap.org/way/27120537",
+          "sourceId": "way/27120537",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "9-Trajineras de Xochimilco",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Visita a una chinampa",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Vuelo en globo sobre Teotihuacán",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Safari Reino Animal",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Acuario Michin",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Renta de lanchas",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Zoológico Los Coyotes",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Centro Nacional de las Artes",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Centro Nacional de las Artes",
+          "coordinates": [
+            19.3097397,
+            -99.1571048
+          ],
+          "source": "https://www.openstreetmap.org/way/673999889",
+          "sourceId": "way/673999889",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "9-Ballet Folklórico de México",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Mariachi en Plaza Garibaldi",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Paseo dominical en bicicleta",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Espacio Escultórico UNAM",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "9-Casa Gilardi",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "10-Casa de la Bola",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "10-Ex Convento del Desierto de los Leones",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "10-Jardín del Arte Sullivan",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "10-Claustro de Sor Juana",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "10-Puente de Panzacola",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "10-Parque Frida Kahlo",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Parque Frida Kahlo",
+          "coordinates": [
+            19.363469,
+            -98.9914724
+          ],
+          "source": "https://www.openstreetmap.org/way/544909671",
+          "sourceId": "way/544909671",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "10-Lavaderos de Huipulco",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "11-Antara Fashion Hall",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "11-Parque Duraznos",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Parque Duraznos",
+          "coordinates": [
+            19.4027412,
+            -99.2426246
+          ],
+          "source": "https://www.openstreetmap.org/node/11760952813",
+          "sourceId": "node/11760952813",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Parque Duraznos",
+          "coordinates": [
+            19.4088039,
+            -99.2394517
+          ],
+          "source": "https://www.openstreetmap.org/way/1043602035",
+          "sourceId": "way/1043602035",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "11-Perisur",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Perisur",
+          "coordinates": [
+            19.3040935,
+            -99.1861354
+          ],
+          "source": "https://www.openstreetmap.org/node/2898830544",
+          "sourceId": "node/2898830544",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Perisur",
+          "coordinates": [
+            19.3049116,
+            -99.1860303
+          ],
+          "source": "https://www.openstreetmap.org/node/12237124656",
+          "sourceId": "node/12237124656",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Perisur",
+          "coordinates": [
+            19.3038841,
+            -99.1904723
+          ],
+          "source": "https://www.openstreetmap.org/way/175323779",
+          "sourceId": "way/175323779",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Perisur",
+          "coordinates": [
+            19.3044552,
+            -99.1861783
+          ],
+          "source": "https://www.openstreetmap.org/way/1148128879",
+          "sourceId": "way/1148128879",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Perisur",
+          "coordinates": [
+            19.3048978,
+            -99.1859624
+          ],
+          "source": "https://www.openstreetmap.org/way/1550707450",
+          "sourceId": "way/1550707450",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "11-Oasis Coyoacán",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "11-Mundo E",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Mundo E",
+          "coordinates": [
+            19.5253221,
+            -99.2281814
+          ],
+          "source": "https://www.openstreetmap.org/node/4643537490",
+          "sourceId": "node/4643537490",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Mundo E",
+          "coordinates": [
+            19.5259713,
+            -99.2273838
+          ],
+          "source": "https://www.openstreetmap.org/node/5560910924",
+          "sourceId": "node/5560910924",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Mundo E",
+          "coordinates": [
+            19.5269671,
+            -99.2299818
+          ],
+          "source": "https://www.openstreetmap.org/way/220554961",
+          "sourceId": "way/220554961",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "11-Punto Vallejo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "12-San Juan Teotihuacán",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "12-Malinalco",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Malinalco",
+          "coordinates": [
+            18.9513994,
+            -99.4981656
+          ],
+          "source": "https://www.openstreetmap.org/node/8374664483",
+          "sourceId": "node/8374664483",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Malinalco",
+          "coordinates": [
+            18.9507047,
+            -99.4981796
+          ],
+          "source": "https://www.openstreetmap.org/way/125302370",
+          "sourceId": "way/125302370",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Malinalco",
+          "coordinates": [
+            18.9517094,
+            -99.4982912
+          ],
+          "source": "https://www.openstreetmap.org/way/125302375",
+          "sourceId": "way/125302375",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Malinalco",
+          "coordinates": [
+            18.9483042,
+            -99.4992134
+          ],
+          "source": "https://www.openstreetmap.org/way/391895349",
+          "sourceId": "way/391895349",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Malinalco",
+          "coordinates": [
+            18.8981274,
+            -99.1303408
+          ],
+          "source": "https://www.openstreetmap.org/way/545406423",
+          "sourceId": "way/545406423",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Malinalco",
+          "coordinates": [
+            18.9515735,
+            -99.4978845
+          ],
+          "source": "https://www.openstreetmap.org/way/1103698684",
+          "sourceId": "way/1103698684",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Tepotzotlán",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Tepotzotlán",
+          "coordinates": [
+            19.7173392,
+            -99.2230683
+          ],
+          "source": "https://www.openstreetmap.org/node/1722493883",
+          "sourceId": "node/1722493883",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tepotzotlan",
+          "coordinates": [
+            19.4217646,
+            -98.9841259
+          ],
+          "source": "https://www.openstreetmap.org/way/70953042",
+          "sourceId": "way/70953042",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Tepotzotlan",
+          "coordinates": [
+            19.7136799,
+            -99.2212342
+          ],
+          "source": "https://www.openstreetmap.org/way/561455953",
+          "sourceId": "way/561455953",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Tepotzotlán",
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Aculco",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Aculco",
+          "coordinates": [
+            19.3733127,
+            -99.1076646
+          ],
+          "source": "https://www.openstreetmap.org/node/555066702",
+          "sourceId": "node/555066702",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Aculco",
+          "coordinates": [
+            19.3748932,
+            -99.108036
+          ],
+          "source": "https://www.openstreetmap.org/node/8740459302",
+          "sourceId": "node/8740459302",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Aculco",
+          "coordinates": [
+            19.3746974,
+            -99.1078628
+          ],
+          "source": "https://www.openstreetmap.org/node/8740459303",
+          "sourceId": "node/8740459303",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Aculco",
+          "coordinates": [
+            19.3756638,
+            -99.1028823
+          ],
+          "source": "https://www.openstreetmap.org/node/11256431450",
+          "sourceId": "node/11256431450",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Aculco",
+          "coordinates": [
+            19.2890812,
+            -98.6731945
+          ],
+          "source": "https://www.openstreetmap.org/way/689552022",
+          "sourceId": "way/689552022",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Metepec",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Metepec",
+          "coordinates": [
+            20.2375,
+            -98.321389
+          ],
+          "source": "https://www.openstreetmap.org/node/459392006",
+          "sourceId": "node/459392006",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Metepec",
+          "coordinates": [
+            20.241389,
+            -98.330833
+          ],
+          "source": "https://www.openstreetmap.org/node/459393789",
+          "sourceId": "node/459393789",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Metepec",
+          "coordinates": [
+            18.9359757,
+            -98.472796
+          ],
+          "source": "https://www.openstreetmap.org/node/1824993254",
+          "sourceId": "node/1824993254",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Metepec",
+          "coordinates": [
+            19.2522748,
+            -99.6054837
+          ],
+          "source": "https://www.openstreetmap.org/node/2141796682",
+          "sourceId": "node/2141796682",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Metepec",
+          "coordinates": [
+            19.2514079,
+            -99.6058115
+          ],
+          "source": "https://www.openstreetmap.org/node/4226158221",
+          "sourceId": "node/4226158221",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Metepec",
+          "coordinates": [
+            19.2523933,
+            -99.6057602
+          ],
+          "source": "https://www.openstreetmap.org/node/4226158263",
+          "sourceId": "node/4226158263",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Metepec",
+          "coordinates": [
+            19.1286604,
+            -98.8557492
+          ],
+          "source": "https://www.openstreetmap.org/node/8684973704",
+          "sourceId": "node/8684973704",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Metepec",
+          "coordinates": [
+            18.8797454,
+            -98.7450844
+          ],
+          "source": "https://www.openstreetmap.org/node/9525810778",
+          "sourceId": "node/9525810778",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "12-Texcoco",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Texcoco",
+          "coordinates": [
+            19.4302276,
+            -99.1120562
+          ],
+          "source": "https://www.openstreetmap.org/node/11884101373",
+          "sourceId": "node/11884101373",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Texcoco",
+          "coordinates": [
+            19.5124725,
+            -98.8782502
+          ],
+          "source": "https://www.openstreetmap.org/node/13720870160",
+          "sourceId": "node/13720870160",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Texcoco",
+          "coordinates": [
+            19.5432435,
+            -98.8406092
+          ],
+          "source": "https://www.openstreetmap.org/way/107621341",
+          "sourceId": "way/107621341",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Texcoco",
+          "coordinates": [
+            19.4481252,
+            -99.0582107
+          ],
+          "source": "https://www.openstreetmap.org/way/135196367",
+          "sourceId": "way/135196367",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Texcoco",
+          "coordinates": [
+            19.3393291,
+            -98.8452429
+          ],
+          "source": "https://www.openstreetmap.org/way/168461603",
+          "sourceId": "way/168461603",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Texcoco",
+          "coordinates": [
+            19.3250293,
+            -98.9423483
+          ],
+          "source": "https://www.openstreetmap.org/way/772548724",
+          "sourceId": "way/772548724",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Real del Monte",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Real del Monte",
+          "coordinates": [
+            20.1384604,
+            -98.6733356
+          ],
+          "source": "https://www.openstreetmap.org/node/459392030",
+          "sourceId": "node/459392030",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Real del monte",
+          "coordinates": [
+            20.1403232,
+            -98.6723204
+          ],
+          "source": "https://www.openstreetmap.org/node/2414463928",
+          "sourceId": "node/2414463928",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Real del Monte",
+          "coordinates": [
+            20.1389123,
+            -98.6728856
+          ],
+          "source": "https://www.openstreetmap.org/node/5515349422",
+          "sourceId": "node/5515349422",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Real del Monte",
+          "coordinates": [
+            19.3627999,
+            -99.2143183
+          ],
+          "source": "https://www.openstreetmap.org/way/68487164",
+          "sourceId": "way/68487164",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Real del Monte",
+          "coordinates": [
+            20.5201768,
+            -100.3976329
+          ],
+          "source": "https://www.openstreetmap.org/way/298728885",
+          "sourceId": "way/298728885",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Real del Monte",
+          "coordinates": [
+            20.5198364,
+            -100.3944555
+          ],
+          "source": "https://www.openstreetmap.org/way/298728888",
+          "sourceId": "way/298728888",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Real del Monte",
+          "coordinates": [
+            20.519464,
+            -100.3949946
+          ],
+          "source": "https://www.openstreetmap.org/way/707833924",
+          "sourceId": "way/707833924",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Cuernavaca",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Cuernavaca",
+          "coordinates": [
+            18.9218274,
+            -99.2342282
+          ],
+          "source": "https://www.openstreetmap.org/node/59058448",
+          "sourceId": "node/59058448",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cuernavaca",
+          "coordinates": [
+            19.3833067,
+            -99.2160185
+          ],
+          "source": "https://www.openstreetmap.org/node/14293719575",
+          "sourceId": "node/14293719575",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cuernavaca",
+          "coordinates": [
+            19.3833538,
+            -99.2160132
+          ],
+          "source": "https://www.openstreetmap.org/node/14293739249",
+          "sourceId": "node/14293739249",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cuernavaca",
+          "coordinates": [
+            19.3832487,
+            -99.2160291
+          ],
+          "source": "https://www.openstreetmap.org/node/14293739250",
+          "sourceId": "node/14293739250",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cuernavaca",
+          "coordinates": [
+            18.9636445,
+            -99.2087543
+          ],
+          "source": "https://www.openstreetmap.org/way/154665144",
+          "sourceId": "way/154665144",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Cuernavaca",
+          "coordinates": [
+            18.81404,
+            -98.9587727
+          ],
+          "source": "https://www.openstreetmap.org/way/219155798",
+          "sourceId": "way/219155798",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Cuernavaca",
+          "coordinates": [
+            19.3842286,
+            -99.2155677
+          ],
+          "source": "https://www.openstreetmap.org/way/432635997",
+          "sourceId": "way/432635997",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Cuernavaca",
+          "coordinates": [
+            19.3857067,
+            -99.215866
+          ],
+          "source": "https://www.openstreetmap.org/way/433201966",
+          "sourceId": "way/433201966",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Tlayacapan",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Tlayacapan",
+          "coordinates": [
+            18.9566924,
+            -98.9860473
+          ],
+          "source": "https://www.openstreetmap.org/node/1735871693",
+          "sourceId": "node/1735871693",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Tlayacapan",
+          "coordinates": [
+            18.8871268,
+            -99.0720086
+          ],
+          "source": "https://www.openstreetmap.org/way/176335085",
+          "sourceId": "way/176335085",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Cholula",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Cholula",
+          "coordinates": [
+            20.743333,
+            -98.502222
+          ],
+          "source": "https://www.openstreetmap.org/node/459395487",
+          "sourceId": "node/459395487",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cholula",
+          "coordinates": [
+            19.0601272,
+            -98.3021211
+          ],
+          "source": "https://www.openstreetmap.org/node/4587705695",
+          "sourceId": "node/4587705695",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cholula",
+          "coordinates": [
+            19.0678244,
+            -98.3106315
+          ],
+          "source": "https://www.openstreetmap.org/node/11481189994",
+          "sourceId": "node/11481189994",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Cholula",
+          "coordinates": [
+            19.5910949,
+            -99.0330688
+          ],
+          "source": "https://www.openstreetmap.org/way/261973262",
+          "sourceId": "way/261973262",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Cholula",
+          "coordinates": [
+            19.5910949,
+            -99.0330688
+          ],
+          "source": "https://www.openstreetmap.org/way/679972024",
+          "sourceId": "way/679972024",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Puebla",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Puebla",
+          "coordinates": [
+            19.0437975,
+            -98.1981513
+          ],
+          "source": "https://www.openstreetmap.org/node/245792117",
+          "sourceId": "node/245792117",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Puebla",
+          "coordinates": [
+            19.407118,
+            -99.0818252
+          ],
+          "source": "https://www.openstreetmap.org/node/294027128",
+          "sourceId": "node/294027128",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Puebla",
+          "coordinates": [
+            18.833333,
+            -98.0
+          ],
+          "source": "https://www.openstreetmap.org/node/305626605",
+          "sourceId": "node/305626605",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Puebla",
+          "coordinates": [
+            19.0558459,
+            -98.2023154
+          ],
+          "source": "https://www.openstreetmap.org/node/5893099578",
+          "sourceId": "node/5893099578",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Puebla",
+          "coordinates": [
+            19.4074312,
+            -99.0823817
+          ],
+          "source": "https://www.openstreetmap.org/node/10243512473",
+          "sourceId": "node/10243512473",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Puebla",
+          "coordinates": [
+            19.406939,
+            -99.0823805
+          ],
+          "source": "https://www.openstreetmap.org/node/10269130055",
+          "sourceId": "node/10269130055",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Puebla",
+          "coordinates": [
+            19.4073104,
+            -99.0829459
+          ],
+          "source": "https://www.openstreetmap.org/node/13087078875",
+          "sourceId": "node/13087078875",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Puebla",
+          "coordinates": [
+            19.40722,
+            -99.0824754
+          ],
+          "source": "https://www.openstreetmap.org/node/13092458094",
+          "sourceId": "node/13092458094",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        }
+      ]
+    },
+    {
+      "id": "12-Peña de Bernal",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Peña de Bernal",
+          "coordinates": [
+            20.7496017,
+            -99.9458978
+          ],
+          "source": "https://www.openstreetmap.org/node/3222449139",
+          "sourceId": "node/3222449139",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Peña de Bernal",
+          "coordinates": [
+            20.7513571,
+            -99.9464472
+          ],
+          "source": "https://www.openstreetmap.org/way/1546626611",
+          "sourceId": "way/1546626611",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "12-Taxco",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Taxco",
+          "coordinates": [
+            18.5565446,
+            -99.6052838
+          ],
+          "source": "https://www.openstreetmap.org/node/273606737",
+          "sourceId": "node/273606737",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Taxco",
+          "coordinates": [
+            18.5674731,
+            -99.601867
+          ],
+          "source": "https://www.openstreetmap.org/node/334327283",
+          "sourceId": "node/334327283",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Taxco",
+          "coordinates": [
+            19.0612086,
+            -98.3057206
+          ],
+          "source": "https://www.openstreetmap.org/node/13544836040",
+          "sourceId": "node/13544836040",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Taxco",
+          "coordinates": [
+            18.9382547,
+            -99.497576
+          ],
+          "source": "https://www.openstreetmap.org/way/257558206",
+          "sourceId": "way/257558206",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "13-Nevado de Toluca",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Nevado de Toluca",
+          "coordinates": [
+            19.1018555,
+            -99.7676262
+          ],
+          "source": "https://www.openstreetmap.org/node/8895922655",
+          "sourceId": "node/8895922655",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Nevado de Toluca",
+          "coordinates": [
+            19.1079468,
+            -99.7554947
+          ],
+          "source": "https://www.openstreetmap.org/node/11462153993",
+          "sourceId": "node/11462153993",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Nevado de Toluca",
+          "coordinates": [
+            19.2705771,
+            -98.8213405
+          ],
+          "source": "https://www.openstreetmap.org/way/168356524",
+          "sourceId": "way/168356524",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        },
+        {
+          "name": "Nevado de Toluca",
+          "coordinates": [
+            19.5511714,
+            -99.2201257
+          ],
+          "source": "https://www.openstreetmap.org/way/780993179",
+          "sourceId": "way/780993179",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "13-Los Dinamos",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "13-Grutas de Tolantongo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "13-Parque Nacional El Chico",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Parque Nacional El Chico",
+          "coordinates": [
+            20.2051209,
+            -98.7433749
+          ],
+          "source": "https://www.openstreetmap.org/node/6896937785",
+          "sourceId": "node/6896937785",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Parque Nacional El Chico",
+          "coordinates": [
+            20.1956417,
+            -98.7425957
+          ],
+          "source": "https://www.openstreetmap.org/way/930571104",
+          "sourceId": "way/930571104",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "13-Parque Nacional Izta-Popo",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "13-Cascadas de Aculco",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "13-Cascada Velo de Novia",
+      "reason": "no exact name match within expected region",
+      "candidates": [
+        {
+          "name": "Cascada Velo de Novia",
+          "coordinates": [
+            20.824585,
+            -99.5248278
+          ],
+          "source": "https://www.openstreetmap.org/way/1070007884",
+          "sourceId": "way/1070007884",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "feature representative point"
+        }
+      ]
+    },
+    {
+      "id": "13-Santuario Piedra Herrada",
+      "reason": "no exact name match within expected region",
+      "candidates": []
+    },
+    {
+      "id": "13-Grutas de Cacahuamilpa",
+      "reason": "ambiguous or conflicting candidates",
+      "candidates": [
+        {
+          "name": "Grutas de Cacahuamilpa",
+          "coordinates": [
+            18.6689264,
+            -99.5107657
+          ],
+          "source": "https://www.openstreetmap.org/node/2631786906",
+          "sourceId": "node/2631786906",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Grutas de Cacahuamilpa",
+          "coordinates": [
+            18.6689254,
+            -99.5107285
+          ],
+          "source": "https://www.openstreetmap.org/node/2631792008",
+          "sourceId": "node/2631792008",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": null,
+          "precision": "point"
+        },
+        {
+          "name": "Grutas de Cacahuamilpa",
+          "coordinates": [
+            18.6697144,
+            -99.5080638
+          ],
+          "source": "https://www.openstreetmap.org/way/257700897",
+          "sourceId": "way/257700897",
+          "provider": "OpenStreetMap / Geofabrik",
+          "address": "Domicilio Conocido, Pilcaya",
+          "precision": "feature representative point"
+        }
+      ]
+    }
+  ],
+  "existingConflicts": []
+}

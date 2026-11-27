@@ -389,7 +389,20 @@
       "name": "Museo de Arte Moderno",
       "z": "Chapultepec",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4226479,
+          -99.1789045
+        ],
+        "source": "https://www.openstreetmap.org/way/370526901",
+        "sourceId": "way/370526901",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Paseo de la Reforma, Mexico City",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Museo de Arte Moderno",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Papalote Museo del Niño",
@@ -492,7 +505,20 @@
       "name": "Museo Mural Diego Rivera",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4362631,
+          -99.1466001
+        ],
+        "source": "https://www.openstreetmap.org/way/217480502",
+        "sourceId": "way/217480502",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Museo Mural Diego Rivera",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo del Templo Mayor",
@@ -535,14 +561,40 @@
       "name": "Museo del Tequila y el Mezcal",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4408643,
+          -99.1396138
+        ],
+        "source": "https://www.openstreetmap.org/way/217322480",
+        "sourceId": "way/217322480",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Peatonal Plaza Garibaldi",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Museo del Tequila y el Mezcal",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo Kaluz",
       "name": "Museo Kaluz",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4376069,
+          -99.1457344
+        ],
+        "source": "https://www.openstreetmap.org/node/10297418151",
+        "sourceId": "node/10297418151",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida Hidalgo, 85, Ciudad de México",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Museo Kaluz",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo Banco de México",
@@ -563,28 +615,80 @@
       "name": "Museo Vivo del Muralismo",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4370027,
+          -99.1316198
+        ],
+        "source": "https://www.openstreetmap.org/node/13538873814",
+        "sourceId": "node/13538873814",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle República de Argentina, 28, Ciudad de México",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Museo Vivo del Muralismo",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo Nacional de San Carlos",
       "name": "Museo Nacional de San Carlos",
       "z": "Tabacalera",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4381341,
+          -99.1520074
+        ],
+        "source": "https://www.openstreetmap.org/node/12682671498",
+        "sourceId": "node/12682671498",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida México-Tenochtitlan, 50",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Museo Nacional de San Carlos",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo del Chocolate (MUCHO)",
       "name": "Museo del Chocolate (MUCHO)",
       "z": "Juárez",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4294752,
+          -99.1572086
+        ],
+        "source": "https://www.openstreetmap.org/way/1228776309",
+        "sourceId": "way/1228776309",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Milán, 45, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Museo del Chocolate",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo de Cera",
       "name": "Museo de Cera",
       "z": "Juárez",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4284063,
+          -99.1571352
+        ],
+        "source": "https://www.openstreetmap.org/way/1229209862",
+        "sourceId": "way/1229209862",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Londres, 6, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Museo de Cera",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo Ripley",
@@ -598,7 +702,20 @@
       "name": "Universum",
       "z": "UNAM",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.311543,
+          -99.1821494
+        ],
+        "source": "https://www.openstreetmap.org/node/4908534570",
+        "sourceId": "node/4908534570",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Universum",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo Universitario Arte Contemporáneo",
@@ -642,14 +759,40 @@
       "name": "Museo Casa de León Trotsky",
       "z": "Coyoacán",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3577143,
+          -99.1594632
+        ],
+        "source": "https://www.openstreetmap.org/way/619169949",
+        "sourceId": "way/619169949",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida Río Churubusco, 45, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Museo Casa de León Trotsky",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo Nacional de Culturas Populares",
       "name": "Museo Nacional de Culturas Populares",
       "z": "Coyoacán",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.349879,
+          -99.160934
+        ],
+        "source": "https://www.openstreetmap.org/way/223637369",
+        "sourceId": "way/223637369",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Museo Nacional de Culturas Populares",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Museo del Automóvil",
@@ -698,7 +841,20 @@
       "name": "Museo del Juguete Antiguo México",
       "z": "Doctores",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4153733,
+          -99.144101
+        ],
+        "source": "https://www.openstreetmap.org/node/1917433976",
+        "sourceId": "node/1917433976",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Doctor Olvera, 15",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Museo del Juguete Antiguo México",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "0-Axolotitlán",
@@ -726,7 +882,20 @@
       "name": "Parque La Mexicana",
       "z": "SantaFe",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3564197,
+          -99.2705736
+        ],
+        "source": "https://www.openstreetmap.org/way/607127540",
+        "sourceId": "way/607127540",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida Luis Barragán, 505, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Parque La Mexicana",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Parque Quetzalcóatl",
@@ -770,7 +939,20 @@
       "name": "Desierto de los Leones",
       "z": "Cuajimalpa",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3272707,
+          -99.2692772
+        ],
+        "source": "https://www.openstreetmap.org/node/14356968825",
+        "sourceId": "node/14356968825",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Desierto de los Leones",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Parque México",
@@ -837,21 +1019,60 @@
       "name": "Alameda de Santa María la Ribera",
       "z": "SantaMaría",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4492209,
+          -99.1562629
+        ],
+        "source": "https://www.openstreetmap.org/way/1429392467",
+        "sourceId": "way/1429392467",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Alameda de Santa Maria La Ribera",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Parque Bicentenario",
       "name": "Parque Bicentenario",
       "z": "Azcapotzalco",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4696995,
+          -99.1976862
+        ],
+        "source": "https://www.openstreetmap.org/way/186399291",
+        "sourceId": "way/186399291",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida 5 de Mayo, 290, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Parque Bicentenario",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Parque Tezozómoc",
       "name": "Parque Tezozómoc",
       "z": "Azcapotzalco",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4969552,
+          -99.2082056
+        ],
+        "source": "https://www.openstreetmap.org/way/34408111",
+        "sourceId": "way/34408111",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Parque Tezozómoc",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Parque Hundido",
@@ -879,21 +1100,60 @@
       "name": "Parque Masayoshi Ohira",
       "z": "Coyoacán",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3529529,
+          -99.1426686
+        ],
+        "source": "https://www.openstreetmap.org/way/31778668",
+        "sourceId": "way/31778668",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Parque Masayoshi Ohira",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Fuentes Brotantes",
       "name": "Fuentes Brotantes",
       "z": "Tlalpan",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.2883321,
+          -99.1745069
+        ],
+        "source": "https://www.openstreetmap.org/way/1148338433",
+        "sourceId": "way/1148338433",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Fuentes Brotantes",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Bosque de Tlalpan",
       "name": "Bosque de Tlalpan",
       "z": "Tlalpan",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.2880784,
+          -99.2080724
+        ],
+        "source": "https://www.openstreetmap.org/node/4293344991",
+        "sourceId": "node/4293344991",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Bosque de Tlalpan",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Jardín Botánico de la UNAM",
@@ -914,7 +1174,20 @@
       "name": "Parque Ecológico de Cuemanco",
       "z": "Xochimilco",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.2995068,
+          -99.0946864
+        ],
+        "source": "https://www.openstreetmap.org/way/52903013",
+        "sourceId": "way/52903013",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Parque Ecológico de Cuemanco",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "1-Los Dinamos",
@@ -949,7 +1222,20 @@
       "name": "Barrio de Santa Catarina",
       "z": "Coyoacán",
       "c": 2,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.350132,
+          -99.1746519
+        ],
+        "source": "https://www.openstreetmap.org/node/5035854093",
+        "sourceId": "node/5035854093",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Barrio de Santa Catarina",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "2-San Ángel",
@@ -963,21 +1249,60 @@
       "name": "Plaza San Jacinto",
       "z": "SanÁngel",
       "c": 2,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3512119,
+          -99.1481991
+        ],
+        "source": "https://www.openstreetmap.org/node/7392879374",
+        "sourceId": "node/7392879374",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Plaza San Jacinto",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "2-Plaza del Carmen",
       "name": "Plaza del Carmen",
       "z": "SanÁngel",
       "c": 2,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3460257,
+          -99.1904913
+        ],
+        "source": "https://www.openstreetmap.org/way/28932622",
+        "sourceId": "way/28932622",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Plaza del Carmen",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "2-Chimalistac",
       "name": "Chimalistac",
       "z": "SanÁngel",
       "c": 2,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3471209,
+          -99.1838719
+        ],
+        "source": "https://www.openstreetmap.org/node/11258691915",
+        "sourceId": "node/11258691915",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Chimalistac",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "2-Avenida Ámsterdam",
@@ -1019,7 +1344,20 @@
       "name": "Calle Donceles",
       "z": "Centro",
       "c": 2,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4362601,
+          -99.1358191
+        ],
+        "source": "https://www.openstreetmap.org/way/24850149",
+        "sourceId": "way/24850149",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Calle Donceles",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "2-Calle Tacuba",
@@ -1054,14 +1392,40 @@
       "name": "Plaza Río de Janeiro",
       "z": "Roma",
       "c": 2,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4217491,
+          -99.1601318
+        ],
+        "source": "https://www.openstreetmap.org/way/30160210",
+        "sourceId": "way/30160210",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Plaza Río de Janeiro",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "2-Plaza Luis Cabrera",
       "name": "Plaza Luis Cabrera",
       "z": "Roma",
       "c": 2,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4162528,
+          -99.1594964
+        ],
+        "source": "https://www.openstreetmap.org/way/24690030",
+        "sourceId": "way/24690030",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Plaza Luis Cabrera",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "2-La Romita",
@@ -1082,7 +1446,20 @@
       "name": "Kiosco Morisco",
       "z": "SantaMaría",
       "c": 2,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4495682,
+          -99.15691
+        ],
+        "source": "https://www.openstreetmap.org/way/491159204",
+        "sourceId": "way/491159204",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Kiosco morisco",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "2-Centro de Tlalpan",
@@ -1110,7 +1487,20 @@
       "name": "Mercado de Jamaica",
       "z": "Venustiano",
       "c": 3,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4085623,
+          -99.1229136
+        ],
+        "source": "https://www.openstreetmap.org/node/1383390222",
+        "sourceId": "node/1383390222",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Mercado de Jamaica",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "3-Mercado de la Merced",
@@ -1124,7 +1514,20 @@
       "name": "Mercado de Sonora",
       "z": "Venustiano",
       "c": 3,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4215498,
+          -99.1248239
+        ],
+        "source": "https://www.openstreetmap.org/way/1163990587",
+        "sourceId": "way/1163990587",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Sur 79",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Mercado de Sonora",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "3-La Ciudadela",
@@ -1173,7 +1576,20 @@
       "name": "Mercado de Coyoacán",
       "z": "Coyoacán",
       "c": 3,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3530664,
+          -99.1620361
+        ],
+        "source": "https://www.openstreetmap.org/way/96972452",
+        "sourceId": "way/96972452",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Ignacio Allende",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Mercado de Coyoacán",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "3-Mercado de Artesanías de Coyoacán",
@@ -1187,14 +1603,40 @@
       "name": "Mercado de Medellín",
       "z": "Roma",
       "c": 3,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.410549,
+          -99.1630604
+        ],
+        "source": "https://www.openstreetmap.org/way/371523099",
+        "sourceId": "way/371523099",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Mercado de Medellín",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "3-Mercado Roma",
       "name": "Mercado Roma",
       "z": "Roma",
       "c": 3,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4141237,
+          -99.1645912
+        ],
+        "source": "https://www.openstreetmap.org/node/3454364869",
+        "sourceId": "node/3454364869",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida Querétaro, 225",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Mercado Roma",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "3-Mercado de San Pedro de los Pinos",
@@ -1208,7 +1650,20 @@
       "name": "Mercado de Portales",
       "z": "BenitoJuárez",
       "c": 3,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3721652,
+          -99.1436593
+        ],
+        "source": "https://www.openstreetmap.org/way/676445816",
+        "sourceId": "way/676445816",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Mercado de Portales",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "3-Mercado de Mixcoac",
@@ -1265,7 +1720,20 @@
       "name": "Café La Habana",
       "z": "Juárez",
       "c": 4,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4323752,
+          -99.1512446
+        ],
+        "source": "https://www.openstreetmap.org/way/1223699950",
+        "sourceId": "way/1223699950",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida Morelos, 62, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Café La Habana",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "4-Panadería Rosetta",
@@ -1279,7 +1747,20 @@
       "name": "Quentin Café",
       "z": "Roma",
       "c": 4,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4184985,
+          -99.1575887
+        ],
+        "source": "https://www.openstreetmap.org/node/6281751989",
+        "sourceId": "node/6281751989",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida Álvaro Obregón, 64",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Quentin Cafe",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "4-Buna",
@@ -1300,7 +1781,20 @@
       "name": "Café Avellaneda",
       "z": "Coyoacán",
       "c": 4,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3482498,
+          -99.1606896
+        ],
+        "source": "https://www.openstreetmap.org/node/4348835091",
+        "sourceId": "node/4348835091",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Higuera, 40",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Café Avellaneda",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "4-Café El Jarocho",
@@ -1314,7 +1808,20 @@
       "name": "Café Negro",
       "z": "Coyoacán",
       "c": 4,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.350023,
+          -99.1641816
+        ],
+        "source": "https://www.openstreetmap.org/way/1373906241",
+        "sourceId": "way/1373906241",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Café Negro",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "4-Blend Station",
@@ -1349,7 +1856,20 @@
       "name": "Café Passmar",
       "z": "DelValle",
       "c": 4,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3958304,
+          -99.1663449
+        ],
+        "source": "https://www.openstreetmap.org/node/3445441092",
+        "sourceId": "node/3445441092",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Local 237",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Café Passmar",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "4-Café Emir",
@@ -1391,14 +1911,40 @@
       "name": "Azul Histórico",
       "z": "Centro",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4328886,
+          -99.136196
+        ],
+        "source": "https://www.openstreetmap.org/node/4524776489",
+        "sourceId": "node/4524776489",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Azul Histórico",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Café de Tacuba",
       "name": "Café de Tacuba",
       "z": "Centro",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4357184,
+          -99.1376076
+        ],
+        "source": "https://www.openstreetmap.org/node/4181864727",
+        "sourceId": "node/4181864727",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Tacuba, 28, Centro",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Café de Tacuba",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Hostería de Santo Domingo",
@@ -1412,7 +1958,20 @@
       "name": "Danubio",
       "z": "Centro",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4310615,
+          -99.1410121
+        ],
+        "source": "https://www.openstreetmap.org/node/10746765545",
+        "sourceId": "node/10746765545",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle República de Uruguay, 3",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Danubio",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-La Casa de Toño",
@@ -1426,7 +1985,20 @@
       "name": "Los Cocuyos",
       "z": "Centro",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.430414,
+          -99.1387269
+        ],
+        "source": "https://www.openstreetmap.org/node/4278397689",
+        "sourceId": "node/4278397689",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Bolivar, 54-56, Ciudad de México",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Los Cocuyos",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-El Huequito",
@@ -1454,7 +2026,20 @@
       "name": "La Gruta",
       "z": "Teotihuacán",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.6889105,
+          -98.8397094
+        ],
+        "source": "https://www.openstreetmap.org/node/2976547625",
+        "sourceId": "node/2976547625",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "La Gruta",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Nicos",
@@ -1468,21 +2053,60 @@
       "name": "Contramar",
       "z": "Roma",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.419611,
+          -99.1672259
+        ],
+        "source": "https://www.openstreetmap.org/node/4630628889",
+        "sourceId": "node/4630628889",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Durango, 200, Ciudad de México",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Contramar",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Rosetta",
       "name": "Rosetta",
       "z": "Roma",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4198209,
+          -99.1597047
+        ],
+        "source": "https://www.openstreetmap.org/node/4370393693",
+        "sourceId": "node/4370393693",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Colima, 166, Ciudad de México",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Rosetta",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Máximo",
       "name": "Máximo",
       "z": "Roma",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4152122,
+          -99.1620056
+        ],
+        "source": "https://www.openstreetmap.org/node/6832824485",
+        "sourceId": "node/6832824485",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Maximo",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Expendio de Maíz",
@@ -1496,14 +2120,40 @@
       "name": "El Hidalguense",
       "z": "Roma",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4098165,
+          -99.1652105
+        ],
+        "source": "https://www.openstreetmap.org/node/4278574691",
+        "sourceId": "node/4278574691",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Campeche, 155, Ciudad de México",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "El Hidalguense",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Mi Compa Chava",
       "name": "Mi Compa Chava",
       "z": "Roma",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4152137,
+          -99.1621552
+        ],
+        "source": "https://www.openstreetmap.org/node/12758161303",
+        "sourceId": "node/12758161303",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Mi Compa Chava",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Pujol",
@@ -1517,14 +2167,40 @@
       "name": "Quintonil",
       "z": "Polanco",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4308184,
+          -99.1918345
+        ],
+        "source": "https://www.openstreetmap.org/node/5431225256",
+        "sourceId": "node/5431225256",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Newton, 55, Ciudad de México",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Quintonil",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Hacienda de los Morales",
       "name": "Hacienda de los Morales",
       "z": "Polanco",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4340262,
+          -99.2094876
+        ],
+        "source": "https://www.openstreetmap.org/way/362820180",
+        "sourceId": "way/362820180",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Hacienda de los Morales",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Los Panchos",
@@ -1545,14 +2221,40 @@
       "name": "Sud 777",
       "z": "Pedregal",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3087582,
+          -99.2091064
+        ],
+        "source": "https://www.openstreetmap.org/node/11721830152",
+        "sourceId": "node/11721830152",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Sud 777",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Los Danzantes",
       "name": "Los Danzantes",
       "z": "Coyoacán",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3488715,
+          -99.1636866
+        ],
+        "source": "https://www.openstreetmap.org/node/2563111223",
+        "sourceId": "node/2563111223",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Plaza Jardín Centenario, 12, Ciudad de México",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Los Danzantes",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-Antigua Hacienda de Tlalpan",
@@ -1573,7 +2275,20 @@
       "name": "El Vilsito",
       "z": "BenitoJuárez",
       "c": 5,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3893077,
+          -99.1527567
+        ],
+        "source": "https://www.openstreetmap.org/node/5010308177",
+        "sourceId": "node/5010308177",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "El Vilsito",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "5-El Califa de León",
@@ -1601,7 +2316,20 @@
       "name": "Finca Don Porfirio",
       "z": "Centro",
       "c": 6,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4340865,
+          -99.1412926
+        ],
+        "source": "https://www.openstreetmap.org/node/4616078990",
+        "sourceId": "node/4616078990",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida Juárez, 14",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Finca Don Porfirio",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "6-Balcón del Zócalo",
@@ -1645,7 +2373,20 @@
       "name": "Terraza Cha Cha Chá",
       "z": "Tabacalera",
       "c": 6,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4361447,
+          -99.1526967
+        ],
+        "source": "https://www.openstreetmap.org/node/6786946385",
+        "sourceId": "node/6786946385",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida de la República, 157",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Terraza Cha Cha Chá",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "6-Cityzen Rooftop",
@@ -1673,7 +2414,20 @@
       "name": "Cablebús Línea 3",
       "z": "Chapultepec",
       "c": 6,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3996162,
+          -99.2132391
+        ],
+        "source": "https://www.openstreetmap.org/way/1185737684",
+        "sourceId": "way/1185737684",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Cablebús Línea 3",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "6-Cablebús Línea 2",
@@ -1724,14 +2478,40 @@
       "name": "Gran Hotel Ciudad de México",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4322694,
+          -99.13468
+        ],
+        "source": "https://www.openstreetmap.org/node/13851250883",
+        "sourceId": "node/13851250883",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida 16 de Septiembre, 82",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Gran Hotel Ciudad de México",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "7-Casa de los Azulejos",
       "name": "Casa de los Azulejos",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4342545,
+          -99.1403016
+        ],
+        "source": "https://www.openstreetmap.org/node/6081141104",
+        "sourceId": "node/6081141104",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Callejón Condesa, 4",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Casa de los Azulejos",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "7-Catedral Metropolitana",
@@ -1775,7 +2555,20 @@
       "name": "Antiguo Colegio de San Ildefonso",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4366557,
+          -99.1282994
+        ],
+        "source": "https://www.openstreetmap.org/way/1422168989",
+        "sourceId": "way/1422168989",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle San Ildefonso, 60",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Antiguo Colegio de San Ildefonso",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "7-Palacio de Minería",
@@ -1789,7 +2582,20 @@
       "name": "Palacio de Iturbide",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4337982,
+          -99.139013
+        ],
+        "source": "https://www.openstreetmap.org/way/158032454",
+        "sourceId": "way/158032454",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Palacio de Iturbide",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "7-Casa de la Primera Imprenta",
@@ -1810,7 +2616,20 @@
       "name": "Biblioteca Miguel Lerdo de Tejada",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4294761,
+          -99.1375658
+        ],
+        "source": "https://www.openstreetmap.org/node/8207772517",
+        "sourceId": "node/8207772517",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Biblioteca Miguel Lerdo de Tejada",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "7-Palacio de la Escuela de Medicina",
@@ -1824,21 +2643,60 @@
       "name": "Hemiciclo a Juárez",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4350819,
+          -99.1441091
+        ],
+        "source": "https://www.openstreetmap.org/way/992941278",
+        "sourceId": "way/992941278",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Hemiciclo a Juárez",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "7-Biblioteca Vasconcelos",
       "name": "Biblioteca Vasconcelos",
       "z": "SantaMaría",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4469771,
+          -99.15098
+        ],
+        "source": "https://www.openstreetmap.org/way/153883455",
+        "sourceId": "way/153883455",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Mosqueta, s/n",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Biblioteca Vasconcelos",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "7-Ángel de la Independencia",
       "name": "Ángel de la Independencia",
       "z": "Reforma",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4270032,
+          -99.1676682
+        ],
+        "source": "https://www.openstreetmap.org/node/11875045317",
+        "sourceId": "node/11875045317",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Ángel de la Independencia",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "7-Monumento a la Revolución",
@@ -1902,7 +2760,20 @@
       "name": "Zona Arqueológica de Malinalco",
       "z": "Malinalco",
       "c": 8,
-      "location": null
+      "location": {
+        "coordinates": [
+          18.9536445,
+          -99.5030545
+        ],
+        "source": "https://www.openstreetmap.org/way/26619694",
+        "sourceId": "way/26619694",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Zona Arqueológica de Malinalco",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "8-Cerro de la Estrella",
@@ -1916,7 +2787,20 @@
       "name": "Zona Arqueológica de Mixcoac",
       "z": "Mixcoac",
       "c": 8,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3861143,
+          -99.1901935
+        ],
+        "source": "https://www.openstreetmap.org/way/372484654",
+        "sourceId": "way/372484654",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Zona arqueológica de Mixcoac",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "8-Zona Arqueológica de Cuahilama",
@@ -1986,7 +2870,20 @@
       "name": "Arena México",
       "z": "Doctores",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4242842,
+          -99.1518409
+        ],
+        "source": "https://www.openstreetmap.org/way/262616503",
+        "sourceId": "way/262616503",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Arena México",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Acuario Inbursa",
@@ -2015,28 +2912,80 @@
       "name": "Zoológico de San Juan de Aragón",
       "z": "GAM",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4609123,
+          -99.0808848
+        ],
+        "source": "https://www.openstreetmap.org/way/105572810",
+        "sourceId": "way/105572810",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida José Loreto Fabela, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Zoológico de San Juan de Aragón",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Planetario Luis Enrique Erro",
       "name": "Planetario Luis Enrique Erro",
       "z": "GAM",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4967591,
+          -99.1399278
+        ],
+        "source": "https://www.openstreetmap.org/way/293807823",
+        "sourceId": "way/293807823",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Planetario \"Luis Enrique Erro\"",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Zoológico de Chapultepec",
       "name": "Zoológico de Chapultepec",
       "z": "Chapultepec",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4215062,
+          -99.1899804
+        ],
+        "source": "https://www.openstreetmap.org/way/189976015",
+        "sourceId": "way/189976015",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Zoológico de Chapultepec",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Aztlán Parque Urbano",
       "name": "Aztlán Parque Urbano",
       "z": "Chapultepec",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4162408,
+          -99.1964309
+        ],
+        "source": "https://www.openstreetmap.org/way/154596800",
+        "sourceId": "way/154596800",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida de los Compositores, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Aztlán Parque Urbano",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Renta de lanchas",
@@ -2057,21 +3006,60 @@
       "name": "Cineteca Nacional",
       "z": "Coyoacán",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3611472,
+          -99.1646104
+        ],
+        "source": "https://www.openstreetmap.org/node/1156051110",
+        "sourceId": "node/1156051110",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "México Coyoacán, 389",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Cineteca Nacional",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Six Flags México",
       "name": "Six Flags México",
       "z": "Tlalpan",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.2961774,
+          -99.2098678
+        ],
+        "source": "https://www.openstreetmap.org/way/25103113",
+        "sourceId": "way/25103113",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Boulevard Picacho Ajusco, Km. 1.5",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Six Flags Mexico",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Cineteca Nacional de las Artes",
       "name": "Cineteca Nacional de las Artes",
       "z": "Churubusco",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3559126,
+          -99.1352824
+        ],
+        "source": "https://www.openstreetmap.org/way/161939754",
+        "sourceId": "way/161939754",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida Río Churubusco",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Cineteca Nacional de las Artes",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Centro Nacional de las Artes",
@@ -2085,7 +3073,20 @@
       "name": "Teatro de la Ciudad Esperanza Iris",
       "z": "Centro",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4368948,
+          -99.137212
+        ],
+        "source": "https://www.openstreetmap.org/way/217321083",
+        "sourceId": "way/217321083",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Donceles, 36, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Teatro de la Ciudad Esperanza Iris",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Ballet Folklórico de México",
@@ -2127,14 +3128,40 @@
       "name": "Casa Estudio Luis Barragán",
       "z": "Tacubaya",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4110871,
+          -99.1924909
+        ],
+        "source": "https://www.openstreetmap.org/way/199693850",
+        "sourceId": "way/199693850",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle General Francisco Ramírez, 14",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Casa Estudio Luis Barragán",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "9-Frontón México",
       "name": "Frontón México",
       "z": "Tabacalera",
       "c": 9,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4367917,
+          -99.1536143
+        ],
+        "source": "https://www.openstreetmap.org/way/217483564",
+        "sourceId": "way/217483564",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Avenida de la República, 17, Ciudad de México",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Frontón México",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "10-Nido de Quetzalcóatl",
@@ -2156,14 +3183,40 @@
       "name": "LagoAlgo",
       "z": "Chapultepec",
       "c": 10,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4171427,
+          -99.1997732
+        ],
+        "source": "https://www.openstreetmap.org/node/11839449764",
+        "sourceId": "node/11839449764",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "LagoAlgo",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "10-Casa del Lago UNAM",
       "name": "Casa del Lago UNAM",
       "z": "Chapultepec",
       "c": 10,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4224265,
+          -99.1857979
+        ],
+        "source": "https://www.openstreetmap.org/way/176478621",
+        "sourceId": "way/176478621",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Casa del Lago UNAM",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "10-Casa de la Bola",
@@ -2198,14 +3251,40 @@
       "name": "Casa Rivas Mercado",
       "z": "Centro",
       "c": 10,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4408082,
+          -99.146554
+        ],
+        "source": "https://www.openstreetmap.org/way/1339298777",
+        "sourceId": "way/1339298777",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Casa Rivas Mercado",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "10-Capilla de la Conchita",
       "name": "Capilla de la Conchita",
       "z": "Coyoacán",
       "c": 10,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3470242,
+          -99.1588934
+        ],
+        "source": "https://www.openstreetmap.org/way/1187948151",
+        "sourceId": "way/1187948151",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Capilla de la Conchita",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "10-Puente de Panzacola",
@@ -2219,14 +3298,40 @@
       "name": "Centro Cultural Elena Garro",
       "z": "Coyoacán",
       "c": 10,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3485618,
+          -99.1585324
+        ],
+        "source": "https://www.openstreetmap.org/node/4269909537",
+        "sourceId": "node/4269909537",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Calle Fernández Leal, 43, La Concepción",
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Centro Cultural Elena Garro",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "10-Fonoteca Nacional",
       "name": "Fonoteca Nacional",
       "z": "Coyoacán",
       "c": 10,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.349775,
+          -99.177135
+        ],
+        "source": "https://www.openstreetmap.org/way/249747731",
+        "sourceId": "way/249747731",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Francisco Sosa, 383, México D.F.",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Fonoteca Nacional",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "10-Parque Frida Kahlo",
@@ -2240,7 +3345,20 @@
       "name": "Casa del Risco",
       "z": "SanÁngel",
       "c": 10,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3452339,
+          -99.192574
+        ],
+        "source": "https://www.openstreetmap.org/way/1189921791",
+        "sourceId": "way/1189921791",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": "Plaza de San Jacinto, 5, San Angel, México City",
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Casa del Risco",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "10-Lavaderos de Huipulco",
@@ -2261,21 +3379,60 @@
       "name": "Plaza Carso",
       "z": "Polanco",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4408124,
+          -99.2036935
+        ],
+        "source": "https://www.openstreetmap.org/way/697923500",
+        "sourceId": "way/697923500",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Plaza Carso",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "11-Artz Pedregal",
       "name": "Artz Pedregal",
       "z": "Pedregal",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3145093,
+          -99.2189931
+        ],
+        "source": "https://www.openstreetmap.org/way/464256328",
+        "sourceId": "way/464256328",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Artz Pedregal",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "11-Centro Santa Fe",
       "name": "Centro Santa Fe",
       "z": "SantaFe",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3616406,
+          -99.2746279
+        ],
+        "source": "https://www.openstreetmap.org/way/30291947",
+        "sourceId": "way/30291947",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Centro Santa Fe",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "11-Parque Duraznos",
@@ -2289,7 +3446,20 @@
       "name": "Mítikah",
       "z": "Coyoacán",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.3572846,
+          -99.1722666
+        ],
+        "source": "https://www.openstreetmap.org/way/1365350893",
+        "sourceId": "way/1365350893",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Mitikah",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "11-Perisur",
@@ -2310,7 +3480,20 @@
       "name": "Reforma 222",
       "z": "Reforma",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4287842,
+          -99.1621947
+        ],
+        "source": "https://www.openstreetmap.org/way/1253359525",
+        "sourceId": "way/1253359525",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Reforma 222",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "11-Plaza Satélite",
@@ -2361,14 +3544,40 @@
       "name": "Plaza de la Tecnología",
       "z": "Centro",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4305732,
+          -99.1409763
+        ],
+        "source": "https://www.openstreetmap.org/way/1421923308",
+        "sourceId": "way/1421923308",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Plaza de la Tecnología",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "11-Barrio Alameda",
       "name": "Barrio Alameda",
       "z": "Centro",
       "c": 11,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4362605,
+          -99.1462619
+        ],
+        "source": "https://www.openstreetmap.org/node/9834800617",
+        "sourceId": "node/9834800617",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Barrio Alameda",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "12-San Juan Teotihuacán",
@@ -2382,14 +3591,40 @@
       "name": "Tepoztlán",
       "z": "Tepoztlán",
       "c": 12,
-      "location": null
+      "location": {
+        "coordinates": [
+          18.9861456,
+          -99.0997958
+        ],
+        "source": "https://www.openstreetmap.org/node/4562470897",
+        "sourceId": "node/4562470897",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Tepoztlán",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "12-Valle de Bravo",
       "name": "Valle de Bravo",
       "z": "ValleDeBravo",
       "c": 12,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.1942638,
+          -100.1316629
+        ],
+        "source": "https://www.openstreetmap.org/node/273608461",
+        "sourceId": "node/273608461",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Valle de Bravo",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "12-Malinalco",
@@ -2410,7 +3645,20 @@
       "name": "Villa del Carbón",
       "z": "VillaDelCarbón",
       "c": 12,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.7279096,
+          -99.4631196
+        ],
+        "source": "https://www.openstreetmap.org/node/10900967466",
+        "sourceId": "node/10900967466",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Villa del Carbón",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "12-Aculco",
@@ -2424,7 +3672,20 @@
       "name": "El Oro",
       "z": "ElOro",
       "c": 12,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.8004734,
+          -100.1299496
+        ],
+        "source": "https://www.openstreetmap.org/node/1922208403",
+        "sourceId": "node/1922208403",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "El Oro",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "12-Metepec",
@@ -2445,14 +3706,40 @@
       "name": "Amecameca",
       "z": "Amecameca",
       "c": 12,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.1249264,
+          -98.7664606
+        ],
+        "source": "https://www.openstreetmap.org/node/444566990",
+        "sourceId": "node/444566990",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Amecameca",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "12-Huasca de Ocampo",
       "name": "Huasca de Ocampo",
       "z": "Huasca",
       "c": 12,
-      "location": null
+      "location": {
+        "coordinates": [
+          20.202778,
+          -98.575833
+        ],
+        "source": "https://www.openstreetmap.org/node/459393086",
+        "sourceId": "node/459393086",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Huasca de Ocampo",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "12-Real del Monte",
@@ -2466,7 +3753,20 @@
       "name": "Mineral del Chico",
       "z": "MineralDelChico",
       "c": 12,
-      "location": null
+      "location": {
+        "coordinates": [
+          20.2154479,
+          -98.730953
+        ],
+        "source": "https://www.openstreetmap.org/node/2424791346",
+        "sourceId": "node/2424791346",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Mineral del Chico",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "12-Cuernavaca",
@@ -2529,7 +3829,20 @@
       "name": "Prismas Basálticos",
       "z": "Huasca",
       "c": 13,
-      "location": null
+      "location": {
+        "coordinates": [
+          20.2335715,
+          -98.5632128
+        ],
+        "source": "https://www.openstreetmap.org/node/6126700619",
+        "sourceId": "node/6126700619",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Prismas Basálticos",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "13-Grutas de Tolantongo",
@@ -2557,7 +3870,20 @@
       "name": "Parque Nacional La Marquesa",
       "z": "Marquesa",
       "c": 13,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.2801944,
+          -99.3724616
+        ],
+        "source": "https://www.openstreetmap.org/way/559689348",
+        "sourceId": "way/559689348",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Parque Nacional La Marquesa",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "13-Cascadas de Aculco",
@@ -2585,21 +3911,60 @@
       "name": "Presa del Llano",
       "z": "VillaDelCarbón",
       "c": 13,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.658476,
+          -99.5065425
+        ],
+        "source": "https://www.openstreetmap.org/node/5625365813",
+        "sourceId": "node/5625365813",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Presa del Llano",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "13-Presa Taxhimay",
       "name": "Presa Taxhimay",
       "z": "VillaDelCarbón",
       "c": 13,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.835308,
+          -99.3846202
+        ],
+        "source": "https://www.openstreetmap.org/way/905265226",
+        "sourceId": "way/905265226",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "feature representative point",
+        "status": "sourced",
+        "matchedName": "Presa \"Taxhimay\"",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "13-Grutas de la Estrella",
       "name": "Grutas de la Estrella",
       "z": "Tonatico",
       "c": 13,
-      "location": null
+      "location": {
+        "coordinates": [
+          18.7462052,
+          -99.6332735
+        ],
+        "source": "https://www.openstreetmap.org/node/5518950222",
+        "sourceId": "node/5518950222",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Grutas de la Estrella",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     },
     {
       "id": "13-Grutas de Cacahuamilpa",
@@ -2613,7 +3978,20 @@
       "name": "Arcos del Sitio",
       "z": "Tepotzotlán",
       "c": 13,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.7665966,
+          -99.3407605
+        ],
+        "source": "https://www.openstreetmap.org/node/1739444174",
+        "sourceId": "node/1739444174",
+        "provider": "OpenStreetMap / Geofabrik",
+        "address": null,
+        "precision": "point",
+        "status": "sourced",
+        "matchedName": "Arcos del sitio",
+        "matchMethod": "exact normalized name and geographic consistency"
+      }
     }
   ]
 }
