@@ -346,11 +346,12 @@
       "c": 0,
       "location": {
         "coordinates": [
-          19.42612,
-          -99.18628
+          19.426115879346966,
+          -99.18601316744831
         ],
-        "source": "https://cee.colmex.mx/dts/2021/DT-2021-7.pdf",
-        "address": null,
+        "source": "https://exhibits.lib.ttu.edu/s/archlib/item/50919",
+        "address": "Paseo de la Reforma esquina Calzada Gandhi s/n, Chapultepec Polanco, Miguel Hidalgo, 11560 Ciudad de México",
+        "addressSource": "https://lugares.inah.gob.mx/es/node/4237",
         "status": "sourced"
       }
     },
@@ -389,14 +390,32 @@
       "name": "Museo de Arte Moderno",
       "z": "Chapultepec",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.42286,
+          -99.17948
+        ],
+        "source": "https://mapcarta.com/es/26259840",
+        "address": "Av. Paseo de la Reforma s/n, Bosque de Chapultepec I Secc, Miguel Hidalgo, Ciudad de México",
+        "sourceId": "way/370526901",
+        "status": "sourced"
+      }
     },
     {
       "id": "0-Papalote Museo del Niño",
       "name": "Papalote Museo del Niño",
       "z": "Chapultepec",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.41178,
+          -99.19477
+        ],
+        "source": "https://mapcarta.com/W154605930",
+        "address": "Av. de los Compositores 710, Bosque de Chapultepec II Secc, Miguel Hidalgo, 11830 Ciudad de México",
+        "sourceId": "way/154605930",
+        "status": "sourced"
+      }
     },
     {
       "id": "0-Museo Soumaya",
@@ -433,7 +452,15 @@
       "name": "Museo Nacional de Arte (MUNAL)",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4364,
+          -99.1394
+        ],
+        "source": "https://mapcarta.com/26259842",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "0-Museo del Palacio de Bellas Artes",
@@ -492,7 +519,16 @@
       "name": "Museo Mural Diego Rivera",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43624,
+          -99.1468
+        ],
+        "source": "https://mapcarta.com/es/W217480502",
+        "address": null,
+        "sourceId": "way/217480502",
+        "status": "sourced"
+      }
     },
     {
       "id": "0-Museo del Templo Mayor",
