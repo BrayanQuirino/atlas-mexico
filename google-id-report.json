@@ -1,0 +1,43 @@
+{
+  "calls": 5,
+  "limit": 5,
+  "results": [
+    {
+      "id": "0-Museo del Chocolate (MUCHO)",
+      "status": "no exact match",
+      "candidateIds": [
+        "ChIJfbxVhjL_0YURCiDlh4xnSpM"
+      ]
+    },
+    {
+      "id": "0-Museo Ripley",
+      "status": "no exact match",
+      "candidateIds": [
+        "ChIJB3JfKYf_0YURIkTKx0MAHqw"
+      ]
+    },
+    {
+      "id": "0-Museo del Automóvil",
+      "status": "no exact match",
+      "candidateIds": [
+        "ChIJ9ekvctIBzoURccIFqXdXT2g",
+        "ChIJAbu9JfoBzoURlXytEEtB3E8",
+        "ChIJKVI0TwABzoURu-SB9nfHVL4",
+        "ChIJZTMErjL-0YURBU8Dj-O1oYY",
+        "ChIJN5rNlqq4z4URvwxtymL2h5M"
+      ]
+    },
+    {
+      "id": "1-Bosque de Chapultepec",
+      "status": "matched",
+      "googlePlaceId": "ChIJMUctMVr_0YURBW_BorevFMk"
+    },
+    {
+      "id": "1-Jardín Botánico de Chapultepec",
+      "status": "no exact match",
+      "candidateIds": [
+        "ChIJ5TpAcVH_0YURQGTpuE_TGic"
+      ]
+    }
+  ]
+}
