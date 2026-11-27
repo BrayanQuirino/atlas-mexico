@@ -1,12 +1,12 @@
 import React,{useEffect,useRef,useState,forwardRef,useImperativeHandle} from 'react';import maplibregl from 'maplibre-gl';import L from 'leaflet';import 'maplibre-gl/dist/maplibre-gl.css';import 'leaflet/dist/leaflet.css';import {area,categories} from '../catalog.js';
 const center=[19.40,-99.16];const lnglat=p=>[p.xy[1],p.xy[0]];function group(ps){const g=new Map();ps.forEach((p,i)=>{const k=p.xy.join(',');if(!g.has(k))g.set(k,[]);g.get(k).push({p,i})});return g}
 const ExplorerMap=forwardRef(function ExplorerMap({visible,route,onSelect,onArea,onRoute},ref){const host=useRef(null),engine=useRef(null),markers=useRef([]),[ready,setReady]=useState(0),[status,setStatus]=useState('Connecting to map…');const callbacks=useRef({});callbacks.current={onSelect,onArea,onRoute};useEffect(()=>{let alive=true,primary,backup,timer;const fallback=()=>{if(!alive||backup)return;clearTimeout(timer);if(primary){primary.remove();primary=null}try{backup=L.map(host.current).setView(center,11);const layer=L.layerGroup().addTo(backup);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).on('tileload',()=>alive&&setStatus('OpenStreetMap · Backup')).on('tileerror',()=>alive&&setStatus('Map tiles unavailable · pins still work')).addTo(backup);engine.current={kind:'leaflet',map:backup,layer};setStatus('Loading backup map…');setReady(x=>x+1)}catch{setStatus('Map unavailable')}};try{primary=new maplibregl.Map({container:host.current,style:'https://tiles.openfreemap.org/styles/liberty',center:[center[1],center[0]],zoom:10.8,maxZoom:19});primary.addControl(new maplibregl.NavigationControl(),'top-left');primary.once('load',()=>{if(!alive||!primary)return;clearTimeout(timer);engine.current={kind:'maplibre',map:primary};setStatus('OpenFreeMap · Live');setReady(x=>x+1)});primary.on('error',e=>{if(primary&&!primary.isStyleLoaded()&&e.error?.status===403)fallback()});timer=setTimeout(()=>{if(primary&&!engine.current)fallback()},15000)}catch{fallback()}const observer=new ResizeObserver(()=>{const e=engine.current;if(e?.kind==='maplibre')e.map.resize();else e?.map.invalidateSize()});observer.observe(host.current);return()=>{alive=false;clearTimeout(timer);observer.disconnect();markers.current.forEach(m=>m.remove());markers.current=[];engine.current=null;primary?.remove();backup?.remove()}},[]);
-useImperativeHandle(ref,()=>({fit(ps){const e=engine.current;if(!e||!ps.length)return;if(e.kind==='maplibre'){const b=new maplibregl.LngLatBounds();ps.forEach(p=>b.extend(lnglat(p)));e.map.fitBounds(b,{padding:55,maxZoom:13,duration:500})}else e.map.fitBounds(L.latLngBounds(ps.map(p=>p.xy)),{padding:[45,45],maxZoom:13})},select(p){const e=engine.current;if(e?.kind==='maplibre')e.map.flyTo({center:lnglat(p),zoom:Math.max(14,e.map.getZoom()),duration:600});else e?.map.flyTo(p.xy,Math.max(14,e.map.getZoom()))},reset(){const e=engine.current;if(e?.kind==='maplibre')e.map.flyTo({center:[center[1],center[0]],zoom:10.8});else e?.map.setView(center,11)}}),[]);
+useImperativeHandle(ref,()=>({fit(ps){ps=ps.filter(p=>p.xy);const e=engine.current;if(!e||!ps.length)return;if(e.kind==='maplibre'){const b=new maplibregl.LngLatBounds();ps.forEach(p=>b.extend(lnglat(p)));e.map.fitBounds(b,{padding:55,maxZoom:13,duration:500})}else e.map.fitBounds(L.latLngBounds(ps.map(p=>p.xy)),{padding:[45,45],maxZoom:13})},select(p){if(!p.xy)return;const e=engine.current;if(e?.kind==='maplibre')e.map.flyTo({center:lnglat(p),zoom:Math.max(14,e.map.getZoom()),duration:600});else e?.map.flyTo(p.xy,Math.max(14,e.map.getZoom()))},reset(){const e=engine.current;if(e?.kind==='maplibre')e.map.flyTo({center:[center[1],center[0]],zoom:10.8});else e?.map.setView(center,11)}}),[]);
 useEffect(()=>{
  const e=engine.current;if(!e)return;
  const order=new Map(route.map((p,i)=>[p.id,i+1]));
  const all=new Map(visible.map(p=>[p.id,p]));route.forEach(p=>all.set(p.id,p));
- const points=[...all.values()];
+ const points=[...all.values()].filter(p=>p.xy);
  const lineFeatures=route.slice(1).flatMap((p,i)=>p.locationStatus==='sourced'&&route[i].locationStatus==='sourced'?[{type:'Feature',properties:{},geometry:{type:'LineString',coordinates:[lnglat(route[i]),lnglat(p)]}}]:[]);
  const geo={type:'FeatureCollection',features:lineFeatures};
  let frame=0,lastDraw=0,active=new Map(),lineLayer;
@@ -38,16 +38,6 @@ useEffect(()=>{
      const p=c.items[0],key='cluster:'+c.items.map(x=>x.id).sort().join('|');
      add(p,key,String(c.items.length),c.items.length+' mapped places · zoom in',[0,0],()=>fly(p,Math.min(19,zoom+1.7)),' count');
    });
-   const unlocated=points.filter(p=>p.locationStatus!=='sourced');
-   // Unlocated venues never get fictional street pins, even at maximum zoom.
-   // An area marker opens the matching catalog rather than implying a venue position.
-   const areas=new Map();unlocated.forEach(p=>{if(!areas.has(p.z))areas.set(p.z,[]);areas.get(p.z).push(p)});
-   const approxClusters=[];
-   areas.forEach((ps,z)=>{const p=ps[0],pt=project(p);const c=zoom<13&&approxClusters.find(c=>Math.hypot(c.x-pt.x,c.y-pt.y)<64);if(c){c.items.push(...ps);c.zones.push(z)}else approxClusters.push({p,x:pt.x,y:pt.y,items:ps,zones:[z]})});
-   approxClusters.forEach(c=>{
-     const p=c.p,key='area:'+c.zones.slice().sort().join('|');
-     add(p,key,'~'+c.items.length,c.items.length+' places without individual coordinates · '+c.zones.map(area).join(', '),[0,zoom>=13?45:0],()=>{if(c.zones.length>1)fly(p,Math.min(14,zoom+2));else callbacks.current.onArea(p.z)},' count approximate-pin');
-   });
    // Numbered route stops with known coordinates stay separate from discovery clusters.
    group(points.filter(p=>order.has(p.id)&&p.locationStatus==='sourced')).forEach(items=>spread(items.map(x=>x.p)));
    for(const [key,entry] of active){if(!wanted.has(key)){entry.marker.remove();active.delete(key)}}
@@ -66,4 +56,4 @@ useEffect(()=>{
  e.map.on('zoom',schedule);e.map.on('move',schedule);e.map.on('zoomend',schedule);
  renderMarkers();
  return()=>{cancelAnimationFrame(frame);e.map.off('zoom',schedule);e.map.off('move',schedule);e.map.off('zoomend',schedule);active.forEach(x=>x.marker.remove());lineLayer?.remove()};
-},[visible,route,ready]);return <><div id="map" ref={host}/><div className="mapnote"><span className="mapstatus">{status}</span><br/>Zoom to expand mapped places live. Green = mapped places; ~ = area only, location pending; terracotta = route stop.</div></>});export default ExplorerMap;
+},[visible,route,ready]);return <><div id="map" ref={host}/><div className="mapnote"><span className="mapstatus">{status}</span><br/>Zoom to expand mapped places live. Unlocated destinations remain in the catalog without misleading map pins.</div></>});export default ExplorerMap;

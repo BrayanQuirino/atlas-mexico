@@ -1,0 +1,32 @@
+name: Resolve destination coordinates
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/geocode.mjs'
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/geocode.mjs
+      - run: node --test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: geocoding-report
+          path: geocoding-report.json
+      - name: Commit sourced matches
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/places.json geocoding-report.json
+          git diff --cached --quiet || git commit -m "Update sourced destination coordinates"
+          git push
