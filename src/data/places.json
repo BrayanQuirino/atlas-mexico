@@ -455,14 +455,30 @@
       "name": "Museo Franz Mayer",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4368653,
+          -99.1431855
+        ],
+        "source": "https://tudu.app/venue/museo-franz-mayer-2",
+        "address": "Hidalgo 45, Centro Histórico",
+        "status": "sourced"
+      }
     },
     {
       "id": "0-Museo Memoria y Tolerancia",
       "name": "Museo Memoria y Tolerancia",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43419,
+          -99.14462
+        ],
+        "source": "https://mapcarta.com/es/N14253804907",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "0-Museo de Arte Popular",
@@ -483,7 +499,15 @@
       "name": "Museo del Templo Mayor",
       "z": "Centro",
       "c": 0,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43488,
+          -99.13132
+        ],
+        "source": "https://repositorio.colmex.mx/downloads/6682x564z?locale=en",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "0-Museo de la Ciudad de México",
@@ -753,28 +777,60 @@
       "name": "Parque México",
       "z": "Condesa",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.41222,
+          -99.16917
+        ],
+        "source": "https://en.wikipedia.org/wiki/Parque_M%C3%A9xico",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "1-Parque España",
       "name": "Parque España",
       "z": "Condesa",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.41497,
+          -99.17111
+        ],
+        "source": "https://mapcarta.com/es/W1420616936",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "1-Parque Lincoln",
       "name": "Parque Lincoln",
       "z": "Polanco",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.42953,
+          -99.19704
+        ],
+        "source": "https://mapcarta.com/es/W25020270",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "1-Alameda Central",
       "name": "Alameda Central",
       "z": "Centro",
       "c": 1,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43575,
+          -99.144
+        ],
+        "source": "https://mapcarta.com/es/35467362",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "1-Alameda de Santa María la Ribera",
@@ -1552,14 +1608,30 @@
       "name": "Balcón del Zócalo",
       "z": "Centro",
       "c": 6,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43386,
+          -99.13425
+        ],
+        "source": "https://mapcarta.com/es/N6935391086",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "6-Terraza Catedral",
       "name": "Terraza Catedral",
       "z": "Centro",
       "c": 6,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43532,
+          -99.13361
+        ],
+        "source": "https://mapcarta.com/es/N12768674101",
+        "address": "República de Guatemala 4, 06010",
+        "status": "sourced"
+      }
     },
     {
       "id": "6-Mirador Monumento a la Revolución",
@@ -1637,7 +1709,15 @@
       "name": "Palacio Postal",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43563,
+          -99.1403
+        ],
+        "source": "https://mapcarta.com/es/W157051114",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "7-Gran Hotel Ciudad de México",
@@ -1658,14 +1738,30 @@
       "name": "Catedral Metropolitana",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43439,
+          -99.13309
+        ],
+        "source": "https://mapcarta.com/es/W862852010",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "7-Palacio Nacional",
       "name": "Palacio Nacional",
       "z": "Centro",
       "c": 7,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.4325,
+          -99.1311
+        ],
+        "source": "https://mapcarta.com/es/26259844",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "7-Zócalo",
@@ -1777,7 +1873,15 @@
       "name": "Templo Mayor",
       "z": "Centro",
       "c": 8,
-      "location": null
+      "location": {
+        "coordinates": [
+          19.43504,
+          -99.13121
+        ],
+        "source": "https://mapcarta.com/es/37111508",
+        "address": null,
+        "status": "sourced"
+      }
     },
     {
       "id": "8-Tlatelolco",
