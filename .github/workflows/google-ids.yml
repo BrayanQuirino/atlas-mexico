@@ -1,11 +1,14 @@
 name: Google Places ID validation
 on:
+  push:
+    branches: [main]
+    paths: ['scripts/google-place-ids.mjs']
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Maximum number of requests (default 5)'
+        description: 'Maximum requests'
         type: number
-        default: 5
+        default: 292
 permissions:
   contents: write
 concurrency:
@@ -15,26 +18,31 @@ jobs:
   lookup:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Find place identifiers
+      - name: One request per destination
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-          LOOKUP_LIMIT: ${{ inputs.limit || 5 }}
+          LOOKUP_LIMIT: ${{ inputs.limit || 292 }}
         run: node scripts/google-place-ids.mjs
       - uses: actions/upload-artifact@v4
-        if: always()
+        with:
+          name: google-coordinates
+          path: public/google-coordinates.json
+          retention-days: 29
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
         with:
           name: google-id-report
           path: google-id-report.json
-      - name: Save permitted place identifiers
+      - name: Save only permanent identifiers
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/places.json google-id-report.json
-          git diff --cached --quiet || git commit -m "Save matched Google Place IDs"
+          git diff --cached --quiet || git commit -m "Save Google Place IDs"
           git push origin HEAD:main
