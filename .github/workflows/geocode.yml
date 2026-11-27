@@ -1,32 +1,60 @@
 name: Resolve destination coordinates
 on:
   workflow_dispatch:
+    inputs:
+      denue_urls:
+        description: 'Official INEGI DENUE CSV ZIP URLs, separated by spaces (optional)'
+        required: false
+        type: string
   push:
+    branches: [main]
     paths:
-      - 'scripts/geocode.mjs'
+      - 'scripts/rebuild_geo.py'
 permissions:
   contents: write
-  pull-requests: write
+concurrency:
+  group: geographic-data
+  cancel-in-progress: false
 jobs:
   geocode:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install osmium
+      - name: Download regional data
+        env:
+          DENUE_URLS: ${{ inputs.denue_urls }}
+        run: |
+          mkdir -p /tmp/atlas-geo
+          curl --fail --location --retry 3 https://download.geofabrik.de/north-america/mexico-latest.osm.pbf -o /tmp/atlas-geo/mexico.osm.pbf
+          n=0
+          for url in $DENUE_URLS; do
+            case "$url" in https://www.inegi.org.mx/*|https://inegi.org.mx/*) ;; *) echo 'Only official INEGI URLs allowed'; exit 1;; esac
+            n=$((n+1))
+            curl --fail --location --retry 3 "$url" -o "/tmp/atlas-geo/denue-$n.zip"
+          done
+      - name: Resolve and audit
+        run: |
+          shopt -s nullglob
+          files=(/tmp/atlas-geo/denue-*.zip)
+          python scripts/rebuild_geo.py --osm /tmp/atlas-geo/mexico.osm.pbf --denue "${files[@]}" --apply
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/geocode.mjs
       - run: node --test
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: geocoding-report
           path: geocoding-report.json
-      - name: Commit sourced matches
+      - name: Commit reviewed matching rules output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/places.json geocoding-report.json
-          git diff --cached --quiet || git commit -m "Update sourced destination coordinates"
+          git diff --cached --quiet || git commit -m "Import bulk geographic matches"
           git push
