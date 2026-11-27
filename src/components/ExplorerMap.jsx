@@ -2,4 +2,40 @@ import React,{useEffect,useRef,useState,forwardRef,useImperativeHandle} from 're
 const center=[19.40,-99.16];const lnglat=p=>[p.xy[1],p.xy[0]];function group(ps){const g=new Map();ps.forEach((p,i)=>{const k=p.xy.join(',');if(!g.has(k))g.set(k,[]);g.get(k).push({p,i})});return g}
 const ExplorerMap=forwardRef(function ExplorerMap({visible,route,onSelect,onArea,onRoute},ref){const host=useRef(null),engine=useRef(null),markers=useRef([]),[ready,setReady]=useState(0),[status,setStatus]=useState('Connecting to map…');const callbacks=useRef({});callbacks.current={onSelect,onArea,onRoute};useEffect(()=>{let alive=true,primary,backup,timer;const fallback=()=>{if(!alive||backup)return;clearTimeout(timer);if(primary){primary.remove();primary=null}try{backup=L.map(host.current).setView(center,11);const layer=L.layerGroup().addTo(backup);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).on('tileload',()=>alive&&setStatus('OpenStreetMap · Backup')).on('tileerror',()=>alive&&setStatus('Map tiles unavailable · pins still work')).addTo(backup);engine.current={kind:'leaflet',map:backup,layer};setStatus('Loading backup map…');setReady(x=>x+1)}catch{setStatus('Map unavailable')}};try{primary=new maplibregl.Map({container:host.current,style:'https://tiles.openfreemap.org/styles/liberty',center:[center[1],center[0]],zoom:10.8,maxZoom:19});primary.addControl(new maplibregl.NavigationControl(),'top-left');primary.once('load',()=>{if(!alive||!primary)return;clearTimeout(timer);engine.current={kind:'maplibre',map:primary};setStatus('OpenFreeMap · Live');setReady(x=>x+1)});primary.on('error',e=>{if(primary&&!primary.isStyleLoaded()&&e.error?.status===403)fallback()});timer=setTimeout(()=>{if(primary&&!engine.current)fallback()},15000)}catch{fallback()}const observer=new ResizeObserver(()=>{const e=engine.current;if(e?.kind==='maplibre')e.map.resize();else e?.map.invalidateSize()});observer.observe(host.current);return()=>{alive=false;clearTimeout(timer);observer.disconnect();markers.current.forEach(m=>m.remove());markers.current=[];engine.current=null;primary?.remove();backup?.remove()}},[]);
 useImperativeHandle(ref,()=>({fit(ps){const e=engine.current;if(!e||!ps.length)return;if(e.kind==='maplibre'){const b=new maplibregl.LngLatBounds();ps.forEach(p=>b.extend(lnglat(p)));e.map.fitBounds(b,{padding:55,maxZoom:13,duration:500})}else e.map.fitBounds(L.latLngBounds(ps.map(p=>p.xy)),{padding:[45,45],maxZoom:13})},select(p){const e=engine.current;if(e?.kind==='maplibre')e.map.flyTo({center:lnglat(p),zoom:13,duration:600});else e?.map.flyTo(p.xy,13)},reset(){const e=engine.current;if(e?.kind==='maplibre')e.map.flyTo({center:[center[1],center[0]],zoom:10.8});else e?.map.setView(center,11)}}),[]);
-useEffect(()=>{const e=engine.current;if(!e)return;markers.current.forEach(m=>m.remove());markers.current=[];if(e.kind==='leaflet')e.layer.clearLayers();const add=(p,label,title,click,isRoute=false)=>{const b=document.createElement('button');b.type='button';b.className='pin count'+(isRoute?' route-pin':'');b.textContent=label;b.title=title;b.setAttribute('aria-label',title);b.onclick=click;if(e.kind==='maplibre'){markers.current.push(new maplibregl.Marker({element:b,offset:isRoute?[0,-28]:[0,0]}).setLngLat(lnglat(p)).addTo(e.map))}else{const icon=L.divIcon({html:b,iconSize:[38,38],iconAnchor:isRoute?[19,47]:[19,19]});L.marker(p.xy,{icon,zIndexOffset:isRoute?500:0}).addTo(e.layer)}};group(visible).forEach(items=>{const p=items[0].p;add(p,items.length>1?String(items.length):categories[p.c][1],area(p.z)+' · '+items.length+' places',()=>items.length===1?callbacks.current.onSelect(p):callbacks.current.onArea(p.z))});const geo={type:'FeatureCollection',features:route.length>1?[{type:'Feature',properties:{},geometry:{type:'LineString',coordinates:route.map(lnglat)}}]:[]};if(e.kind==='maplibre'){if(e.map.getSource('atlas-route'))e.map.getSource('atlas-route').setData(geo);else{e.map.addSource('atlas-route',{type:'geojson',data:geo});e.map.addLayer({id:'atlas-route-line',type:'line',source:'atlas-route',paint:{'line-color':'#a16e49','line-width':4,'line-dasharray':[2,2]}})}}else if(route.length>1)L.polyline(route.map(p=>p.xy),{color:'#a16e49',weight:4,dashArray:'7 7'}).addTo(e.layer);group(route).forEach(items=>add(items[0].p,items.map(x=>x.i+1).join(','),items.map(x=>x.p.name).join(' / '),()=>callbacks.current.onRoute(),true));},[visible,route,ready]);return <><div id="map" ref={host}/><div className="mapnote"><span className="mapstatus">{status}</span><br/>Pins represent approximate areas.</div></>});export default ExplorerMap;
+useEffect(()=>{
+ const e=engine.current;if(!e)return;
+ markers.current.forEach(m=>m.remove());markers.current=[];
+ if(e.kind==='leaflet')e.layer.clearLayers();
+ // Each destination has exactly one marker. Shared area coordinates are
+ // separated visually in pixel space; these offsets are not geocoded locations.
+ const order=new Map(route.map((p,i)=>[p.id,i+1]));
+ const all=new Map(visible.map(p=>[p.id,p]));route.forEach(p=>all.set(p.id,p));
+ const geo={type:'FeatureCollection',features:route.length>1?[{type:'Feature',properties:{},geometry:{type:'LineString',coordinates:route.map(lnglat)}}]:[]};
+ if(e.kind==='maplibre'){
+   if(e.map.getSource('atlas-route'))e.map.getSource('atlas-route').setData(geo);
+   else{e.map.addSource('atlas-route',{type:'geojson',data:geo});e.map.addLayer({id:'atlas-route-line',type:'line',source:'atlas-route',paint:{'line-color':'#a16e49','line-width':4,'line-dasharray':[2,2]}})}
+ }else if(route.length>1)L.polyline(route.map(p=>p.xy),{color:'#a16e49',weight:4,dashArray:'7 7'}).addTo(e.layer);
+ const add=(p,offset)=>{
+   const number=order.get(p.id),b=document.createElement('button');b.type='button';
+   b.className='pin individual-pin'+(number?' count route-pin':'');
+   b.textContent=number?String(number):categories[p.c][1];
+   b.title=(number?'Stop '+number+' · ':'')+p.name+' · '+area(p.z)+' (approximate area)';
+   b.setAttribute('aria-label',b.title);
+   b.onclick=event=>{event.stopPropagation();callbacks.current.onSelect(p)};
+   if(e.kind==='maplibre'){
+     markers.current.push(new maplibregl.Marker({element:b,offset}).setLngLat(lnglat(p)).addTo(e.map));
+   }else{
+     const icon=L.divIcon({html:b,iconSize:[30,30],iconAnchor:[15-offset[0],15-offset[1]]});
+     L.marker(p.xy,{icon,zIndexOffset:number?500:0,keyboard:false}).addTo(e.layer);
+   }
+ };
+ group([...all.values()]).forEach(items=>{
+   let ring=1,slot=0;
+   items.forEach(({p},i)=>{
+     if(i===0){add(p,[0,0]);return}
+     const capacity=6*ring,angle=2*Math.PI*slot/capacity-Math.PI/2;
+     add(p,[Math.round(36*ring*Math.cos(angle)),Math.round(36*ring*Math.sin(angle))]);
+     slot++;if(slot>=capacity){ring++;slot=0}
+   });
+ });
+},[visible,route,ready]);return <><div id="map" ref={host}/><div className="mapnote"><span className="mapstatus">{status}</span><br/>Each pin is one place. Positions are approximate; nearby pins are spread apart for selection.</div></>});export default ExplorerMap;
