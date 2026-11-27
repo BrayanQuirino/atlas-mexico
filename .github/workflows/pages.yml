@@ -32,10 +32,10 @@ jobs:
       - run: npm test
       - name: Build with restricted browser key
         env:
-          VITE_GOOGLE_MAPS_BROWSER_KEY: ${{ vars.GOOGLE_MAPS_BROWSER_KEY }}
+          VITE_GOOGLE_MAPS_BROWSER_KEY: ${{ vars.GOOGLE_MAPS_BROWSER_KEY || secrets.GOOGLE_MAPS_BROWSER_KEY }}
         run: |
           if [ -z "$VITE_GOOGLE_MAPS_BROWSER_KEY" ]; then
-            echo '::error::Repository variable GOOGLE_MAPS_BROWSER_KEY is missing'
+            echo '::error::Repository variable or secret GOOGLE_MAPS_BROWSER_KEY is missing'
             exit 1
           fi
           npm run build
@@ -43,7 +43,7 @@ jobs:
         run: |
           test -f dist/index.html
           grep -R -l 'maps.googleapis.com/maps/api/js' dist/assets >/dev/null
-          printf '%s\n' "$GITHUB_SHA" > dist/version.txt
+          printf '%s\n' "$(git rev-parse HEAD)" > dist/version.txt
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
