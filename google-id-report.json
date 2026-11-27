@@ -1,0 +1,13 @@
+{
+  "calls": 1,
+  "limit": 292,
+  "matched": 0,
+  "unresolved": [],
+  "error": {
+    "type": "http",
+    "destination": "0-Museo Nacional de Antropología",
+    "status": 429,
+    "googleStatus": "RESOURCE_EXHAUSTED",
+    "reason": "RATE_LIMIT_EXCEEDED"
+  }
+}
