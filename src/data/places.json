@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "attribution": "OpenStreetMap contributors; additional sources recorded per destination",
   "zones": {
     "Centro": [
@@ -344,6 +344,12 @@
       "name": "Museo Nacional de Antropología",
       "z": "Chapultepec",
       "c": 0,
+      "address": "Paseo de la Reforma esquina Calzada Gandhi s/n, Chapultepec Polanco, Miguel Hidalgo, 11560 Ciudad de México",
+      "addressSource": "https://lugares.inah.gob.mx/es/node/4237",
+      "coordinates": [
+        19.426115879346966,
+        -99.18601316744831
+      ],
       "location": {
         "coordinates": [
           19.426115879346966,
@@ -352,20 +358,23 @@
         "source": "https://exhibits.lib.ttu.edu/s/archlib/item/50919",
         "address": "Paseo de la Reforma esquina Calzada Gandhi s/n, Chapultepec Polanco, Miguel Hidalgo, 11560 Ciudad de México",
         "addressSource": "https://lugares.inah.gob.mx/es/node/4237",
-        "status": "sourced"
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Paseo de la Reforma esquina Calzada Gandhi s/n, Chapultepec Polanco, Miguel Hidalgo, 11560 Ciudad de México",
-      "addressSource": "https://lugares.inah.gob.mx/es/node/4237",
-      "coordinates": [
-        19.426115879346966,
-        -99.18601316744831
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Castillo de Chapultepec",
       "name": "Castillo de Chapultepec",
       "z": "Chapultepec",
       "c": 0,
+      "address": "Bosque de Chapultepec, primera sección, Polanco V sección, Miguel Hidalgo, 11560, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=673",
+      "coordinates": [
+        19.42067,
+        -99.18165
+      ],
       "location": {
         "coordinates": [
           19.42067,
@@ -373,21 +382,24 @@
         ],
         "source": "https://cee.colmex.mx/dts/2021/DT-2021-7.pdf",
         "address": "Bosque de Chapultepec, primera sección, Polanco V sección, Miguel Hidalgo, 11560, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=673",
         "status": "sourced",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=673"
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Bosque de Chapultepec, primera sección, Polanco V sección, Miguel Hidalgo, 11560, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=673",
-      "coordinates": [
-        19.42067,
-        -99.18165
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Tamayo",
       "name": "Museo Tamayo",
       "z": "Chapultepec",
       "c": 0,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.42576,
+        -99.18169
+      ],
       "location": {
         "coordinates": [
           19.42576,
@@ -395,20 +407,24 @@
         ],
         "source": "https://www.openstreetmap.org/way/55213083",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.42576,
-        -99.18169
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo de Arte Moderno",
       "name": "Museo de Arte Moderno",
       "z": "Chapultepec",
       "c": 0,
+      "address": "Av. Paseo de la Reforma s/n, Bosque de Chapultepec I Secc, Miguel Hidalgo, Ciudad de México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=658",
+      "coordinates": [
+        19.42286,
+        -99.17948
+      ],
       "location": {
         "coordinates": [
           19.42286,
@@ -416,21 +432,24 @@
         ],
         "source": "https://mapcarta.com/es/26259840",
         "address": "Av. Paseo de la Reforma s/n, Bosque de Chapultepec I Secc, Miguel Hidalgo, Ciudad de México",
-        "sourceId": "way/370526901",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": "way/370526901"
       },
-      "address": "Av. Paseo de la Reforma s/n, Bosque de Chapultepec I Secc, Miguel Hidalgo, Ciudad de México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=658",
-      "coordinates": [
-        19.42286,
-        -99.17948
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Papalote Museo del Niño",
       "name": "Papalote Museo del Niño",
       "z": "Chapultepec",
       "c": 0,
+      "address": "Av. de los Compositores 710, Bosque de Chapultepec II Secc, Miguel Hidalgo, 11830 Ciudad de México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=375",
+      "coordinates": [
+        19.41178,
+        -99.19477
+      ],
       "location": {
         "coordinates": [
           19.41178,
@@ -438,21 +457,24 @@
         ],
         "source": "https://mapcarta.com/W154605930",
         "address": "Av. de los Compositores 710, Bosque de Chapultepec II Secc, Miguel Hidalgo, 11830 Ciudad de México",
-        "sourceId": "way/154605930",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": "way/154605930"
       },
-      "address": "Av. de los Compositores 710, Bosque de Chapultepec II Secc, Miguel Hidalgo, 11830 Ciudad de México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=375",
-      "coordinates": [
-        19.41178,
-        -99.19477
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Soumaya",
       "name": "Museo Soumaya",
       "z": "Polanco",
       "c": 0,
+      "address": "Blvd. Miguel de Cervantes Saavedra 303, Ampl. Granada, Miguel Hidalgo, 11529, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1478",
+      "coordinates": [
+        19.44078,
+        -99.20457
+      ],
       "location": {
         "coordinates": [
           19.44078,
@@ -460,21 +482,24 @@
         ],
         "source": "https://www.openstreetmap.org/way/158035385",
         "address": "Blvd. Miguel de Cervantes Saavedra 303, Ampl. Granada, Miguel Hidalgo, 11529, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1478",
         "status": "sourced",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1478"
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Blvd. Miguel de Cervantes Saavedra 303, Ampl. Granada, Miguel Hidalgo, 11529, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1478",
-      "coordinates": [
-        19.44078,
-        -99.20457
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Jumex",
       "name": "Museo Jumex",
       "z": "Polanco",
       "c": 0,
+      "address": "Blvd. Miguel de Cervantes Saavedra 303, Granada, Miguel Hidalgo, 11520, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1484",
+      "coordinates": [
+        19.4405,
+        -99.20371
+      ],
       "location": {
         "coordinates": [
           19.4405,
@@ -482,21 +507,24 @@
         ],
         "source": "https://www.openstreetmap.org/way/251841831",
         "address": "Blvd. Miguel de Cervantes Saavedra 303, Granada, Miguel Hidalgo, 11520, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1484",
         "status": "sourced",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1484"
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Blvd. Miguel de Cervantes Saavedra 303, Granada, Miguel Hidalgo, 11520, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1484",
-      "coordinates": [
-        19.4405,
-        -99.20371
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Nacional de Arte (MUNAL)",
       "name": "Museo Nacional de Arte (MUNAL)",
       "z": "Centro",
       "c": 0,
+      "address": "Tacuba 8, Centro Histórico, Cuauhtémoc, 06010, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=439",
+      "coordinates": [
+        19.4364,
+        -99.1394
+      ],
       "location": {
         "coordinates": [
           19.4364,
@@ -504,21 +532,24 @@
         ],
         "source": "https://mapcarta.com/26259842",
         "address": "Tacuba 8, Centro Histórico, Cuauhtémoc, 06010, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=439",
         "status": "sourced",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=439"
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Tacuba 8, Centro Histórico, Cuauhtémoc, 06010, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=439",
-      "coordinates": [
-        19.4364,
-        -99.1394
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo del Palacio de Bellas Artes",
       "name": "Museo del Palacio de Bellas Artes",
       "z": "Centro",
       "c": 0,
+      "address": "Av. Juárez s/n esq. Eje Central Lázaro Cárdenas, Centro Histórico, Cuauhtémoc, 06050, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1080",
+      "coordinates": [
+        19.43547,
+        -99.14128
+      ],
       "location": {
         "coordinates": [
           19.43547,
@@ -526,21 +557,24 @@
         ],
         "source": "https://www.openstreetmap.org/way/157051087",
         "address": "Av. Juárez s/n esq. Eje Central Lázaro Cárdenas, Centro Histórico, Cuauhtémoc, 06050, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1080",
         "status": "sourced",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1080"
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Av. Juárez s/n esq. Eje Central Lázaro Cárdenas, Centro Histórico, Cuauhtémoc, 06050, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1080",
-      "coordinates": [
-        19.43547,
-        -99.14128
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Franz Mayer",
       "name": "Museo Franz Mayer",
       "z": "Centro",
       "c": 0,
+      "address": "Hidalgo 45, Centro Histórico",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=462",
+      "coordinates": [
+        19.4368653,
+        -99.1431855
+      ],
       "location": {
         "coordinates": [
           19.4368653,
@@ -548,20 +582,24 @@
         ],
         "source": "https://tudu.app/venue/museo-franz-mayer-2",
         "address": "Hidalgo 45, Centro Histórico",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Hidalgo 45, Centro Histórico",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=462",
-      "coordinates": [
-        19.4368653,
-        -99.1431855
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Memoria y Tolerancia",
       "name": "Museo Memoria y Tolerancia",
       "z": "Centro",
       "c": 0,
+      "address": "Av. Juárez 8, Centro, Cuauhtémoc, 06010, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1313",
+      "coordinates": [
+        19.43419,
+        -99.14462
+      ],
       "location": {
         "coordinates": [
           19.43419,
@@ -569,44 +607,49 @@
         ],
         "source": "https://mapcarta.com/es/N14253804907",
         "address": "Av. Juárez 8, Centro, Cuauhtémoc, 06010, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1313",
         "status": "sourced",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1313"
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Av. Juárez 8, Centro, Cuauhtémoc, 06010, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1313",
-      "coordinates": [
-        19.43419,
-        -99.14462
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo de Arte Popular",
       "name": "Museo de Arte Popular",
       "z": "Centro",
       "c": 0,
+      "address": "Revillagigedo 11 esq. Independencia, Centro, Cuauhtémoc, 06050, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1092",
+      "coordinates": [
+        19.4333096,
+        -99.14604179999999
+      ],
       "location": {
         "coordinates": [
           19.4333096,
           -99.14604179999999
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1092",
+        "address": "Revillagigedo 11 esq. Independencia, Centro, Cuauhtémoc, 06050, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1092",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Revillagigedo 11 esq. Independencia, Centro, Cuauhtémoc, 06050, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1092"
+        "sourceId": null
       },
-      "address": "Revillagigedo 11 esq. Independencia, Centro, Cuauhtémoc, 06050, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1092",
-      "coordinates": [
-        19.4333096,
-        -99.14604179999999
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Mural Diego Rivera",
       "name": "Museo Mural Diego Rivera",
       "z": "Centro",
       "c": 0,
+      "address": "Balderas s/n esq. Colón, Centro Histórico, Cuauhtémoc, 06040, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=661",
+      "coordinates": [
+        19.43624,
+        -99.1468
+      ],
       "location": {
         "coordinates": [
           19.43624,
@@ -614,22 +657,24 @@
         ],
         "source": "https://mapcarta.com/es/W217480502",
         "address": "Balderas s/n esq. Colón, Centro Histórico, Cuauhtémoc, 06040, Ciudad de México, México",
-        "sourceId": "way/217480502",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=661",
         "status": "sourced",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=661"
+        "provider": null,
+        "sourceId": "way/217480502"
       },
-      "address": "Balderas s/n esq. Colón, Centro Histórico, Cuauhtémoc, 06040, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=661",
-      "coordinates": [
-        19.43624,
-        -99.1468
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo del Templo Mayor",
       "name": "Museo del Templo Mayor",
       "z": "Centro",
       "c": 0,
+      "address": "Seminario 8, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=476",
+      "coordinates": [
+        19.43488,
+        -99.13132
+      ],
       "location": {
         "coordinates": [
           19.43488,
@@ -637,317 +682,346 @@
         ],
         "source": "https://repositorio.colmex.mx/downloads/6682x564z?locale=en",
         "address": "Seminario 8, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=476",
         "status": "sourced",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=476"
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Seminario 8, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=476",
-      "coordinates": [
-        19.43488,
-        -99.13132
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo de la Ciudad de México",
       "name": "Museo de la Ciudad de México",
       "z": "Centro",
       "c": 0,
+      "address": "José María Pino Suárez 30, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=797",
+      "coordinates": [
+        19.4293827,
+        -99.1319267
+      ],
       "location": {
         "coordinates": [
           19.4293827,
           -99.1319267
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=797",
+        "address": "José María Pino Suárez 30, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=797",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "José María Pino Suárez 30, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=797"
+        "sourceId": null
       },
-      "address": "José María Pino Suárez 30, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=797",
-      "coordinates": [
-        19.4293827,
-        -99.1319267
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Nacional de las Culturas del Mundo",
       "name": "Museo Nacional de las Culturas del Mundo",
       "z": "Centro",
       "c": 0,
+      "address": "Moneda 13, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=802",
+      "coordinates": [
+        19.4331582,
+        -99.1304145
+      ],
       "location": {
         "coordinates": [
           19.4331582,
           -99.1304145
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=802",
+        "address": "Moneda 13, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=802",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Moneda 13, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=802"
+        "sourceId": null
       },
-      "address": "Moneda 13, Centro Histórico, Cuauhtémoc, 06060, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=802",
-      "coordinates": [
-        19.4331582,
-        -99.1304145
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo del Estanquillo",
       "name": "Museo del Estanquillo",
       "z": "Centro",
       "c": 0,
+      "address": "Isabel la Católica 26, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1105",
+      "coordinates": [
+        19.4332534,
+        -99.1361441
+      ],
       "location": {
         "coordinates": [
           19.4332534,
           -99.1361441
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1105",
+        "address": "Isabel la Católica 26, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1105",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Isabel la Católica 26, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1105"
+        "sourceId": null
       },
-      "address": "Isabel la Católica 26, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1105",
-      "coordinates": [
-        19.4332534,
-        -99.1361441
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo del Tequila y el Mezcal",
       "name": "Museo del Tequila y el Mezcal",
       "z": "Centro",
       "c": 0,
+      "address": "Eje Central Lázaro Cárdenas s/n, Centro, Cuauhtémoc, 06010, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1473",
+      "coordinates": [
+        19.4395049,
+        -99.1400555
+      ],
       "location": {
         "coordinates": [
           19.4395049,
           -99.1400555
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1473",
+        "address": "Eje Central Lázaro Cárdenas s/n, Centro, Cuauhtémoc, 06010, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1473",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Eje Central Lázaro Cárdenas s/n, Centro, Cuauhtémoc, 06010, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1473"
+        "sourceId": null
       },
-      "address": "Eje Central Lázaro Cárdenas s/n, Centro, Cuauhtémoc, 06010, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1473",
-      "coordinates": [
-        19.4395049,
-        -99.1400555
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Kaluz",
       "name": "Museo Kaluz",
       "z": "Centro",
       "c": 0,
+      "address": "Av. Hidalgo 85, Guerrero, Cuauhtémoc, 06300, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2066",
+      "coordinates": [
+        19.4374964,
+        -99.14584719999999
+      ],
       "location": {
         "coordinates": [
           19.4374964,
           -99.14584719999999
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2066",
+        "address": "Av. Hidalgo 85, Guerrero, Cuauhtémoc, 06300, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2066",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Av. Hidalgo 85, Guerrero, Cuauhtémoc, 06300, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2066"
+        "sourceId": null
       },
-      "address": "Av. Hidalgo 85, Guerrero, Cuauhtémoc, 06300, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2066",
-      "coordinates": [
-        19.4374964,
-        -99.14584719999999
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Banco de México",
       "name": "Museo Banco de México",
       "z": "Centro",
       "c": 0,
+      "address": "Av. 5 de Mayo, núm. 2, Centro Histórico, Cuauhtémoc, 06000, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2202",
+      "coordinates": [
+        19.4349952,
+        -99.1403402
+      ],
       "location": {
         "coordinates": [
           19.4349952,
           -99.1403402
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2202",
+        "address": "Av. 5 de Mayo, núm. 2, Centro Histórico, Cuauhtémoc, 06000, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2202",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Av. 5 de Mayo, núm. 2, Centro Histórico, Cuauhtémoc, 06000, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2202"
+        "sourceId": null
       },
-      "address": "Av. 5 de Mayo, núm. 2, Centro Histórico, Cuauhtémoc, 06000, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2202",
-      "coordinates": [
-        19.4349952,
-        -99.1403402
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-MIDE",
       "name": "MIDE",
       "z": "Centro",
       "c": 0,
+      "address": "Tacuba 17, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1096",
+      "coordinates": [
+        19.4356584,
+        -99.13833319999999
+      ],
       "location": {
         "coordinates": [
           19.4356584,
           -99.13833319999999
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1096",
+        "address": "Tacuba 17, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1096",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Tacuba 17, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1096"
+        "sourceId": null
       },
-      "address": "Tacuba 17, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1096",
-      "coordinates": [
-        19.4356584,
-        -99.13833319999999
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Vivo del Muralismo",
       "name": "Museo Vivo del Muralismo",
       "z": "Centro",
       "c": 0,
+      "address": "República de Argentina 28, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2173",
+      "coordinates": [
+        19.4369174,
+        -99.13187119999999
+      ],
       "location": {
         "coordinates": [
           19.4369174,
           -99.13187119999999
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2173",
+        "address": "República de Argentina 28, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2173",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "República de Argentina 28, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2173"
+        "sourceId": null
       },
-      "address": "República de Argentina 28, Centro, Cuauhtémoc, 06000, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2173",
-      "coordinates": [
-        19.4369174,
-        -99.13187119999999
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Nacional de San Carlos",
       "name": "Museo Nacional de San Carlos",
       "z": "Tabacalera",
       "c": 0,
+      "address": "Puente de Alvarado 50, Tabacalera, Cuauhtémoc, 06030, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=804",
+      "coordinates": [
+        19.4392178,
+        -99.15343639999999
+      ],
       "location": {
         "coordinates": [
           19.4392178,
           -99.15343639999999
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=804",
+        "address": "Puente de Alvarado 50, Tabacalera, Cuauhtémoc, 06030, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=804",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Puente de Alvarado 50, Tabacalera, Cuauhtémoc, 06030, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=804"
+        "sourceId": null
       },
-      "address": "Puente de Alvarado 50, Tabacalera, Cuauhtémoc, 06030, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=804",
-      "coordinates": [
-        19.4392178,
-        -99.15343639999999
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo del Chocolate (MUCHO)",
       "name": "Museo del Chocolate (MUCHO)",
       "z": "Juárez",
       "c": 0,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo de Cera",
       "name": "Museo de Cera",
       "z": "Juárez",
       "c": 0,
+      "address": "Londres 6, Juárez, Cuauhtémoc, 06600, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=43",
+      "coordinates": [
+        19.4284272,
+        -99.1570498
+      ],
       "location": {
         "coordinates": [
           19.4284272,
           -99.1570498
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=43",
+        "address": "Londres 6, Juárez, Cuauhtémoc, 06600, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=43",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Londres 6, Juárez, Cuauhtémoc, 06600, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=43"
+        "sourceId": null
       },
-      "address": "Londres 6, Juárez, Cuauhtémoc, 06600, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=43",
-      "coordinates": [
-        19.4284272,
-        -99.1570498
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Ripley",
       "name": "Museo Ripley",
       "z": "Juárez",
       "c": 0,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "0-Universum",
       "name": "Universum",
       "z": "UNAM",
       "c": 0,
+      "address": "Circuito Cultural s/n, Cd. Universitaria, Coyoacán, 04510, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=449",
+      "coordinates": [
+        19.311112,
+        -99.180403
+      ],
       "location": {
         "coordinates": [
           19.311112,
           -99.180403
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=449",
+        "address": "Circuito Cultural s/n, Cd. Universitaria, Coyoacán, 04510, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=449",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Circuito Cultural s/n, Cd. Universitaria, Coyoacán, 04510, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=449"
+        "sourceId": null
       },
-      "address": "Circuito Cultural s/n, Cd. Universitaria, Coyoacán, 04510, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=449",
-      "coordinates": [
-        19.311112,
-        -99.180403
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Universitario Arte Contemporáneo",
       "name": "Museo Universitario Arte Contemporáneo",
       "z": "UNAM",
       "c": 0,
+      "address": "Av. Insurgentes Sur 3000, Centro Cultural Universitario, Cd. Universitaria, Coyoacán, 04510, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1224",
+      "coordinates": [
+        19.3151515,
+        -99.1875385
+      ],
       "location": {
         "coordinates": [
           19.3151515,
           -99.1875385
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1224",
+        "address": "Av. Insurgentes Sur 3000, Centro Cultural Universitario, Cd. Universitaria, Coyoacán, 04510, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1224",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Av. Insurgentes Sur 3000, Centro Cultural Universitario, Cd. Universitaria, Coyoacán, 04510, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1224"
+        "sourceId": null
       },
-      "address": "Av. Insurgentes Sur 3000, Centro Cultural Universitario, Cd. Universitaria, Coyoacán, 04510, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1224",
-      "coordinates": [
-        19.3151515,
-        -99.1875385
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Frida Kahlo",
       "name": "Museo Frida Kahlo",
       "z": "Coyoacán",
       "c": 0,
+      "address": "Londres 247, Coyoacán",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=287",
+      "coordinates": [
+        19.35514,
+        -99.16236
+      ],
       "location": {
         "coordinates": [
           19.35514,
@@ -955,20 +1029,24 @@
         ],
         "source": "https://www.openstreetmap.org/way/176482295",
         "address": "Londres 247, Coyoacán",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Londres 247, Coyoacán",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=287",
-      "coordinates": [
-        19.35514,
-        -99.16236
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Anahuacalli",
       "name": "Museo Anahuacalli",
       "z": "Coyoacán",
       "c": 0,
+      "address": "Museo 150, San Pablo Tepetlapa, Coyoacán",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=442",
+      "coordinates": [
+        19.32258,
+        -99.14408
+      ],
       "location": {
         "coordinates": [
           19.32258,
@@ -976,277 +1054,304 @@
         ],
         "source": "https://www.openstreetmap.org/node/1676564699",
         "address": "Museo 150, San Pablo Tepetlapa, Coyoacán",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Museo 150, San Pablo Tepetlapa, Coyoacán",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=442",
-      "coordinates": [
-        19.32258,
-        -99.14408
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Casa de León Trotsky",
       "name": "Museo Casa de León Trotsky",
       "z": "Coyoacán",
       "c": 0,
+      "address": "Av. Río Churubusco 410, Del Carmen, Coyoacán, 04100, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=966",
+      "coordinates": [
+        19.357617,
+        -99.15936669999999
+      ],
       "location": {
         "coordinates": [
           19.357617,
           -99.15936669999999
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=966",
+        "address": "Av. Río Churubusco 410, Del Carmen, Coyoacán, 04100, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=966",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Av. Río Churubusco 410, Del Carmen, Coyoacán, 04100, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=966"
+        "sourceId": null
       },
-      "address": "Av. Río Churubusco 410, Del Carmen, Coyoacán, 04100, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=966",
-      "coordinates": [
-        19.357617,
-        -99.15936669999999
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Nacional de Culturas Populares",
       "name": "Museo Nacional de Culturas Populares",
       "z": "Coyoacán",
       "c": 0,
+      "address": "Av. Hidalgo 289, Del Carmen, Coyoacán, 04100, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=976",
+      "coordinates": [
+        19.3498858,
+        -99.160789
+      ],
       "location": {
         "coordinates": [
           19.3498858,
           -99.160789
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=976",
+        "address": "Av. Hidalgo 289, Del Carmen, Coyoacán, 04100, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=976",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Av. Hidalgo 289, Del Carmen, Coyoacán, 04100, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=976"
+        "sourceId": null
       },
-      "address": "Av. Hidalgo 289, Del Carmen, Coyoacán, 04100, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=976",
-      "coordinates": [
-        19.3498858,
-        -99.160789
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo del Automóvil",
       "name": "Museo del Automóvil",
       "z": "Coyoacán",
       "c": 0,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Nacional de las Intervenciones",
       "name": "Museo Nacional de las Intervenciones",
       "z": "Churubusco",
       "c": 0,
+      "address": "General Anaya s/n esq. Calle 20 de Agosto s/n, San Diego Churubusco, Coyoacán, 04120, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=978",
+      "coordinates": [
+        19.3531531,
+        -99.14502399999999
+      ],
       "location": {
         "coordinates": [
           19.3531531,
           -99.14502399999999
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=978",
+        "address": "General Anaya s/n esq. Calle 20 de Agosto s/n, San Diego Churubusco, Coyoacán, 04120, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=978",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "General Anaya s/n esq. Calle 20 de Agosto s/n, San Diego Churubusco, Coyoacán, 04120, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=978"
+        "sourceId": null
       },
-      "address": "General Anaya s/n esq. Calle 20 de Agosto s/n, San Diego Churubusco, Coyoacán, 04120, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=978",
-      "coordinates": [
-        19.3531531,
-        -99.14502399999999
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Casa Estudio Diego Rivera y Frida Kahlo",
       "name": "Museo Casa Estudio Diego Rivera y Frida Kahlo",
       "z": "SanÁngel",
       "c": 0,
+      "address": "Av. Altavista esq. Diego Rivera, San Ángel Inn, Álvaro Obregón, 01060, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=805",
+      "coordinates": [
+        19.3490082,
+        -99.1977249
+      ],
       "location": {
         "coordinates": [
           19.3490082,
           -99.1977249
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=805",
+        "address": "Av. Altavista esq. Diego Rivera, San Ángel Inn, Álvaro Obregón, 01060, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=805",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Av. Altavista esq. Diego Rivera, San Ángel Inn, Álvaro Obregón, 01060, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=805"
+        "sourceId": null
       },
-      "address": "Av. Altavista esq. Diego Rivera, San Ángel Inn, Álvaro Obregón, 01060, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=805",
-      "coordinates": [
-        19.3490082,
-        -99.1977249
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo de El Carmen",
       "name": "Museo de El Carmen",
       "z": "SanÁngel",
       "c": 0,
+      "address": "Av. Revolución 4 y 6, San Ángel, Álvaro Obregón, 01000, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=963",
+      "coordinates": [
+        19.345877,
+        -99.1896929
+      ],
       "location": {
         "coordinates": [
           19.345877,
           -99.1896929
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=963",
+        "address": "Av. Revolución 4 y 6, San Ángel, Álvaro Obregón, 01000, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=963",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Av. Revolución 4 y 6, San Ángel, Álvaro Obregón, 01000, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=963"
+        "sourceId": null
       },
-      "address": "Av. Revolución 4 y 6, San Ángel, Álvaro Obregón, 01000, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=963",
-      "coordinates": [
-        19.345877,
-        -99.1896929
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo Dolores Olmedo",
       "name": "Museo Dolores Olmedo",
       "z": "Xochimilco",
       "c": 0,
+      "address": "Av. México 5843, La Noria, Xochimilco, 16030, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=916",
+      "coordinates": [
+        19.2659951,
+        -99.12612179999999
+      ],
       "location": {
         "coordinates": [
           19.2659951,
           -99.12612179999999
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=916",
+        "address": "Av. México 5843, La Noria, Xochimilco, 16030, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=916",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Av. México 5843, La Noria, Xochimilco, 16030, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=916"
+        "sourceId": null
       },
-      "address": "Av. México 5843, La Noria, Xochimilco, 16030, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=916",
-      "coordinates": [
-        19.2659951,
-        -99.12612179999999
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo del Objeto del Objeto (MODO)",
       "name": "Museo del Objeto del Objeto (MODO)",
       "z": "Roma",
       "c": 0,
+      "address": "Colima 145, Roma Norte, Cuauhtémoc, 06700, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1469",
+      "coordinates": [
+        19.4202415,
+        -99.1590997
+      ],
       "location": {
         "coordinates": [
           19.4202415,
           -99.1590997
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1469",
+        "address": "Colima 145, Roma Norte, Cuauhtémoc, 06700, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1469",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Colima 145, Roma Norte, Cuauhtémoc, 06700, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1469"
+        "sourceId": null
       },
-      "address": "Colima 145, Roma Norte, Cuauhtémoc, 06700, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1469",
-      "coordinates": [
-        19.4202415,
-        -99.1590997
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Museo del Juguete Antiguo México",
       "name": "Museo del Juguete Antiguo México",
       "z": "Doctores",
       "c": 0,
+      "address": "Dr. Olvera 15, Doctores, Cuauhtémoc, 06720, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1106",
+      "coordinates": [
+        19.4154957,
+        -99.1445123
+      ],
       "location": {
         "coordinates": [
           19.4154957,
           -99.1445123
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1106",
+        "address": "Dr. Olvera 15, Doctores, Cuauhtémoc, 06720, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1106",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Dr. Olvera 15, Doctores, Cuauhtémoc, 06720, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1106"
+        "sourceId": null
       },
-      "address": "Dr. Olvera 15, Doctores, Cuauhtémoc, 06720, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1106",
-      "coordinates": [
-        19.4154957,
-        -99.1445123
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "0-Axolotitlán",
       "name": "Axolotitlán",
       "z": "ÁlvaroObregón",
       "c": 0,
+      "address": "Prol. 5 de Mayo 521, 2do Parque las Águilas, Álvaro Obregón, 01750, Ciudad de México, México",
+      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2237",
+      "coordinates": [
+        19.3590712,
+        -99.2177395
+      ],
       "location": {
         "coordinates": [
           19.3590712,
           -99.2177395
         ],
         "source": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2237",
+        "address": "Prol. 5 de Mayo 521, 2do Parque las Águilas, Álvaro Obregón, 01750, Ciudad de México, México",
+        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2237",
         "status": "sourced",
         "provider": "SIC directory via CDMX-MUSEOS snapshot",
-        "address": "Prol. 5 de Mayo 521, 2do Parque las Águilas, Álvaro Obregón, 01750, Ciudad de México, México",
-        "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2237"
+        "sourceId": null
       },
-      "address": "Prol. 5 de Mayo 521, 2do Parque las Águilas, Álvaro Obregón, 01750, Ciudad de México, México",
-      "addressSource": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2237",
-      "coordinates": [
-        19.3590712,
-        -99.2177395
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "1-Bosque de Chapultepec",
       "name": "Bosque de Chapultepec",
       "z": "Chapultepec",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Jardín Botánico de Chapultepec",
       "name": "Jardín Botánico de Chapultepec",
       "z": "Chapultepec",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque La Mexicana",
       "name": "Parque La Mexicana",
       "z": "SantaFe",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Quetzalcóatl",
       "name": "Parque Quetzalcóatl",
       "z": "Naucalpan",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Presa Madín",
       "name": "Presa Madín",
       "z": "Naucalpan",
       "c": 1,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.52647,
+        -99.26087
+      ],
       "location": {
         "coordinates": [
           19.52647,
@@ -1254,20 +1359,24 @@
         ],
         "source": "https://mapcarta.com/W594746375",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.52647,
-        -99.26087
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Naucalli",
       "name": "Parque Naucalli",
       "z": "Naucalpan",
       "c": 1,
+      "address": "Boulevard de la Santa Cruz, Naucalpan",
+      "addressSource": "https://mapcarta.com/es/W24942886",
+      "coordinates": [
+        19.493,
+        -99.2409
+      ],
       "location": {
         "coordinates": [
           19.493,
@@ -1275,30 +1384,35 @@
         ],
         "source": "https://mapcarta.com/es/W24942886",
         "address": "Boulevard de la Santa Cruz, Naucalpan",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Boulevard de la Santa Cruz, Naucalpan",
-      "addressSource": "https://mapcarta.com/es/W24942886",
-      "coordinates": [
-        19.493,
-        -99.2409
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "1-Desierto de los Leones",
       "name": "Desierto de los Leones",
       "z": "Cuajimalpa",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque México",
       "name": "Parque México",
       "z": "Condesa",
       "c": 1,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.41222,
+        -99.16917
+      ],
       "location": {
         "coordinates": [
           19.41222,
@@ -1306,20 +1420,24 @@
         ],
         "source": "https://en.wikipedia.org/wiki/Parque_M%C3%A9xico",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.41222,
-        -99.16917
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque España",
       "name": "Parque España",
       "z": "Condesa",
       "c": 1,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.41497,
+        -99.17111
+      ],
       "location": {
         "coordinates": [
           19.41497,
@@ -1327,20 +1445,24 @@
         ],
         "source": "https://mapcarta.com/es/W1420616936",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.41497,
-        -99.17111
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Lincoln",
       "name": "Parque Lincoln",
       "z": "Polanco",
       "c": 1,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.42953,
+        -99.19704
+      ],
       "location": {
         "coordinates": [
           19.42953,
@@ -1348,20 +1470,24 @@
         ],
         "source": "https://mapcarta.com/es/W25020270",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.42953,
-        -99.19704
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "1-Alameda Central",
       "name": "Alameda Central",
       "z": "Centro",
       "c": 1,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.43575,
+        -99.144
+      ],
       "location": {
         "coordinates": [
           19.43575,
@@ -1369,610 +1495,673 @@
         ],
         "source": "https://mapcarta.com/es/35467362",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.43575,
-        -99.144
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "1-Alameda de Santa María la Ribera",
       "name": "Alameda de Santa María la Ribera",
       "z": "SantaMaría",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Bicentenario",
       "name": "Parque Bicentenario",
       "z": "Azcapotzalco",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Tezozómoc",
       "name": "Parque Tezozómoc",
       "z": "Azcapotzalco",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Hundido",
       "name": "Parque Hundido",
       "z": "BenitoJuárez",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque de los Venados",
       "name": "Parque de los Venados",
       "z": "BenitoJuárez",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Viveros de Coyoacán",
       "name": "Viveros de Coyoacán",
       "z": "Coyoacán",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Masayoshi Ohira",
       "name": "Parque Masayoshi Ohira",
       "z": "Coyoacán",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Fuentes Brotantes",
       "name": "Fuentes Brotantes",
       "z": "Tlalpan",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Bosque de Tlalpan",
       "name": "Bosque de Tlalpan",
       "z": "Tlalpan",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Jardín Botánico de la UNAM",
       "name": "Jardín Botánico de la UNAM",
       "z": "UNAM",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Ecológico de Xochimilco",
       "name": "Parque Ecológico de Xochimilco",
       "z": "Xochimilco",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Parque Ecológico de Cuemanco",
       "name": "Parque Ecológico de Cuemanco",
       "z": "Xochimilco",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Los Dinamos",
       "name": "Los Dinamos",
       "z": "Magdalena",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "1-Cumbres del Ajusco",
       "name": "Cumbres del Ajusco",
       "z": "Ajusco",
       "c": 1,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Centro de Coyoacán",
       "name": "Centro de Coyoacán",
       "z": "Coyoacán",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Plaza de la Conchita",
       "name": "Plaza de la Conchita",
       "z": "Coyoacán",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Barrio de Santa Catarina",
       "name": "Barrio de Santa Catarina",
       "z": "Coyoacán",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-San Ángel",
       "name": "San Ángel",
       "z": "SanÁngel",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Plaza San Jacinto",
       "name": "Plaza San Jacinto",
       "z": "SanÁngel",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Plaza del Carmen",
       "name": "Plaza del Carmen",
       "z": "SanÁngel",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Chimalistac",
       "name": "Chimalistac",
       "z": "SanÁngel",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Avenida Ámsterdam",
       "name": "Avenida Ámsterdam",
       "z": "Condesa",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Paseo de la Reforma",
       "name": "Paseo de la Reforma",
       "z": "Reforma",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Avenida Presidente Masaryk",
       "name": "Avenida Presidente Masaryk",
       "z": "Polanco",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Calle Francisco I. Madero",
       "name": "Calle Francisco I. Madero",
       "z": "Centro",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Calle Regina",
       "name": "Calle Regina",
       "z": "Centro",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Calle Donceles",
       "name": "Calle Donceles",
       "z": "Centro",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Calle Tacuba",
       "name": "Calle Tacuba",
       "z": "Centro",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Plaza de Santo Domingo",
       "name": "Plaza de Santo Domingo",
       "z": "Centro",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Calle Colima",
       "name": "Calle Colima",
       "z": "Roma",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Calle Orizaba",
       "name": "Calle Orizaba",
       "z": "Roma",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Plaza Río de Janeiro",
       "name": "Plaza Río de Janeiro",
       "z": "Roma",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Plaza Luis Cabrera",
       "name": "Plaza Luis Cabrera",
       "z": "Roma",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-La Romita",
       "name": "La Romita",
       "z": "Roma",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Plaza Washington",
       "name": "Plaza Washington",
       "z": "Juárez",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Kiosco Morisco",
       "name": "Kiosco Morisco",
       "z": "SantaMaría",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Centro de Tlalpan",
       "name": "Centro de Tlalpan",
       "z": "Tlalpan",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Centro de Xochimilco",
       "name": "Centro de Xochimilco",
       "z": "Xochimilco",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "2-Centro de Azcapotzalco",
       "name": "Centro de Azcapotzalco",
       "z": "Azcapotzalco",
       "c": 2,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de Jamaica",
       "name": "Mercado de Jamaica",
       "z": "Venustiano",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de la Merced",
       "name": "Mercado de la Merced",
       "z": "Venustiano",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de Sonora",
       "name": "Mercado de Sonora",
       "z": "Venustiano",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-La Ciudadela",
       "name": "La Ciudadela",
       "z": "Centro",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de San Juan",
       "name": "Mercado de San Juan",
       "z": "Centro",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de La Lagunilla",
       "name": "Mercado de La Lagunilla",
       "z": "Centro",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado Abelardo L. Rodríguez",
       "name": "Mercado Abelardo L. Rodríguez",
       "z": "Centro",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Bazar del Sábado",
       "name": "Bazar del Sábado",
       "z": "SanÁngel",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de San Ángel",
       "name": "Mercado de San Ángel",
       "z": "SanÁngel",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de Coyoacán",
       "name": "Mercado de Coyoacán",
       "z": "Coyoacán",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de Artesanías de Coyoacán",
       "name": "Mercado de Artesanías de Coyoacán",
       "z": "Coyoacán",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de Medellín",
       "name": "Mercado de Medellín",
       "z": "Roma",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado Roma",
       "name": "Mercado Roma",
       "z": "Roma",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de San Pedro de los Pinos",
       "name": "Mercado de San Pedro de los Pinos",
       "z": "BenitoJuárez",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de Portales",
       "name": "Mercado de Portales",
       "z": "BenitoJuárez",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de Mixcoac",
       "name": "Mercado de Mixcoac",
       "z": "Mixcoac",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Central de Abasto",
       "name": "Central de Abasto",
       "z": "Iztapalapa",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "3-Mercado de Plantas y Flores de Cuemanco",
       "name": "Mercado de Plantas y Flores de Cuemanco",
       "z": "Xochimilco",
       "c": 3,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Cafebrería El Péndulo",
       "name": "Cafebrería El Péndulo",
       "z": "Polanco",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Maison Belén",
       "name": "Maison Belén",
       "z": "Polanco",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Café Nin",
       "name": "Café Nin",
       "z": "Juárez",
       "c": 4,
+      "address": "Calle Havre, Juárez",
+      "addressSource": "https://www.openstreetmap.org/node/6284918785",
+      "coordinates": [
+        19.42532,
+        -99.16076
+      ],
       "location": {
         "coordinates": [
           19.42532,
@@ -1980,510 +2169,563 @@
         ],
         "source": "https://www.openstreetmap.org/node/6284918785",
         "address": "Calle Havre, Juárez",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Calle Havre, Juárez",
-      "addressSource": "https://www.openstreetmap.org/node/6284918785",
-      "coordinates": [
-        19.42532,
-        -99.16076
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "4-Café La Habana",
       "name": "Café La Habana",
       "z": "Juárez",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Panadería Rosetta",
       "name": "Panadería Rosetta",
       "z": "Roma",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Quentin Café",
       "name": "Quentin Café",
       "z": "Roma",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Buna",
       "name": "Buna",
       "z": "Roma",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Almanegra Café",
       "name": "Almanegra Café",
       "z": "Roma",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Café Avellaneda",
       "name": "Café Avellaneda",
       "z": "Coyoacán",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Café El Jarocho",
       "name": "Café El Jarocho",
       "z": "Coyoacán",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Café Negro",
       "name": "Café Negro",
       "z": "Coyoacán",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Blend Station",
       "name": "Blend Station",
       "z": "Condesa",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Saint",
       "name": "Saint",
       "z": "Condesa",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Ficelle",
       "name": "Ficelle",
       "z": "Condesa",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Nevería Roxy",
       "name": "Nevería Roxy",
       "z": "Condesa",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Café Passmar",
       "name": "Café Passmar",
       "z": "DelValle",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Café Emir",
       "name": "Café Emir",
       "z": "Centro",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Churrería El Moro",
       "name": "Churrería El Moro",
       "z": "Centro",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Pastelería Ideal",
       "name": "Pastelería Ideal",
       "z": "Centro",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "4-Helados La Especial de París",
       "name": "Helados La Especial de París",
       "z": "SanRafael",
       "c": 4,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-El Cardenal",
       "name": "El Cardenal",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Azul Histórico",
       "name": "Azul Histórico",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Café de Tacuba",
       "name": "Café de Tacuba",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Hostería de Santo Domingo",
       "name": "Hostería de Santo Domingo",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Danubio",
       "name": "Danubio",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-La Casa de Toño",
       "name": "La Casa de Toño",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Los Cocuyos",
       "name": "Los Cocuyos",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-El Huequito",
       "name": "El Huequito",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Tacos de Canasta Los Especiales",
       "name": "Tacos de Canasta Los Especiales",
       "z": "Centro",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-San Ángel Inn",
       "name": "San Ángel Inn",
       "z": "SanÁngel",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-La Gruta",
       "name": "La Gruta",
       "z": "Teotihuacán",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Nicos",
       "name": "Nicos",
       "z": "Azcapotzalco",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Contramar",
       "name": "Contramar",
       "z": "Roma",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Rosetta",
       "name": "Rosetta",
       "z": "Roma",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Máximo",
       "name": "Máximo",
       "z": "Roma",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Expendio de Maíz",
       "name": "Expendio de Maíz",
       "z": "Roma",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-El Hidalguense",
       "name": "El Hidalguense",
       "z": "Roma",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Mi Compa Chava",
       "name": "Mi Compa Chava",
       "z": "Roma",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Pujol",
       "name": "Pujol",
       "z": "Polanco",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Quintonil",
       "name": "Quintonil",
       "z": "Polanco",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Hacienda de los Morales",
       "name": "Hacienda de los Morales",
       "z": "Polanco",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Los Panchos",
       "name": "Los Panchos",
       "z": "Polanco",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-El Bajío",
       "name": "El Bajío",
       "z": "Polanco",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Sud 777",
       "name": "Sud 777",
       "z": "Pedregal",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Los Danzantes",
       "name": "Los Danzantes",
       "z": "Coyoacán",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Antigua Hacienda de Tlalpan",
       "name": "Antigua Hacienda de Tlalpan",
       "z": "Tlalpan",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-Fonda Margarita",
       "name": "Fonda Margarita",
       "z": "DelValle",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-El Vilsito",
       "name": "El Vilsito",
       "z": "BenitoJuárez",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-El Califa de León",
       "name": "El Califa de León",
       "z": "SanRafael",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "5-El Tizoncito",
       "name": "El Tizoncito",
       "z": "Condesa",
       "c": 5,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Mirador Torre Latinoamericana",
       "name": "Mirador Torre Latinoamericana",
       "z": "Centro",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Finca Don Porfirio",
       "name": "Finca Don Porfirio",
       "z": "Centro",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Balcón del Zócalo",
       "name": "Balcón del Zócalo",
       "z": "Centro",
       "c": 6,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.43386,
+        -99.13425
+      ],
       "location": {
         "coordinates": [
           19.43386,
@@ -2491,20 +2733,24 @@
         ],
         "source": "https://mapcarta.com/es/N6935391086",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.43386,
-        -99.13425
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "6-Terraza Catedral",
       "name": "Terraza Catedral",
       "z": "Centro",
       "c": 6,
+      "address": "República de Guatemala 4, 06010",
+      "addressSource": "https://mapcarta.com/es/N12768674101",
+      "coordinates": [
+        19.43532,
+        -99.13361
+      ],
       "location": {
         "coordinates": [
           19.43532,
@@ -2512,100 +2758,112 @@
         ],
         "source": "https://mapcarta.com/es/N12768674101",
         "address": "República de Guatemala 4, 06010",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": "República de Guatemala 4, 06010",
-      "addressSource": "https://mapcarta.com/es/N12768674101",
-      "coordinates": [
-        19.43532,
-        -99.13361
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "6-Mirador Monumento a la Revolución",
       "name": "Mirador Monumento a la Revolución",
       "z": "Tabacalera",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Terraza Cha Cha Chá",
       "name": "Terraza Cha Cha Chá",
       "z": "Tabacalera",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Cityzen Rooftop",
       "name": "Cityzen Rooftop",
       "z": "Reforma",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Bellini World Trade Center",
       "name": "Bellini World Trade Center",
       "z": "BenitoJuárez",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Mirador del Castillo de Chapultepec",
       "name": "Mirador del Castillo de Chapultepec",
       "z": "Chapultepec",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Cablebús Línea 3",
       "name": "Cablebús Línea 3",
       "z": "Chapultepec",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Cablebús Línea 2",
       "name": "Cablebús Línea 2",
       "z": "Iztapalapa",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "6-Mirador del Cerro de la Estrella",
       "name": "Mirador del Cerro de la Estrella",
       "z": "Iztapalapa",
       "c": 6,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Palacio de Bellas Artes",
       "name": "Palacio de Bellas Artes",
       "z": "Centro",
       "c": 7,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.43547,
+        -99.14128
+      ],
       "location": {
         "coordinates": [
           19.43547,
@@ -2613,20 +2871,24 @@
         ],
         "source": "https://www.openstreetmap.org/way/157051087",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.43547,
-        -99.14128
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "7-Palacio Postal",
       "name": "Palacio Postal",
       "z": "Centro",
       "c": 7,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.43563,
+        -99.1403
+      ],
       "location": {
         "coordinates": [
           19.43563,
@@ -2634,40 +2896,46 @@
         ],
         "source": "https://mapcarta.com/es/W157051114",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.43563,
-        -99.1403
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "7-Gran Hotel Ciudad de México",
       "name": "Gran Hotel Ciudad de México",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Casa de los Azulejos",
       "name": "Casa de los Azulejos",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Catedral Metropolitana",
       "name": "Catedral Metropolitana",
       "z": "Centro",
       "c": 7,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.43439,
+        -99.13309
+      ],
       "location": {
         "coordinates": [
           19.43439,
@@ -2675,20 +2943,24 @@
         ],
         "source": "https://mapcarta.com/es/W862852010",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.43439,
-        -99.13309
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "7-Palacio Nacional",
       "name": "Palacio Nacional",
       "z": "Centro",
       "c": 7,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.4325,
+        -99.1311
+      ],
       "location": {
         "coordinates": [
           19.4325,
@@ -2696,170 +2968,189 @@
         ],
         "source": "https://mapcarta.com/es/26259844",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.4325,
-        -99.1311
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "7-Zócalo",
       "name": "Zócalo",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Antiguo Colegio de San Ildefonso",
       "name": "Antiguo Colegio de San Ildefonso",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Palacio de Minería",
       "name": "Palacio de Minería",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Palacio de Iturbide",
       "name": "Palacio de Iturbide",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Casa de la Primera Imprenta",
       "name": "Casa de la Primera Imprenta",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Biblioteca de México",
       "name": "Biblioteca de México",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Biblioteca Miguel Lerdo de Tejada",
       "name": "Biblioteca Miguel Lerdo de Tejada",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Palacio de la Escuela de Medicina",
       "name": "Palacio de la Escuela de Medicina",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Hemiciclo a Juárez",
       "name": "Hemiciclo a Juárez",
       "z": "Centro",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Biblioteca Vasconcelos",
       "name": "Biblioteca Vasconcelos",
       "z": "SantaMaría",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Ángel de la Independencia",
       "name": "Ángel de la Independencia",
       "z": "Reforma",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Monumento a la Revolución",
       "name": "Monumento a la Revolución",
       "z": "Tabacalera",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Basílica de Guadalupe",
       "name": "Basílica de Guadalupe",
       "z": "GAM",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "7-Rectoría y Biblioteca Central UNAM",
       "name": "Rectoría y Biblioteca Central UNAM",
       "z": "UNAM",
       "c": 7,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Zona Arqueológica de Teotihuacán",
       "name": "Zona Arqueológica de Teotihuacán",
       "z": "Teotihuacán",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Templo Mayor",
       "name": "Templo Mayor",
       "z": "Centro",
       "c": 8,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.43504,
+        -99.13121
+      ],
       "location": {
         "coordinates": [
           19.43504,
@@ -2867,170 +3158,189 @@
         ],
         "source": "https://mapcarta.com/es/37111508",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.43504,
-        -99.13121
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "8-Tlatelolco",
       "name": "Tlatelolco",
       "z": "Centro",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Cuicuilco",
       "name": "Cuicuilco",
       "z": "Tlalpan",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Zona Arqueológica de Malinalco",
       "name": "Zona Arqueológica de Malinalco",
       "z": "Malinalco",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Cerro de la Estrella",
       "name": "Cerro de la Estrella",
       "z": "Iztapalapa",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Zona Arqueológica de Mixcoac",
       "name": "Zona Arqueológica de Mixcoac",
       "z": "Mixcoac",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Zona Arqueológica de Cuahilama",
       "name": "Zona Arqueológica de Cuahilama",
       "z": "Xochimilco",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Los Reyes La Paz",
       "name": "Los Reyes La Paz",
       "z": "LaPaz",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Texcotzingo",
       "name": "Texcotzingo",
       "z": "Texcoco",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Tenayuca",
       "name": "Tenayuca",
       "z": "Tlalnepantla",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "8-Zona Arqueológica de Tula",
       "name": "Zona Arqueológica de Tula",
       "z": "Tula",
       "c": 8,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Trajineras de Xochimilco",
       "name": "Trajineras de Xochimilco",
       "z": "Xochimilco",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Visita a una chinampa",
       "name": "Visita a una chinampa",
       "z": "Xochimilco",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Vuelo en globo sobre Teotihuacán",
       "name": "Vuelo en globo sobre Teotihuacán",
       "z": "Teotihuacán",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Safari Reino Animal",
       "name": "Safari Reino Animal",
       "z": "Teotihuacán",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Arena México",
       "name": "Arena México",
       "z": "Doctores",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Acuario Inbursa",
       "name": "Acuario Inbursa",
       "z": "Polanco",
       "c": 9,
+      "address": "Boulevard Miguel de Cervantes 386",
+      "addressSource": "https://www.openstreetmap.org/way/508540301",
+      "coordinates": [
+        19.43991,
+        -99.20507
+      ],
       "location": {
         "coordinates": [
           19.43991,
@@ -3038,210 +3348,233 @@
         ],
         "source": "https://www.openstreetmap.org/way/508540301",
         "address": "Boulevard Miguel de Cervantes 386",
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": "Boulevard Miguel de Cervantes 386",
-      "addressSource": "https://www.openstreetmap.org/way/508540301",
-      "coordinates": [
-        19.43991,
-        -99.20507
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "9-Acuario Michin",
       "name": "Acuario Michin",
       "z": "GAM",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Zoológico de San Juan de Aragón",
       "name": "Zoológico de San Juan de Aragón",
       "z": "GAM",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Planetario Luis Enrique Erro",
       "name": "Planetario Luis Enrique Erro",
       "z": "GAM",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Zoológico de Chapultepec",
       "name": "Zoológico de Chapultepec",
       "z": "Chapultepec",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Aztlán Parque Urbano",
       "name": "Aztlán Parque Urbano",
       "z": "Chapultepec",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Renta de lanchas",
       "name": "Renta de lanchas",
       "z": "Chapultepec",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Zoológico Los Coyotes",
       "name": "Zoológico Los Coyotes",
       "z": "Coyoacán",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Cineteca Nacional",
       "name": "Cineteca Nacional",
       "z": "Coyoacán",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Six Flags México",
       "name": "Six Flags México",
       "z": "Tlalpan",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Cineteca Nacional de las Artes",
       "name": "Cineteca Nacional de las Artes",
       "z": "Churubusco",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Centro Nacional de las Artes",
       "name": "Centro Nacional de las Artes",
       "z": "Churubusco",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Teatro de la Ciudad Esperanza Iris",
       "name": "Teatro de la Ciudad Esperanza Iris",
       "z": "Centro",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Ballet Folklórico de México",
       "name": "Ballet Folklórico de México",
       "z": "Centro",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Mariachi en Plaza Garibaldi",
       "name": "Mariachi en Plaza Garibaldi",
       "z": "Centro",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Paseo dominical en bicicleta",
       "name": "Paseo dominical en bicicleta",
       "z": "Reforma",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Espacio Escultórico UNAM",
       "name": "Espacio Escultórico UNAM",
       "z": "UNAM",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Casa Gilardi",
       "name": "Casa Gilardi",
       "z": "Tacubaya",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Casa Estudio Luis Barragán",
       "name": "Casa Estudio Luis Barragán",
       "z": "Tacubaya",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "9-Frontón México",
       "name": "Frontón México",
       "z": "Tabacalera",
       "c": 9,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Nido de Quetzalcóatl",
       "name": "Nido de Quetzalcóatl",
       "z": "Naucalpan",
       "c": 10,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.47922,
+        -99.28243
+      ],
       "location": {
         "coordinates": [
           19.47922,
@@ -3249,250 +3582,277 @@
         ],
         "source": "https://mapcarta.com/W913589379",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.47922,
-        -99.28243
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "10-LagoAlgo",
       "name": "LagoAlgo",
       "z": "Chapultepec",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Casa del Lago UNAM",
       "name": "Casa del Lago UNAM",
       "z": "Chapultepec",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Casa de la Bola",
       "name": "Casa de la Bola",
       "z": "Tacubaya",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Ex Convento del Desierto de los Leones",
       "name": "Ex Convento del Desierto de los Leones",
       "z": "Cuajimalpa",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Jardín del Arte Sullivan",
       "name": "Jardín del Arte Sullivan",
       "z": "Reforma",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Claustro de Sor Juana",
       "name": "Claustro de Sor Juana",
       "z": "Centro",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Casa Rivas Mercado",
       "name": "Casa Rivas Mercado",
       "z": "Centro",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Capilla de la Conchita",
       "name": "Capilla de la Conchita",
       "z": "Coyoacán",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Puente de Panzacola",
       "name": "Puente de Panzacola",
       "z": "Coyoacán",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Centro Cultural Elena Garro",
       "name": "Centro Cultural Elena Garro",
       "z": "Coyoacán",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Fonoteca Nacional",
       "name": "Fonoteca Nacional",
       "z": "Coyoacán",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Parque Frida Kahlo",
       "name": "Parque Frida Kahlo",
       "z": "Coyoacán",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Casa del Risco",
       "name": "Casa del Risco",
       "z": "SanÁngel",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "10-Lavaderos de Huipulco",
       "name": "Lavaderos de Huipulco",
       "z": "Tlalpan",
       "c": 10,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Antara Fashion Hall",
       "name": "Antara Fashion Hall",
       "z": "Polanco",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Plaza Carso",
       "name": "Plaza Carso",
       "z": "Polanco",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Artz Pedregal",
       "name": "Artz Pedregal",
       "z": "Pedregal",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Centro Santa Fe",
       "name": "Centro Santa Fe",
       "z": "SantaFe",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Parque Duraznos",
       "name": "Parque Duraznos",
       "z": "SantaFe",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Mítikah",
       "name": "Mítikah",
       "z": "Coyoacán",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Perisur",
       "name": "Perisur",
       "z": "Coyoacán",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Oasis Coyoacán",
       "name": "Oasis Coyoacán",
       "z": "Coyoacán",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Reforma 222",
       "name": "Reforma 222",
       "z": "Reforma",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Plaza Satélite",
       "name": "Plaza Satélite",
       "z": "Naucalpan",
       "c": 11,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.51024,
+        -99.23416
+      ],
       "location": {
         "coordinates": [
           19.51024,
@@ -3500,20 +3860,24 @@
         ],
         "source": "https://mapcarta.com/W220679375",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.51024,
-        -99.23416
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "11-Toreo Parque Central",
       "name": "Toreo Parque Central",
       "z": "Naucalpan",
       "c": 11,
+      "address": null,
+      "addressSource": null,
+      "coordinates": [
+        19.45416,
+        -99.21892
+      ],
       "location": {
         "coordinates": [
           19.45416,
@@ -3521,404 +3885,441 @@
         ],
         "source": "https://mapcarta.com/W1140049541",
         "address": null,
-        "status": "sourced"
+        "addressSource": null,
+        "status": "sourced",
+        "provider": null,
+        "sourceId": null
       },
-      "address": null,
-      "addressSource": null,
-      "coordinates": [
-        19.45416,
-        -99.21892
-      ]
+      "googlePlaceId": null
     },
     {
       "id": "11-Mundo E",
       "name": "Mundo E",
       "z": "Tlalnepantla",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Punto Vallejo",
       "name": "Punto Vallejo",
       "z": "Azcapotzalco",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Plaza de la Tecnología",
       "name": "Plaza de la Tecnología",
       "z": "Centro",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "11-Barrio Alameda",
       "name": "Barrio Alameda",
       "z": "Centro",
       "c": 11,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-San Juan Teotihuacán",
       "name": "San Juan Teotihuacán",
       "z": "Teotihuacán",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Tepoztlán",
       "name": "Tepoztlán",
       "z": "Tepoztlán",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Valle de Bravo",
       "name": "Valle de Bravo",
       "z": "ValleDeBravo",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Malinalco",
       "name": "Malinalco",
       "z": "Malinalco",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Tepotzotlán",
       "name": "Tepotzotlán",
       "z": "Tepotzotlán",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Villa del Carbón",
       "name": "Villa del Carbón",
       "z": "VillaDelCarbón",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Aculco",
       "name": "Aculco",
       "z": "Aculco",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-El Oro",
       "name": "El Oro",
       "z": "ElOro",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Metepec",
       "name": "Metepec",
       "z": "Metepec",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Texcoco",
       "name": "Texcoco",
       "z": "Texcoco",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Amecameca",
       "name": "Amecameca",
       "z": "Amecameca",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Huasca de Ocampo",
       "name": "Huasca de Ocampo",
       "z": "Huasca",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Real del Monte",
       "name": "Real del Monte",
       "z": "RealDelMonte",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Mineral del Chico",
       "name": "Mineral del Chico",
       "z": "MineralDelChico",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Cuernavaca",
       "name": "Cuernavaca",
       "z": "Cuernavaca",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Tlayacapan",
       "name": "Tlayacapan",
       "z": "Tlayacapan",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Cholula",
       "name": "Cholula",
       "z": "Cholula",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Puebla",
       "name": "Puebla",
       "z": "Puebla",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Peña de Bernal",
       "name": "Peña de Bernal",
       "z": "Bernal",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "12-Taxco",
       "name": "Taxco",
       "z": "Taxco",
       "c": 12,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Nevado de Toluca",
       "name": "Nevado de Toluca",
       "z": "Nevado",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Los Dinamos",
       "name": "Los Dinamos",
       "z": "Magdalena",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Prismas Basálticos",
       "name": "Prismas Basálticos",
       "z": "Huasca",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Grutas de Tolantongo",
       "name": "Grutas de Tolantongo",
       "z": "Tolantongo",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Parque Nacional El Chico",
       "name": "Parque Nacional El Chico",
       "z": "MineralDelChico",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Parque Nacional Izta-Popo",
       "name": "Parque Nacional Izta-Popo",
       "z": "Amecameca",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Parque Nacional La Marquesa",
       "name": "Parque Nacional La Marquesa",
       "z": "Marquesa",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Cascadas de Aculco",
       "name": "Cascadas de Aculco",
       "z": "Aculco",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Cascada Velo de Novia",
       "name": "Cascada Velo de Novia",
       "z": "ValleDeBravo",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Santuario Piedra Herrada",
       "name": "Santuario Piedra Herrada",
       "z": "ValleDeBravo",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Presa del Llano",
       "name": "Presa del Llano",
       "z": "VillaDelCarbón",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Presa Taxhimay",
       "name": "Presa Taxhimay",
       "z": "VillaDelCarbón",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Grutas de la Estrella",
       "name": "Grutas de la Estrella",
       "z": "Tonatico",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Grutas de Cacahuamilpa",
       "name": "Grutas de Cacahuamilpa",
       "z": "Cacahuamilpa",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     },
     {
       "id": "13-Arcos del Sitio",
       "name": "Arcos del Sitio",
       "z": "Tepotzotlán",
       "c": 13,
-      "location": null,
       "address": null,
       "addressSource": null,
-      "coordinates": null
+      "coordinates": null,
+      "location": null,
+      "googlePlaceId": null
     }
   ]
 }

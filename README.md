@@ -15,3 +15,6 @@ GitHub Actions runs tests and builds before publishing dist to GitHub Pages. Rou
 
 ## Bulk geographic rebuild
 Use `python scripts/rebuild_geo.py --osm mexico-latest.osm.pbf --denue denue.zip --apply` after installing `osmium`. Obtain DENUE files from https://www.inegi.org.mx/app/descarga/ and Mexico OSM PBF from https://download.geofabrik.de/north-america/mexico.html. The workflow downloads OSM automatically; official DENUE ZIP URLs can be provided at manual dispatch. Ambiguous and conflicting matches appear in geocoding-report.json, not as fabricated coordinates. Existing sourced records are retained and discrepancies reported. OSM data © OpenStreetMap contributors, ODbL.
+
+## Google Maps validation branch
+Private `GOOGLE_MAPS_API_KEY` is used only by the capped GitHub Actions ID lookup. Google addresses/coordinates are never persisted in Git; permitted Place IDs are retained. Independent addresses and coordinates stay in JSON. Set `VITE_GOOGLE_MAPS_BROWSER_KEY` in the build environment or enter a separate website-restricted key for the current browser session. Enable Maps JavaScript API and Places API (New). Browser keys are necessarily visible to clients and must be restricted. Each explicit lookup can incur a charge; no Places calls on pan, zoom, or initial load. The map preview is not production deployed.
